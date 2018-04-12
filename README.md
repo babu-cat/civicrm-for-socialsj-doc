@@ -4,6 +4,8 @@ Aquest repositori conté la documentació dels diferents CRMs de les entitats de
 
 La documentació està construïda mitjançant [MkDocs](http://www.mkdocs.org/), un generador de llocs web especialment dirigit a l'elaboració de documentació i el codi font de la qual està escrit amb [Markdown](http://daringfireball.net/projects/markdown/) i configurat amb un únic fitxer de configuració YAML.
 
+Per instal·lar MkDocs hauríem de seguir els passos que ens indiquen a la pàgina web, a la part de Installation. Un cop hàgim acabat la instal·lació, anirem a [Mkdocs Material](https://github.com/squidfunk/mkdocs-material) i executarem la primera ordre de la part Quick Start.
+
 ## Build
 
 Per tal de generar la documentació en HTML tan sols cal llançar la següent ordre:
