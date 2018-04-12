@@ -12,6 +12,7 @@ pages:
     - 'Activitats': 'civicrm/activitats.md'
     - 'Relacions': 'civicrm/relacions.md'
     - 'Grups': 'civicrm/grups.md'
+    - 'Permissos': 'civicrm/permissos.md'
     - 'Contribucions': 'civicrm/contribucions.md'
     - 'Preguntes més freqüents': 'civicrm/preguntes-mes-frequents.md'
 - Mòdul infància:
