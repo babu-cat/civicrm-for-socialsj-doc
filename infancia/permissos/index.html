@@ -333,6 +333,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../civicrm/permissos/" title="Permissos" class="md-nav__link">
+      Permissos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../civicrm/contribucions/" title="Contribucions" class="md-nav__link">
       Contribucions
     </a>
@@ -1157,7 +1169,580 @@
 <p>El CiviCRM permet definir diferents nivells d'accés a les dades pels diferents tipus d'usuaris que l'han d'utilitzar. Aquests diferents nivells d'accés es corresponen a diferents rols que s'assignen a uns grups d'usuaris.</p>
 <p>En el nostre cas hem definit dos rols principals assignats als grups tècnics administradors i tècnics infància respectivament:</p>
 <p>Rol <strong>tècnic administrador</strong> El tècnic administrador té la capacitat de fer qualsevol acció i visualitzar totes les dades de la plataforma exceptuant aquelles estrictament relacionades amb la configuració i administració del CiviCRM.</p>
-<p>Rol <strong>tècnic infància</strong> El tècnic infància, en canvi, només està capacitat per operar amb aquells contactes estrictament lligats amb els programes d'infància de l'entitat.</p>
+<p>Rol <strong>tècnic infància</strong> El tècnic infància, en canvi, només està capacitat per operar amb aquells contactes estrictament lligats amb els programes d'infància de l'entitat:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Drupal Permissions</th>
+<th align="center">usuari anonim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">CiviCRM: Afegeix contactes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza tots els contactes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita tots els contactes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Elimina contactes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés als contactes eliminats</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Importa contactes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita grups</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administrar el CiviCRM</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés als arxius pujats</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fitxes de perfil i formularis</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fitxes de perfil</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Crea un perfil</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita un perfil</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza un perfil</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix a totes les dades personalitzades</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza totes les activitats</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Elimina activitats</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés al CiviCRM</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés al tauler del contacte</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Traduir el CiviCRM</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra grups reservats</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra Etiquetes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra Etiquetes Reservades</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra normes de deduïts</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fusiona contactes duplicats</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Veure sortida de depuració</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza totes les notes</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix a l'API d'AJAX</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix als camps de referència del contacte</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Crea un lot manual</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita lots de manuals propis</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita tots els lots de manuals</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza lots de manuals propis</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza tots els lots de manuals</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Esborra lots de manuals propis</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Esborra tots els lots de manuals</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Exporta lots de manuals propis</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Exporta tots els lots de manuals</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Accedeix al CiviEvent</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Edita participants de l'esdeveniment</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Edita tots els esdeveniments</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Registrar-se per esdeveniments</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Veure informació dels esdeveniments</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Veure participants de l'esdeveniment</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Esborra al CiviEvent</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Accedi al CiviContribute</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Edita contribucions</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Fer contribucions online</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Esborra al CiviContribute</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Accedeix  al CiviMail</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Accedeix a les pàgines de subscripció/anul·lació de CiviMail</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Esborra al CiviMail</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Veure contignut públic al CiviMail</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Accedieix al CiviReport</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Accedieix al Report Criteria</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Administra informes reservats</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Administra informes</td>
+<td align="center">No</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Rol</th>
+<th align="left">Descripció permís</th>
+<th align="left">Operació</th>
+<th align="left">Tipus de dades</th>
+<th align="left">Objecte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita contactes infància</td>
+<td align="left">Edita</td>
+<td align="left">Un grup de contactes</td>
+<td align="left">Contactes infància</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita contactes tècnics infància</td>
+<td align="left">Edita</td>
+<td align="left">Un grup de contactes</td>
+<td align="left">Contactes treballadors actius</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita contactes tècnics infància</td>
+<td align="left">Edita</td>
+<td align="left">Un grup de contactes</td>
+<td align="left">Contactes treballadors històric</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita documentació</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Documentació</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil demogràfic usuari/a</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil demogràfic usuari/a</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita genograma</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Genograma</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita genograma adult - infància</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Genograma adult - infància</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita salut i alimentació</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">GSalut i alimentació</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita autoritzacions</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Autoritzacions registrades</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil adult</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil adult</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil lingüístic</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil lingüístic</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil acadèmic i professional</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil acadèmic i professional</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil migratori</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil migratori</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil professional</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil professional</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil unitat familiar i de convivència</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil unitat familiar i de convivència</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita perfil centre educatiu</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Perfil centre educatiu</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita documentació registrada – infant / jove</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Documentació registrada – infant / jove</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita documentació registrada – UFC</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Documentació registrada – UFC</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita resultats acadèmics registrats</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Resultats acadèmics registrats</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita situació menjador escolar registrada</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Situació menjador escolar registrada</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita situació laboral registrada</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Situació laboral registrada</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita ingresos registrats</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Ingressos registrats</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita despeses registrades</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Despeses registrades</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita seguiment psicoterapèutic</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Seguiment psicoterapèutic</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita xec CPI</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Xec CPI</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita adreça antiga</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Adreça antiga</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita derivació</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Derivació</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita migració</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Migració</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita beca CPI</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Beca CPI</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita tutoria</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Tutoria</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita estudis infantil, primària i secundària</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Estudis infantil</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita estudis primària</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Estudis primària</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita estudis secundària</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Estudis secundària</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita estudis UEC</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Estudis UEC</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita lloc de treball</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Lloc de treball</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita dades estudiant en pràctiques</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Dades estudiant en pràctiques</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita atenció professional</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Atenció professional</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita atenció docent</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Atenció docent</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita seguiment infant / jove</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Seguiment infant / jove</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita seguiment voluntaris</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Seguiment voluntaris</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita derivació acollida</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Derivació acollida</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Gestiona perfil nou professional</td>
+<td align="left">All</td>
+<td align="left">Un perfil</td>
+<td align="left">Nou professional</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Gestiona perfil nou docent</td>
+<td align="left">All</td>
+<td align="left">Un perfil</td>
+<td align="left">Nou docent</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita documentació organitzacions</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Documentació organitzacions</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita autoritzacions i acords</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Autoritzacions i acords</td>
+</tr>
+<tr>
+<td align="left">Tècnic Infància</td>
+<td align="left">Edita protecció de dades</td>
+<td align="left">Edita</td>
+<td align="left">Un conjunt de camps de dades personalitzades</td>
+<td align="left">Protecció de dades</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

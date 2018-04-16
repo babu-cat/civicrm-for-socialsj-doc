@@ -13,7 +13,7 @@
         <meta name="description" content="Aquesta documentació recull les funcionalitats pròpies de CiviCRM com també les implementades a mida i necessàries per reflectir els processos relacionats amb la gestió de les diferents entitats del sector social dels Jesuïtes de Catalunya.">
       
       
-        <link rel="canonical" href="http://docs.crm.socialsj.cat/civicrm/contactes/">
+        <link rel="canonical" href="http://docs.crm.socialsj.cat/civicrm/permissos/">
       
       
         <meta name="author" content="Francesc Bassas i Bullich">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Contactes - CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya</title>
+        <title>Permissos - CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya</title>
       
     
     
@@ -99,10 +99,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#contactes" tabindex="1" class="md-skip">
-        Salta el contingut
-      </a>
-    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -125,7 +121,7 @@
                 CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya
               </span>
               <span class="md-header-nav__topic">
-                Contactes
+                Permissos
               </span>
             
           
@@ -285,257 +281,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Contactes
-      </label>
-    
-    <a href="./" title="Contactes" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../contactes/" title="Contactes" class="md-nav__link">
       Contactes
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Taula de continguts</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#persones" title="Persones" class="md-nav__link">
-    Persones
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#organitzacions" title="Organitzacions" class="md-nav__link">
-    Organitzacions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#llars" title="Llars" class="md-nav__link">
-    Llars
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#camps-personalitzats" title="Camps personalitzats" class="md-nav__link">
-    Camps personalitzats
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#persona" title="Persona" class="md-nav__link">
-    Persona
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#documentacio" title="Documentació" class="md-nav__link">
-    Documentació
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#persona-migrant" title="Persona migrant" class="md-nav__link">
-    Persona migrant
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-migratori" title="Perfil migratori" class="md-nav__link">
-    Perfil migratori
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#perfil-academic-i-professional-persona-migrant" title="Perfil acadèmic i professional persona migrant" class="md-nav__link">
-    Perfil acadèmic i professional persona migrant
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#professional" title="Professional" class="md-nav__link">
-    Professional
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-professional" title="Perfil professional" class="md-nav__link">
-    Perfil professional
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuaris" title="Usuaris" class="md-nav__link">
-    Usuaris
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-demografic-usuariaria" title="Perfil demogràfic usuari/ària" class="md-nav__link">
-    Perfil demogràfic usuari/ària
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuaris-adults" title="Usuaris adults" class="md-nav__link">
-    Usuaris adults
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-adult" title="Perfil adult" class="md-nav__link">
-    Perfil adult
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#perfil-linguistic" title="Perfil lingüístic" class="md-nav__link">
-    Perfil lingüístic
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adults-adults-infancia-treballadors-voluntaris-i-estudiants-en-practiques" title="Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques" class="md-nav__link">
-    Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-academic-i-professional" title="Perfil acadèmic i professional" class="md-nav__link">
-    Perfil acadèmic i professional
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nous-contactes" title="Nous contactes" class="md-nav__link">
-    Nous contactes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#organitzacio" title="Organització" class="md-nav__link">
-    Organització
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#documentacio-organitzacions" title="Documentació organitzacions" class="md-nav__link">
-    Documentació organitzacions
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#centres-educatius-infantil-primaria-secundaria-i-batxillerat" title="Centres educatius (infantil, primària, secundària i batxillerat)" class="md-nav__link">
-    Centres educatius (infantil, primària, secundària i batxillerat)
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-centre-educatiu" title="Perfil centre educatiu" class="md-nav__link">
-    Perfil centre educatiu
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -579,11 +329,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../permissos/" title="Permissos" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+    <a href="./" title="Permissos" class="md-nav__link md-nav__link--active">
       Permissos
     </a>
+    
   </li>
 
         
@@ -1379,460 +1136,370 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Taula de continguts</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#persones" title="Persones" class="md-nav__link">
-    Persones
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#organitzacions" title="Organitzacions" class="md-nav__link">
-    Organitzacions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#llars" title="Llars" class="md-nav__link">
-    Llars
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#camps-personalitzats" title="Camps personalitzats" class="md-nav__link">
-    Camps personalitzats
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#persona" title="Persona" class="md-nav__link">
-    Persona
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#documentacio" title="Documentació" class="md-nav__link">
-    Documentació
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#persona-migrant" title="Persona migrant" class="md-nav__link">
-    Persona migrant
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-migratori" title="Perfil migratori" class="md-nav__link">
-    Perfil migratori
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#perfil-academic-i-professional-persona-migrant" title="Perfil acadèmic i professional persona migrant" class="md-nav__link">
-    Perfil acadèmic i professional persona migrant
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#professional" title="Professional" class="md-nav__link">
-    Professional
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-professional" title="Perfil professional" class="md-nav__link">
-    Perfil professional
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuaris" title="Usuaris" class="md-nav__link">
-    Usuaris
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-demografic-usuariaria" title="Perfil demogràfic usuari/ària" class="md-nav__link">
-    Perfil demogràfic usuari/ària
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuaris-adults" title="Usuaris adults" class="md-nav__link">
-    Usuaris adults
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-adult" title="Perfil adult" class="md-nav__link">
-    Perfil adult
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#perfil-linguistic" title="Perfil lingüístic" class="md-nav__link">
-    Perfil lingüístic
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adults-adults-infancia-treballadors-voluntaris-i-estudiants-en-practiques" title="Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques" class="md-nav__link">
-    Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-academic-i-professional" title="Perfil acadèmic i professional" class="md-nav__link">
-    Perfil acadèmic i professional
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nous-contactes" title="Nous contactes" class="md-nav__link">
-    Nous contactes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#organitzacio" title="Organització" class="md-nav__link">
-    Organització
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#documentacio-organitzacions" title="Documentació organitzacions" class="md-nav__link">
-    Documentació organitzacions
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#centres-educatius-infantil-primaria-secundaria-i-batxillerat" title="Centres educatius (infantil, primària, secundària i batxillerat)" class="md-nav__link">
-    Centres educatius (infantil, primària, secundària i batxillerat)
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perfil-centre-educatiu" title="Perfil centre educatiu" class="md-nav__link">
-    Perfil centre educatiu
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc/edit/master/docs/civicrm/contactes.md" title="Edita aquesta pàgina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc/edit/master/docs/civicrm/permissos.md" title="Edita aquesta pàgina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="contactes">Contactes</h1>
-<p>En el CiviCRM els contactes són totes aquelles persones físiques, famílies, entitats, organitzacions, empreses, etc. que tenen un tipus de relació determinada amb l'entitat. Una de les tasques més importants per implementar el CRM és identificar quins són aquests contactes, quines són les dades que ens interessen de cada un d'ells i quines activitats i relacions estableixen aquests amb la mateixa entitat i la resta de contactes.</p>
-<p>Per defecte es distingeixen els contactes en tres tipus bàsics: <strong>persona</strong>, <strong>llar</strong> i <strong>organització</strong>. A partir d'aquí definim la resta de tipus de contactes que tenen relació amb l'entitat.</p>
-<h2 id="persones">Persones</h2>
-<ul>
-<li><strong>Persona: </strong>* qualsevol persona que té vinculació directa o indirecta amb l'entitat.</li>
-<li><strong>Persona migrant: </strong>* persona usuària de l'entitat que ha realitzat un procés migratori cap al nostre país.</li>
-<li><strong>Professional: </strong>* professionals que presten o poden prestar assistència a participants dels diferents programes de l'entitat.</li>
-<li><strong>Usuaris: </strong>* en els mòduls definim diferents tipus de persones usuàries de l'entitat que actuen com a tipus de contactes.</li>
-<li><strong>Usuaris adults: </strong>* en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.</li>
-<li><strong>Treballador:</strong> treballador de l'entitat.</li>
-</ul>
-<h2 id="organitzacions">Organitzacions</h2>
-<ul>
-<li><strong>Organització:</strong> qualsevol organització que té vinculació directa o indirecta amb l'entitat.</li>
-<li><strong>Centre educació infantil: </strong>* centre d'educació infantil vinculat als participants dels diferents programes de l'entitat.</li>
-<li><strong>Centre educació primària: </strong>* centre d'educació primària vinculat als participants dels diferents programes de l'entitat.</li>
-<li><strong>Centre educació secundària: </strong>* centre d'educació secundària vinculat als participants dels diferents programes de l'entitat.</li>
-<li><strong>Centre de batxillerat: </strong>* centre de batxillerat vinculat als participants dels diferents programes de l'entitat.</li>
-<li><strong>Col·legi professional:</strong> Col·legis de psicòlegs, psicopedagogs i d'altres professionals vinculats directament o indirecta amb els participants dels diferents programes de l'entitat.</li>
-</ul>
-<h2 id="llars">Llars</h2>
-<ul>
-<li><strong>Llar:</strong> qualsevol llar que té vinculació directa o indirecta amb l'entitat.</li>
-</ul>
-<blockquote>
-<p>* Els contactes marcats amb un asterisc tenen definits camps personalitzats.</p>
-</blockquote>
-<h2 id="camps-personalitzats">Camps personalitzats</h2>
-<h3 id="persona">Persona</h3>
-<h4 id="documentacio">Documentació</h4>
-<ul>
-<li>
-<p><strong>Tipus de document</strong> - Seleccioneu el tipus de document que acrediti la identitat de la persona tenint en compte el següent ordre com a prioritat a l'hora de triar el tipus de document : NIF, NIE, Passaport, Altres, Sense documentació.</p>
-<p>Selecció - NIF; NIE; Passaport; Altres; Sense documentació</p>
-</li>
-<li>
-<p><strong>Número de document</strong></p>
-<p>Text</p>
-</li>
-<li>
-<p><strong>Observacions</strong> - Si ho creieu oportú podeu afegir alguna observació que ajudi a complementar els camps anteriors.</p>
-<p>Àrea de text     </p>
-</li>
-</ul>
-<h3 id="persona-migrant">Persona migrant</h3>
-<h4 id="perfil-migratori">Perfil migratori</h4>
-<ul>
-<li>
-<p><strong>Any d'arribada Espanya</strong> - Especifiqueu quin any va arribar a Espanya.</p>
-<p>Data     </p>
-</li>
-<li>
-<p><strong>Any d'arribada Catalunya</strong> - Especifiqueu quin any va arribar a Catalunya.</p>
-<p>Data</p>
-</li>
-<li>
-<p><strong>Alfabetització llatina</strong> - Coneix l'alfabet llatí?</p>
-<p>Resposta Sí/No</p>
-</li>
-<li>
-<p><strong>Situació administrativa</strong></p>
-<p>Selecció - Irregular; Residència i treball temporal; Residència i treball permanent; Residència sense treball (temporal i/o permanent?); Sol·licitant d'asil; Refugiat; Comunitari; Nacionalitat</p>
-</li>
-<li>
-<p><strong>Empadronat/da</strong> - Està donat/da d'alta al padró d'algun municipi?</p>
-<p>Resposta Sí/No</p>
-</li>
-</ul>
-<h4 id="perfil-academic-i-professional-persona-migrant">Perfil acadèmic i professional persona migrant</h4>
-<ul>
-<li>
-<p>Homologació - Té el nivell d'estudis homologat?</p>
-<p>Resposta Sí/No</p>
-</li>
-<li>
-<p>Homologació (observacions)</p>
-<p>Àrea de text</p>
-</li>
-</ul>
-<h3 id="professional">Professional</h3>
-<h4 id="perfil-professional">Perfil professional</h4>
-<ul>
-<li>
-<p><strong>Tipus de professional</strong></p>
-<p>Casella de selecció - psicòleg/loga; psicopedagog/a; treballador/a social; educador/a social; inspector/a d'ensenyament; logopeda; psiquiatra; pediatra</p>
-</li>
-</ul>
-<h3 id="usuaris">Usuaris</h3>
-<blockquote>
-<p>Infants / Joves i Adults infància del <a href="../../infancia">mòdul infància</a>.</p>
-<p>Adults del <a href="../../adults">mòdul adults</a>.</p>
-</blockquote>
-<h4 id="perfil-demografic-usuariaria">Perfil demogràfic usuari/ària</h4>
-<ul>
-<li>
-<p><strong>Nacionalitat</strong> - Seleccioneu el país o països d'on té la nacionalitat el contacte.</p>
-<p>Multiselecció de país</p>
-</li>
-<li>
-<p><strong>País de naixement</strong></p>
-<p>Selecció de país</p>
-</li>
-<li>
-<p><strong>Lloc de naixement</strong> - Indica la població o regió de naixement.</p>
-<p>Text</p>
-</li>
-<li>
-<p><strong>Llengua materna</strong></p>
-<p>Selecció múltiple</p>
-</li>
-</ul>
-<h3 id="usuaris-adults">Usuaris adults</h3>
-<blockquote>
-<p>Adults infància del <a href="../../infancia">mòdul infància</a>..</p>
-<p>Adults del <a href="../../adults">mòdul adults</a>.</p>
-</blockquote>
-<h4 id="perfil-adult">Perfil adult</h4>
-<ul>
-<li>
-<p><strong>Estat civil</strong></p>
-<p>Casella de selecció - Solter/a; Casat/da; Divorciat/da; Separat/da de fet; Separat/da; Parella de fet; Parella; Vidu/a</p>
-</li>
-</ul>
-<h4 id="perfil-linguistic">Perfil lingüístic</h4>
-<ul>
-<li>
-<p><strong>Alfabetització</strong> -  Sap llegir i escriure en algun alfabet?</p>
-<p>Resposta Sí/No</p>
-</li>
-<li>
-<p><strong>Català</strong> - Coneix el català?</p>
-<p>Resposta Sí/No</p>
-</li>
-<li>
-<p><strong>Nivell català</strong> - Si coneix el català, especifiqueu orientativament quin nivell té segons el marc europeu comú de referència per a les llengües on:</p>
-<p>A - <em>Usuari bàsic</em> (engloba el nivell A1 i A2, inicial i bàsic respectivament)  </p>
-<p>B - <em>Usuari independent</em> (engloba el nivell B1 i B2, llindar i avançat respectivament)</p>
-<p>C - <em>Usuari experimentat</em> (engloba el nivell C1 i C2, domini funcional efectiu i domini respectivament)</p>
-<p>Selecció - Usuari/a bàsic; Usuari/a independent; Usuari/a experimentat</p>
-</li>
-<li>
-<p><strong>Castellà</strong>  Coneix el castellà?</p>
-<p>Resposta Sí/No</p>
-</li>
-<li>
-<p><strong>Nivell castellà</strong> - Si coneix el castellà, especifiqueu orientativament quin nivell té segons el marc europeu comú de referència per a les llengües on:</p>
-<p>A - <em>Usuari bàsic</em> (engloba el nivell A1 i A2, inicial i bàsic respectivament)  </p>
-<p>B - <em>Usuari independent</em> (engloba el nivell B1 i B2, llindar i avançat respectivament)</p>
-<p>C - <em>Usuari experimentat</em> (engloba el nivell C1 i C2, domini funcional efectiu i domini respectivament)</p>
-<p>Selecció - Usuari/a bàsic; Usuari/a independent; Usuari/a experimentat</p>
-</li>
-<li>
-<p><strong>Altres idiomes</strong> - Si coneix o domina altres idiomes especifiqueu quins.</p>
-<p>Selecció múltiple idiomes</p>
-</li>
-</ul>
-<h3 id="adults-adults-infancia-treballadors-voluntaris-i-estudiants-en-practiques">Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques</h3>
-<h4 id="perfil-academic-i-professional">Perfil acadèmic i professional</h4>
-<ul>
-<li>
-<p><strong>Nivell d'estudis</strong> - Indiqueu quin nivell d'estudis acabats té:</p>
-<p><em>Estudis primaris</em>: corresponen a uns estudis iguals o equivalents a l'educació primària</p>
-<p><em>Estudis secundaris</em>: corresponen a uns estudis d'educació secundaria obligatoria, batxillerat, formació professional de grau mig o equivalents</p>
-<p><em>Estudis superiors</em>: corresponen a uns estudis de formació professional superior, universitaris o equivalents</p>
-<p>Selecció - Sense estudis; Estudis primaris; Estudis secundaris; Estudis superiors</p>
-</li>
-<li>
-<p><strong>Titulacions superiors o professionals</strong> - Si ha cursat estudis superiors o professionals especifiqueu quines titulacions ha obtingut (p. ex. Llicenciatura en dret, Tècnic en gestió administrativa, Tècnic superior en manteniment electrònic, etc.) i, si s'escau, indiqueu si ha obtingut alguna titulació a l'estranger i especifiqueu si aquests estudis estan reconeguts en el nostre país.</p>
-<p>Àrea de text</p>
-</li>
-<li>
-<p><strong>Professió</strong> - Especifiqueu quina o quines son les seves professions (p. ex. Mecànic, Mestre/a de primària, Arquitecte/a, Lampista, Auxiliar d'infermeria, Empleat/da de la llar)</p>
-<p>Àrea de text</p>
-</li>
-</ul>
-<h3 id="nous-contactes">Nous contactes</h3>
-<blockquote>
-<p>Adults del <a href="../../adults">mòdul adults</a>.</p>
-<p>Voluntaris del <a href="../../voluntaris-i-estudiants">mòdul voluntaris i estudiants en pràctiques</a>.</p>
-</blockquote>
-<ul>
-<li>
-<p><strong>Procedència</strong> - Com ens has conegut?</p>
-<p>Selecció - Algú vinculat a l'entitat; Internet; Xarxes socials; Mitjans de comunicació; Altres</p>
-</li>
-</ul>
-<h3 id="organitzacio">Organització</h3>
-<h4 id="documentacio-organitzacions">Documentació organitzacions</h4>
-<ul>
-<li>
-<p><strong>CIF</strong> - Codi d'identificació fiscal</p>
-<p>Text</p>
-</li>
-</ul>
-<h3 id="centres-educatius-infantil-primaria-secundaria-i-batxillerat">Centres educatius (infantil, primària, secundària i batxillerat)</h3>
-<h4 id="perfil-centre-educatiu">Perfil centre educatiu</h4>
-<ul>
-<li>
-<p><strong>Naturalesa del centre</strong></p>
-<p>Selecció - pública; privada</p>
-</li>
-<li>
-<p><strong>Titularitat del centre</strong></p>
-<p>Selecció - laica; religiosa</p>
-</li>
-</ul>
+                  <h1>Permissos</h1>
+                
+                <table>
+<thead>
+<tr>
+<th align="left">Drupal Permissions</th>
+<th align="center">usuari anonim</th>
+<th align="center">usuari autenticat</th>
+<th align="center">tècnic administrador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">CiviCRM: Afegeix contactes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza tots els contactes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita tots els contactes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Elimina contactes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés als contactes eliminats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Importa contactes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita grups</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administrar el CiviCRM</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés als arxius pujats</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fitxes de perfil i formularis</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fitxes de perfil</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Crea un perfil</td>
+<td align="center">?</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita un perfil</td>
+<td align="center">?</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza un perfil</td>
+<td align="center">?</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix a totes les dades personalitzades</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza totes les activitats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Elimina activitats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés al CiviCRM</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accés al tauler del contacte</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Traduir el CiviCRM</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra grups reservats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra Etiquetes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra Etiquetes Reservades</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Administra normes de deduïts</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Fusiona contactes duplicats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Veure sortida de depuració</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza totes les notes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix a l'API d'AJAX</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Accedeix als camps de referència del contacte</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Crea un lot manual</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita lots de manuals propis</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Edita tots els lots de manuals</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza lots de manuals propis</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Visualitza tots els lots de manuals</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Esborra lots de manuals propis</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Esborra tots els lots de manuals</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Exporta lots de manuals propis</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviCRM: Exporta tots els lots de manuals</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Accedeix al CiviEvent</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Edita participants de l'esdeveniment</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Edita tots els esdeveniments</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Registrar-se per esdeveniments</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Veure informació dels esdeveniments</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Veure participants de l'esdeveniment</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviEvent: Esborra al CiviEvent</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Accedi al CiviContribute</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Edita contribucions</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Fer contribucions online</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviContribute: Esborra al CiviContribute</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Accedeix  al CiviMail</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Accedeix a les pàgines de subscripció/anul·lació de CiviMail</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Esborra al CiviMail</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviMail: Veure contignut públic al CiviMail</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Accedieix al CiviReport</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Accedieix al Report Criteria</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Administra informes reservats</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+<tr>
+<td align="left">CiviReport: Administra informes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Si</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -1851,7 +1518,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../" title="Què és CiviCRM" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../grups/" title="Grups" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1860,19 +1527,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Què és CiviCRM
+                Grups
               </span>
             </div>
           </a>
         
         
-          <a href="../activitats/" title="Activitats" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../contribucions/" title="Contribucions" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Següent
                 </span>
-                Activitats
+                Contribucions
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

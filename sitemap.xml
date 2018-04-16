@@ -42,6 +42,12 @@
     </url>
         
     <url>
+     <loc>http://docs.crm.socialsj.cat/civicrm/permissos/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>http://docs.crm.socialsj.cat/civicrm/contribucions/</loc>
      <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
