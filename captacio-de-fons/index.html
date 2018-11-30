@@ -1432,15 +1432,17 @@
                   <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc/edit/master/docs/captacio-de-fons/index.md" title="Edita aquesta pàgina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="captacio-de-fons">Captació de fons</h1>
-<h2 id="guia-dus">Guia d'ús</h2>
-<h3 id="gestio-de-socis-i-contribucions-recurrents">Gestió de socis i contribucions recurrents</h3>
-<pre><code>NOTA - En un futur no gaire llunyà es té previst automatitzar alguns dels
-processos de gestió de socis i contribucions de tal manera que definint una
-pertinença de tipus soci amb un import periòdic associat es vagin generant
-periòdicament les seves respectives contribucions i inclús es puguin generar els
-fitxers de domiciliació per poder enviar al banc.
-</code></pre>
+                <h1 id="captacio-de-fons">Captació de fons<a class="headerlink" href="#captacio-de-fons" title="Permanent link">Enllaç permanent</a></h1>
+<h2 id="guia-dus">Guia d'ús<a class="headerlink" href="#guia-dus" title="Permanent link">Enllaç permanent</a></h2>
+<h3 id="gestio-de-socis-i-contribucions-recurrents">Gestió de socis i contribucions recurrents<a class="headerlink" href="#gestio-de-socis-i-contribucions-recurrents" title="Permanent link">Enllaç permanent</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>En un futur no gaire llunyà es té previst automatitzar alguns dels processos
+de gestió de socis i contribucions de tal manera que definint una pertinença
+de tipus soci amb un import periòdic associat es vagin generant periòdicament
+les seves respectives contribucions i inclús es puguin generar els fitxers de
+domiciliació per poder enviar al banc.</p>
+</div>
 <p>Quan no es disposa d'un sistema integrat de gestió de contribucions recurrents,
 com per exemple les domiciliacions dels socis de l'entitat, i es desitja mantenir
 dins del CRM el registre de contribucions, fer el manteniment manual d'aquest
@@ -1448,33 +1450,37 @@ registre de contribucions es pot convertir en una tasca tediosa.</p>
 <p>Per això el CiviCRM ofereix algunes eines que ens poden ajudar a facilitar aquesta
 gestió. A continuació descriurem alguns dels processos previstos per a la gestió
 de socis i contribucions recurrents.</p>
-<h4 id="alta-de-socis-nous">Alta de socis nous</h4>
+<h4 id="alta-de-socis-nous">Alta de socis nous<a class="headerlink" href="#alta-de-socis-nous" title="Permanent link">Enllaç permanent</a></h4>
 <p>Els socis es defineixen al CiviCRM mitjançant les pertinences.</p>
-<pre><code>NOTA - Quan avancem en l'automatització de les domiciliacions definirem
-amb més precissió les pertinences. Per ara només ens hem de preocupar de crear-les
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Quan avancem en l'automatització de les domiciliacions definirem amb més
+precisió les pertinences. Per ara només ens hem de preocupar de crear-les
 i cancel·lar-les quan s'escaigui per reflectir l'estat dels socis (actual i
-històric de l'entitat).
-</code></pre>
+històric de l'entitat).</p>
+</div>
 <p>L'alta de socis nous es pot produir per dues vies:</p>
 <p><strong>En línia</strong> per la qual és el mateix soci que mitjançant el formulari de la web
 es dona d'alta i es genera un registre al CRM amb la seva corresponent pertinença.</p>
-<pre><code>NOTA - Actualment quan un soci es dona d'alta a través de la web es crea un
-contacte al CRM amb les seves dades i una contribució amb estat pendent i tipus
-financer quota de pertinença. Cal afegir manualment la pertinença com a soci de
-l'entitat.
-</code></pre>
+<div class="admonition attention">
+<p class="admonition-title">Atenció</p>
+<p>Actualment quan un soci es dona d'alta a través de la web es crea un contacte
+al CRM amb les seves dades i una contribució amb estat pendent i tipus
+financer quota de pertinença. Cal afegir manualment la pertinença com a soci
+de l'entitat.</p>
+</div>
 <p><strong>Manual</strong> per la qual es crea el contacte en el CRM directament i se li afegeix
 la pertinença com a soci.</p>
-<h5 id="revisio-de-contactes-duplicats">Revisió de contactes duplicats</h5>
+<h5 id="revisio-de-contactes-duplicats">Revisió de contactes duplicats<a class="headerlink" href="#revisio-de-contactes-duplicats" title="Permanent link">Enllaç permanent</a></h5>
 <p>Quan es produeix una alta de soci a través d'un formulari de la web el CRM sempre
 genera un contacte nou amb l'ànim de no trepitjar mai cap dada existent al CRM
 i delegant en una posterior revisió la verificació de les dades introduïdes i
 la possible combinació de contactes duplicats quan es doni el cas.</p>
-<h4 id="baixa-de-socis">Baixa de socis</h4>
+<h4 id="baixa-de-socis">Baixa de socis<a class="headerlink" href="#baixa-de-socis" title="Permanent link">Enllaç permanent</a></h4>
 <blockquote>
 <p>PENDENT DE DOCUMENTAR</p>
 </blockquote>
-<h4 id="generacio-de-contribucions-anuals-de-socis">Generació de contribucions anuals de socis</h4>
+<h4 id="generacio-de-contribucions-anuals-de-socis">Generació de contribucions anuals de socis<a class="headerlink" href="#generacio-de-contribucions-anuals-de-socis" title="Permanent link">Enllaç permanent</a></h4>
 <p><strong>Manual</strong></p>
 <p>Si volem generar una contribució corresponent a la quota de soci d'un contacte
 hem d'afegir una contribució amb <strong>tipus financer</strong> 'Quotes de pertinences', definir
@@ -1504,7 +1510,7 @@ amb la importació de les contribucions.</p>
 <p>Vegeu <a href="https://docs.civicrm.org/user/ca/latest/common-workflows/importing-data-into-civicrm/">CiviCRM - Guia de l'usuari &gt; Fluxos de treball comuns &gt; Importació de dades
 en el CiviCRM</a> per a més informació de com importar contribucions al CRM.</p>
 </blockquote>
-<h4 id="actualitzacio-destat-de-contribucions-en-bloc">Actualització d'estat de contribucions en bloc</h4>
+<h4 id="actualitzacio-destat-de-contribucions-en-bloc">Actualització d'estat de contribucions en bloc<a class="headerlink" href="#actualitzacio-destat-de-contribucions-en-bloc" title="Permanent link">Enllaç permanent</a></h4>
 <p>Els pagaments de les contribucions de socis programades i registrades com a pendents
 es poden anar actualitzant a mesura que es vagin rebent. Normalment farem
 l'actualització un cop al mes quan el banc hagi domiciliat els imports del mes
@@ -1517,8 +1523,8 @@ l'acció <strong>Actualitza l'estat de les contribucions pendents</strong>.</p>
 <blockquote>
 <p>Vegeu <a href="https://docs.civicrm.org/user/ca/latest/contributions/finding-and-viewing-contributions/">CiviCRM - Guia de l'usuari &gt; Contribucions &gt; Cerca i visualització de contribucions</a> per a més informació de com actualitzar l'estat de les contribucions pendents.</p>
 </blockquote>
-<h2 id="conceptes-clau">Conceptes clau</h2>
-<h3 id="tipus-financers">Tipus financers</h3>
+<h2 id="conceptes-clau">Conceptes clau<a class="headerlink" href="#conceptes-clau" title="Permanent link">Enllaç permanent</a></h2>
+<h3 id="tipus-financers">Tipus financers<a class="headerlink" href="#tipus-financers" title="Permanent link">Enllaç permanent</a></h3>
 <blockquote>
 <p>Vegeu informació sobre els tipus financers a <a href="https://docs.civicrm.org/user/ca/latest/contributions/key-concepts-and-configurations/#tipus-financers">CiviCRM - Guia de l'usuari &gt; Contribucions &gt; Conceptes claus i configuracions</a>.</p>
 </blockquote>
@@ -1526,7 +1532,7 @@ l'acció <strong>Actualitza l'estat de les contribucions pendents</strong>.</p>
 <li>Donatius</li>
 <li>Quotes de pertinences</li>
 </ul>
-<h3 id="estats-de-contribucio">Estats de contribució</h3>
+<h3 id="estats-de-contribucio">Estats de contribució<a class="headerlink" href="#estats-de-contribucio" title="Permanent link">Enllaç permanent</a></h3>
 <blockquote>
 <p>Vegeu informació sobre els estats de contribució a <a href="../civicrm/contribucions/#estats-de-pagament">CiviCRM &gt; Contribucions</a>.</p>
 </blockquote>
