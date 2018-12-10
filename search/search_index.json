@@ -1681,99 +1681,74 @@
             "title": "Introducci\u00f3"
         }, 
         {
-            "location": "/xarxa-hospitalitat/", 
-            "text": "M\u00f2dul Xarxa d'Hospitalitat\n\n\nDepend\u00e8ncies amb d'altres m\u00f2duls:\n\n\n\n\nM\u00f2dul adults\n\n\nM\u00f2dul de voluntariat\n\n\n\n\nContactes\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els contactes a \nCiviCRM \n Contactes\n.\n\n\n\n\nCrearem un nou tipus de contacte llar que ens permetr\u00e0 identificar un dels 3 actors que conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes \nPersona migrant\n + \nAdult\n i \nVoluntari\n ja queden definits per les depend\u00e8ncies del m\u00f2dul Xarxa d'Hospitalitat.\n\n\nPersones\n\n\n\n\nAdult\n\n\n\n\n\n\nVegeu a \nM\u00f2dul adults \n Contactes\n\n\n\n\n\n\nPersona migrant\n\n\n\n\n\n\nVegeu a \nCiviCRM \n Contactes\n\n\n\n\n\n\nVoluntari\n\n\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Contactes\n.\n\n\n\n\nLlars\n\n\n\n\nLlar d'acollida:\n Llar implicada en l'acollida de persones migrants.\n\n\n\n\nActivitats\n\n\n[Xarxa Hospitalitat] Seguiment\n\n\nCamps personalitzats - Seguiment Xarxa Hospitalitat\n\n\n\n\n\n\n\u00c0mbit\n\n\nSelecci\u00f3 m\u00faltiple - Acompanyament, Acollida\n\n\n\n\n\n\nObservacions\n\n\nResposta oberta\n\n\n\n\n\n\nRelacions\n\n\nRelaci\u00f3 d'acompanyament Xarxa d'Hospitalitat\n\n\n\n\nContacte A: Voluntari\n\n\nContacte B: Persona migrant\n\n\nRelaci\u00f3 A\nB: acompanya en Xarxa d'Hospitalitat a\n\n\nRelaci\u00f3 B\nA: \u00e9s acompanyat en Xarxa d'Hospitalitat per\n\n\n\n\nRelaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat\n\n\n\n\nContacte A: Persona migrant\n\n\nContacte B: Llar d'acollida\n\n\nRelaci\u00f3 A\nB: \u00e9s acollida en Xarxa d'Hospitalitat a\n\n\nRelaci\u00f3 B\nA: acull en Xarxa d'Hospitalitat a\n\n\n\n\nRelaci\u00f3 de voluntariat\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Relacions\n.\n\n\n\n\nGrups\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els grups a \nCiviCRM \n Grups\n.\n\n\n\n\nEl m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:\n\n\n\n\n\n\nXarxa d'Hospitalitat\n\n\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\nPersones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nPersones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)", 
+            "location": "/gent-gran/", 
+            "text": "Gent gran\n\n\nDepend\u00e8ncies amb d'altres m\u00f2duls:\n\n\n\n\nVoluntariat\n\n\n\n\nContactes\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els contactes a \nCiviCRM \n Contactes\n.\n\n\n\n\nPersones\n\n\nGent gran\n\n\nCamps personalitzats\n\n\n\n\n\n\nCondicions de la persona gran i del seu domicili\n\n\n\n\n\n\nMobilitat de la persona gran\n\n\nSelecci\u00f3 - Aut\u00f2noma; Bast\u00f3; Cadira de rodes; Crosses; Altres;\n\n\n\n\n\n\nMobilitat de la persona gran - Observacions\n - Especifiqueu si cal altres observacions a tenir en compte pel que fa als problemes de mobilitat de la persona gran.\n\n\nResposta oberta\n\n\n\n\n\n\nDisposa d'ascensor\n - Indiqueu si el domicili de la persona gran disposa d'ascensor.\n\n\nResposta S\u00ed/No\n\n\n\n\n\n\nTipus d'ascensor\n - Si el domicili disposa d'ascensor especifiqueu-ne el tipus: a planta o a mitja planta (cal pujar o baixar escales per acabar d'accedir-hi).\n\n\n\n\n\n\nAltres factors a tenir en compte\n -  Especifiqueu factors de la persona o del seu domicili que val la pena tenir en compte. Per exemple: est\u00e0 afectada de sordesa o ceguesa? en quin grau?, etc.\n\n\nResposta oberta\n\n\n\n\n\n\nVoluntari\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Contactes\n.\n\n\n\n\nActivitats\n\n\n[Gent gran] Seguiment\n\n\nCamps personalitzats - Seguiment gent gran\n\n\n\n\n\n\nObservacions\n\n\nResposta oberta\n\n\n\n\n\n\nRelacions\n\n\nRelaci\u00f3 d'acompanyament a domicili a gent gran\n\n\n\n\nContacte A: Voluntari\n\n\nContacte B: Persona\n\n\nRelaci\u00f3 A\nB: acompanya a domicili a\n\n\nRelaci\u00f3 B\nA: rep acompanyament a domicili per\n\n\n\n\nCamps personalitzats\n\n\n\n\n\n\nDetalls de la relaci\u00f3 d'acompanyament a domicili a gent gran\n\n\n\n\n\n\nTipus de servei\n\n\nSelecci\u00f3 m\u00faltiple - Passeig; Companyia a casa; Visita a resid\u00e8ncia; Acompanyament als tallers;\n\n\n\n\n\n\nCalendari i horaris de l'acompanyament\n\n\nResposta oberta\n\n\n\n\n\n\nRelaci\u00f3 de voluntariat\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Relacions\n.\n\n\n\n\nGrups\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els grups a \nCiviCRM \n Grups\n.\n\n\n\n\nEl m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:\n\n\n\n\n\n\nGent gran\n\n\n\n\nVoluntaris d'acompanyament a domicili a gent gran - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament a domicili a gent gran - hist\u00f2rics (grup intel\u00b7ligent)\n\n\nGent gran acompanyada a domicili - actius (grup intel\u00b7ligent)\n\n\nGent gran acompanyada a domicili - hist\u00f2ric (grup intel\u00b7ligent)\n\n\n\n\n\n\n\n\nInformes\n\n\n\n\nLlistat d'acompanyaments a domicili a gent gran - actius", 
             "title": "Introducci\u00f3"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#modul-xarxa-dhospitalitat", 
-            "text": "Depend\u00e8ncies amb d'altres m\u00f2duls:   M\u00f2dul adults  M\u00f2dul de voluntariat", 
-            "title": "M\u00f2dul Xarxa d'Hospitalitat"
+            "location": "/gent-gran/#gent-gran", 
+            "text": "Depend\u00e8ncies amb d'altres m\u00f2duls:   Voluntariat", 
+            "title": "Gent gran"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#contactes", 
-            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els contactes a  CiviCRM   Contactes .   Crearem un nou tipus de contacte llar que ens permetr\u00e0 identificar un dels 3 actors que conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes  Persona migrant  +  Adult  i  Voluntari  ja queden definits per les depend\u00e8ncies del m\u00f2dul Xarxa d'Hospitalitat.", 
+            "location": "/gent-gran/#contactes", 
+            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els contactes a  CiviCRM   Contactes .", 
             "title": "Contactes"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#persones", 
-            "text": "Adult    Vegeu a  M\u00f2dul adults   Contactes    Persona migrant    Vegeu a  CiviCRM   Contactes    Voluntari    Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Contactes .", 
+            "location": "/gent-gran/#persones", 
+            "text": "", 
             "title": "Persones"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#llars", 
-            "text": "Llar d'acollida:  Llar implicada en l'acollida de persones migrants.", 
-            "title": "Llars"
+            "location": "/gent-gran/#gent-gran_1", 
+            "text": "Camps personalitzats    Condicions de la persona gran i del seu domicili    Mobilitat de la persona gran  Selecci\u00f3 - Aut\u00f2noma; Bast\u00f3; Cadira de rodes; Crosses; Altres;    Mobilitat de la persona gran - Observacions  - Especifiqueu si cal altres observacions a tenir en compte pel que fa als problemes de mobilitat de la persona gran.  Resposta oberta    Disposa d'ascensor  - Indiqueu si el domicili de la persona gran disposa d'ascensor.  Resposta S\u00ed/No    Tipus d'ascensor  - Si el domicili disposa d'ascensor especifiqueu-ne el tipus: a planta o a mitja planta (cal pujar o baixar escales per acabar d'accedir-hi).    Altres factors a tenir en compte  -  Especifiqueu factors de la persona o del seu domicili que val la pena tenir en compte. Per exemple: est\u00e0 afectada de sordesa o ceguesa? en quin grau?, etc.  Resposta oberta", 
+            "title": "Gent gran"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#activitats", 
+            "location": "/gent-gran/#voluntari", 
+            "text": "Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Contactes .", 
+            "title": "Voluntari"
+        }, 
+        {
+            "location": "/gent-gran/#activitats", 
             "text": "", 
             "title": "Activitats"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#xarxa-hospitalitat-seguiment", 
+            "location": "/gent-gran/#gent-gran-seguiment", 
             "text": "", 
-            "title": "[Xarxa Hospitalitat] Seguiment"
+            "title": "[Gent gran] Seguiment"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#camps-personalitzats-seguiment-xarxa-hospitalitat", 
-            "text": "\u00c0mbit  Selecci\u00f3 m\u00faltiple - Acompanyament, Acollida    Observacions  Resposta oberta", 
-            "title": "Camps personalitzats - Seguiment Xarxa Hospitalitat"
+            "location": "/gent-gran/#camps-personalitzats-seguiment-gent-gran", 
+            "text": "Observacions  Resposta oberta", 
+            "title": "Camps personalitzats - Seguiment gent gran"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacions", 
+            "location": "/gent-gran/#relacions", 
             "text": "", 
             "title": "Relacions"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-dacompanyament-xarxa-dhospitalitat", 
-            "text": "Contacte A: Voluntari  Contacte B: Persona migrant  Relaci\u00f3 A B: acompanya en Xarxa d'Hospitalitat a  Relaci\u00f3 B A: \u00e9s acompanyat en Xarxa d'Hospitalitat per", 
-            "title": "Relaci\u00f3 d'acompanyament Xarxa d'Hospitalitat"
+            "location": "/gent-gran/#relacio-dacompanyament-a-domicili-a-gent-gran", 
+            "text": "Contacte A: Voluntari  Contacte B: Persona  Relaci\u00f3 A B: acompanya a domicili a  Relaci\u00f3 B A: rep acompanyament a domicili per   Camps personalitzats    Detalls de la relaci\u00f3 d'acompanyament a domicili a gent gran    Tipus de servei  Selecci\u00f3 m\u00faltiple - Passeig; Companyia a casa; Visita a resid\u00e8ncia; Acompanyament als tallers;    Calendari i horaris de l'acompanyament  Resposta oberta", 
+            "title": "Relaci\u00f3 d'acompanyament a domicili a gent gran"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-dacollida-en-llar-de-xarxa-dhospitalitat", 
-            "text": "Contacte A: Persona migrant  Contacte B: Llar d'acollida  Relaci\u00f3 A B: \u00e9s acollida en Xarxa d'Hospitalitat a  Relaci\u00f3 B A: acull en Xarxa d'Hospitalitat a", 
-            "title": "Relaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/#relacio-de-voluntariat", 
+            "location": "/gent-gran/#relacio-de-voluntariat", 
             "text": "Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Relacions .", 
             "title": "Relaci\u00f3 de voluntariat"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#grups", 
-            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els grups a  CiviCRM   Grups .   El m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:    Xarxa d'Hospitalitat   Llars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)  Llars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)  Voluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)  Persones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Persones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)", 
+            "location": "/gent-gran/#grups", 
+            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els grups a  CiviCRM   Grups .   El m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:    Gent gran   Voluntaris d'acompanyament a domicili a gent gran - actius (grup intel\u00b7ligent)  Voluntaris d'acompanyament a domicili a gent gran - hist\u00f2rics (grup intel\u00b7ligent)  Gent gran acompanyada a domicili - actius (grup intel\u00b7ligent)  Gent gran acompanyada a domicili - hist\u00f2ric (grup intel\u00b7ligent)", 
             "title": "Grups"
         }, 
         {
-            "location": "/xarxa-hospitalitat/guia-us/", 
-            "text": "Guia d'\u00fas\n\n\nLlar d'acollida nova\n\n\n\n\nDonar d'alta el contacte del tipus \nLlar d'acollida\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM.\n\n\nDonar d'alta tants contactes del tipus \nVoluntari\n com es vulguin identificar en aquesta llar d'acollida nova. Revisar abans que els contactes no estiguin donats d'alta ja al CRM. Si els contactes ja existeixen per\u00f2 no s\u00f3n del tipus \nVoluntari\n cal assignar-los-hi.\n\n\nCrear una relaci\u00f3 de voluntariat entre el voluntari i l'organitzaci\u00f3.\n\n\nCrear una \nRelaci\u00f3 de pertinen\u00e7a a una llar\n entre la llar d'acollida i els voluntaris.\n\n\n\n\nPersona acollida nova\n\n\n\n\nDonar d'alta el contacte del tipus \nPersona migrant\n i \nAdult\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus \nPersona migrant\n o \nAdult\n cal assignar-los-hi.\n\n\nCrear una \nRelaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat\n entre la persona acollida i la llar d'acollida.\n\n\n\n\nAcompanyament nou\n\n\n\n\nDonar d'alta el contacte de tipus \nVoluntari\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus \nVoluntari\n cal assignar-lo-hi.\n\n\nCrear una \nRelaci\u00f3 d'acompanyament en llar de Xarxa d'Hospitalitat\n entre la persona acollida i el voluntari que ofereix l'acompanyament.\n\n\n\n\nSeguiment\n\n\n\n\nCrear una activitat \n[Xarxa Hospitalitat] Seguiment\n en el contacte a qui es fa el seguiment, especificar l'\u00e0mbit si \u00e9s en relaci\u00f3 a acompanyament o acollida i emplenar les observacions del mateix.", 
-            "title": "Guia d'\u00fas"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/guia-us/#guia-dus", 
-            "text": "", 
-            "title": "Guia d'\u00fas"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/guia-us/#llar-dacollida-nova", 
-            "text": "Donar d'alta el contacte del tipus  Llar d'acollida . Revisar abans que el contacte no estigui donat d'alta ja al CRM.  Donar d'alta tants contactes del tipus  Voluntari  com es vulguin identificar en aquesta llar d'acollida nova. Revisar abans que els contactes no estiguin donats d'alta ja al CRM. Si els contactes ja existeixen per\u00f2 no s\u00f3n del tipus  Voluntari  cal assignar-los-hi.  Crear una relaci\u00f3 de voluntariat entre el voluntari i l'organitzaci\u00f3.  Crear una  Relaci\u00f3 de pertinen\u00e7a a una llar  entre la llar d'acollida i els voluntaris.", 
-            "title": "Llar d'acollida nova"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/guia-us/#persona-acollida-nova", 
-            "text": "Donar d'alta el contacte del tipus  Persona migrant  i  Adult . Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus  Persona migrant  o  Adult  cal assignar-los-hi.  Crear una  Relaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat  entre la persona acollida i la llar d'acollida.", 
-            "title": "Persona acollida nova"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/guia-us/#acompanyament-nou", 
-            "text": "Donar d'alta el contacte de tipus  Voluntari . Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus  Voluntari  cal assignar-lo-hi.  Crear una  Relaci\u00f3 d'acompanyament en llar de Xarxa d'Hospitalitat  entre la persona acollida i el voluntari que ofereix l'acompanyament.", 
-            "title": "Acompanyament nou"
-        }, 
-        {
-            "location": "/xarxa-hospitalitat/guia-us/#seguiment", 
-            "text": "Crear una activitat  [Xarxa Hospitalitat] Seguiment  en el contacte a qui es fa el seguiment, especificar l'\u00e0mbit si \u00e9s en relaci\u00f3 a acompanyament o acollida i emplenar les observacions del mateix.", 
-            "title": "Seguiment"
+            "location": "/gent-gran/#informes", 
+            "text": "Llistat d'acompanyaments a domicili a gent gran - actius", 
+            "title": "Informes"
         }, 
         {
             "location": "/cie/", 
@@ -1904,6 +1879,101 @@
             "location": "/cie/perfils/#perfils-per-la-creacio-de-contactes", 
             "text": "Nou intern CIE", 
             "title": "Perfils per la creaci\u00f3 de contactes"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/", 
+            "text": "M\u00f2dul Xarxa d'Hospitalitat\n\n\nDepend\u00e8ncies amb d'altres m\u00f2duls:\n\n\n\n\nM\u00f2dul adults\n\n\nM\u00f2dul de voluntariat\n\n\n\n\nContactes\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els contactes a \nCiviCRM \n Contactes\n.\n\n\n\n\nCrearem un nou tipus de contacte llar que ens permetr\u00e0 identificar un dels 3 actors que conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes \nPersona migrant\n + \nAdult\n i \nVoluntari\n ja queden definits per les depend\u00e8ncies del m\u00f2dul Xarxa d'Hospitalitat.\n\n\nPersones\n\n\n\n\nAdult\n\n\n\n\n\n\nVegeu a \nM\u00f2dul adults \n Contactes\n\n\n\n\n\n\nPersona migrant\n\n\n\n\n\n\nVegeu a \nCiviCRM \n Contactes\n\n\n\n\n\n\nVoluntari\n\n\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Contactes\n.\n\n\n\n\nLlars\n\n\n\n\nLlar d'acollida:\n Llar implicada en l'acollida de persones migrants.\n\n\n\n\nActivitats\n\n\n[Xarxa Hospitalitat] Seguiment\n\n\nCamps personalitzats - Seguiment Xarxa Hospitalitat\n\n\n\n\n\n\n\u00c0mbit\n\n\nSelecci\u00f3 m\u00faltiple - Acompanyament, Acollida\n\n\n\n\n\n\nObservacions\n\n\nResposta oberta\n\n\n\n\n\n\nRelacions\n\n\nRelaci\u00f3 d'acompanyament Xarxa d'Hospitalitat\n\n\n\n\nContacte A: Voluntari\n\n\nContacte B: Persona migrant\n\n\nRelaci\u00f3 A\nB: acompanya en Xarxa d'Hospitalitat a\n\n\nRelaci\u00f3 B\nA: \u00e9s acompanyat en Xarxa d'Hospitalitat per\n\n\n\n\nRelaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat\n\n\n\n\nContacte A: Persona migrant\n\n\nContacte B: Llar d'acollida\n\n\nRelaci\u00f3 A\nB: \u00e9s acollida en Xarxa d'Hospitalitat a\n\n\nRelaci\u00f3 B\nA: acull en Xarxa d'Hospitalitat a\n\n\n\n\nRelaci\u00f3 de voluntariat\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Relacions\n.\n\n\n\n\nGrups\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els grups a \nCiviCRM \n Grups\n.\n\n\n\n\nEl m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:\n\n\n\n\n\n\nXarxa d'Hospitalitat\n\n\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\nPersones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nPersones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)", 
+            "title": "Introducci\u00f3"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#modul-xarxa-dhospitalitat", 
+            "text": "Depend\u00e8ncies amb d'altres m\u00f2duls:   M\u00f2dul adults  M\u00f2dul de voluntariat", 
+            "title": "M\u00f2dul Xarxa d'Hospitalitat"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#contactes", 
+            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els contactes a  CiviCRM   Contactes .   Crearem un nou tipus de contacte llar que ens permetr\u00e0 identificar un dels 3 actors que conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes  Persona migrant  +  Adult  i  Voluntari  ja queden definits per les depend\u00e8ncies del m\u00f2dul Xarxa d'Hospitalitat.", 
+            "title": "Contactes"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#persones", 
+            "text": "Adult    Vegeu a  M\u00f2dul adults   Contactes    Persona migrant    Vegeu a  CiviCRM   Contactes    Voluntari    Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Contactes .", 
+            "title": "Persones"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#llars", 
+            "text": "Llar d'acollida:  Llar implicada en l'acollida de persones migrants.", 
+            "title": "Llars"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#activitats", 
+            "text": "", 
+            "title": "Activitats"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#xarxa-hospitalitat-seguiment", 
+            "text": "", 
+            "title": "[Xarxa Hospitalitat] Seguiment"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#camps-personalitzats-seguiment-xarxa-hospitalitat", 
+            "text": "\u00c0mbit  Selecci\u00f3 m\u00faltiple - Acompanyament, Acollida    Observacions  Resposta oberta", 
+            "title": "Camps personalitzats - Seguiment Xarxa Hospitalitat"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#relacions", 
+            "text": "", 
+            "title": "Relacions"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#relacio-dacompanyament-xarxa-dhospitalitat", 
+            "text": "Contacte A: Voluntari  Contacte B: Persona migrant  Relaci\u00f3 A B: acompanya en Xarxa d'Hospitalitat a  Relaci\u00f3 B A: \u00e9s acompanyat en Xarxa d'Hospitalitat per", 
+            "title": "Relaci\u00f3 d'acompanyament Xarxa d'Hospitalitat"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#relacio-dacollida-en-llar-de-xarxa-dhospitalitat", 
+            "text": "Contacte A: Persona migrant  Contacte B: Llar d'acollida  Relaci\u00f3 A B: \u00e9s acollida en Xarxa d'Hospitalitat a  Relaci\u00f3 B A: acull en Xarxa d'Hospitalitat a", 
+            "title": "Relaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#relacio-de-voluntariat", 
+            "text": "Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Relacions .", 
+            "title": "Relaci\u00f3 de voluntariat"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/#grups", 
+            "text": "Vegeu m\u00e9s informaci\u00f3 sobre els grups a  CiviCRM   Grups .   El m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:    Xarxa d'Hospitalitat   Llars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)  Llars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)  Voluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)  Persones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Persones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)", 
+            "title": "Grups"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/", 
+            "text": "Guia d'\u00fas\n\n\nLlar d'acollida nova\n\n\n\n\nDonar d'alta el contacte del tipus \nLlar d'acollida\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM.\n\n\nDonar d'alta tants contactes del tipus \nVoluntari\n com es vulguin identificar en aquesta llar d'acollida nova. Revisar abans que els contactes no estiguin donats d'alta ja al CRM. Si els contactes ja existeixen per\u00f2 no s\u00f3n del tipus \nVoluntari\n cal assignar-los-hi.\n\n\nCrear una relaci\u00f3 de voluntariat entre el voluntari i l'organitzaci\u00f3.\n\n\nCrear una \nRelaci\u00f3 de pertinen\u00e7a a una llar\n entre la llar d'acollida i els voluntaris.\n\n\n\n\nPersona acollida nova\n\n\n\n\nDonar d'alta el contacte del tipus \nPersona migrant\n i \nAdult\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus \nPersona migrant\n o \nAdult\n cal assignar-los-hi.\n\n\nCrear una \nRelaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat\n entre la persona acollida i la llar d'acollida.\n\n\n\n\nAcompanyament nou\n\n\n\n\nDonar d'alta el contacte de tipus \nVoluntari\n. Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus \nVoluntari\n cal assignar-lo-hi.\n\n\nCrear una \nRelaci\u00f3 d'acompanyament en llar de Xarxa d'Hospitalitat\n entre la persona acollida i el voluntari que ofereix l'acompanyament.\n\n\n\n\nSeguiment\n\n\n\n\nCrear una activitat \n[Xarxa Hospitalitat] Seguiment\n en el contacte a qui es fa el seguiment, especificar l'\u00e0mbit si \u00e9s en relaci\u00f3 a acompanyament o acollida i emplenar les observacions del mateix.", 
+            "title": "Guia d'\u00fas"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/#guia-dus", 
+            "text": "", 
+            "title": "Guia d'\u00fas"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/#llar-dacollida-nova", 
+            "text": "Donar d'alta el contacte del tipus  Llar d'acollida . Revisar abans que el contacte no estigui donat d'alta ja al CRM.  Donar d'alta tants contactes del tipus  Voluntari  com es vulguin identificar en aquesta llar d'acollida nova. Revisar abans que els contactes no estiguin donats d'alta ja al CRM. Si els contactes ja existeixen per\u00f2 no s\u00f3n del tipus  Voluntari  cal assignar-los-hi.  Crear una relaci\u00f3 de voluntariat entre el voluntari i l'organitzaci\u00f3.  Crear una  Relaci\u00f3 de pertinen\u00e7a a una llar  entre la llar d'acollida i els voluntaris.", 
+            "title": "Llar d'acollida nova"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/#persona-acollida-nova", 
+            "text": "Donar d'alta el contacte del tipus  Persona migrant  i  Adult . Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus  Persona migrant  o  Adult  cal assignar-los-hi.  Crear una  Relaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat  entre la persona acollida i la llar d'acollida.", 
+            "title": "Persona acollida nova"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/#acompanyament-nou", 
+            "text": "Donar d'alta el contacte de tipus  Voluntari . Revisar abans que el contacte no estigui donat d'alta ja al CRM. Si el contacte ja existeix per\u00f2 no \u00e9s del tipus  Voluntari  cal assignar-lo-hi.  Crear una  Relaci\u00f3 d'acompanyament en llar de Xarxa d'Hospitalitat  entre la persona acollida i el voluntari que ofereix l'acompanyament.", 
+            "title": "Acompanyament nou"
+        }, 
+        {
+            "location": "/xarxa-hospitalitat/guia-us/#seguiment", 
+            "text": "Crear una activitat  [Xarxa Hospitalitat] Seguiment  en el contacte a qui es fa el seguiment, especificar l'\u00e0mbit si \u00e9s en relaci\u00f3 a acompanyament o acollida i emplenar les observacions del mateix.", 
+            "title": "Seguiment"
         }
     ]
 }
