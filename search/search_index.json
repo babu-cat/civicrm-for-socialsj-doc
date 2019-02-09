@@ -1881,97 +1881,97 @@
             "title": "Perfils per la creaci\u00f3 de contactes"
         }, 
         {
-            "location": "/xarxa-hospitalitat/", 
+            "location": "/xarxa-hospitalitat/definicio/", 
             "text": "M\u00f2dul Xarxa d'Hospitalitat\n\n\n\n\nDepend\u00e8ncies amb altres m\u00f2duls\n\n\n\n\nM\u00f2dul adults\n\n\nM\u00f2dul de voluntariat\n\n\n\n\n\n\nContactes\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els contactes a \nCiviCRM \n Contactes\n.\n\n\n\n\nCrearem un nou tipus de contacte \nLlar\n que ens permetr\u00e0 identificar un dels 3 actors\nque conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes\n\nPersona migrant + Adult\n i \nVoluntari\n ja queden definits per les depend\u00e8ncies del\nm\u00f2dul Xarxa d'Hospitalitat.\n\n\nPersones\n\n\n\n\nAdult\n\n\nVegeu a \nM\u00f2dul adults \n Contactes\n\n\n\n\n\n\nPersona migrant\n\n\nVegeu a \nCiviCRM \n Contactes\n\n\n\n\n\n\nVoluntari\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Contactes\n.\n\n\n\n\nLlars\n\n\nLlar d'acollida\n\n\nLlar implicada en l'acollida de persones migrants.\n\n\nActivitats\n\n\n[Xarxa Hospitalitat] Fam\u00edlia interessada\n\n\nPrimer contacte d'una fam\u00edlia amb inter\u00e8s d'acollir una persona migrada.\n\n\nPossibles estats de l'activitat\n\n\n\n\nPendent de contactar\n\n\nPendent de resoldre\n\n\nCompletat\n\n\nCancel\u00b7lat pendent de donar alternatives\n\n\nCancel\u00b7lat\n\n\n\n\n[Xarxa Hospitalitat] Seguiment\n\n\nCamps personalitzats\n\n\n\n\n\n\nSeguiment Xarxa Hospitalitat\n\n\n\n\n\n\n\u00c0mbit\n\n\nSelecci\u00f3 m\u00faltiple - Acompanyament, Acollida\n\n\n\n\n\n\nObservacions\n\n\nResposta oberta\n\n\n\n\n\n\n\n\n\n\nRelacions\n\n\nRelaci\u00f3 d'acompanyament Xarxa d'Hospitalitat\n\n\n\n\n\n\n\n\nCaracter\u00edstiques\n\n\n\n\n\n\n\n\n\n\n\n\nContacte A\n\n\nVoluntari\n\n\n\n\n\n\nContacte B\n\n\nPersona migrant\n\n\n\n\n\n\nRelaci\u00f3 A-B\n\n\nacompanya en Xarxa d'Hospitalitat a\n\n\n\n\n\n\nRelaci\u00f3 B-A\n\n\n\u00e9s acompanyat en Xarxa d'Hospitalitat per\n\n\n\n\n\n\n\n\nRelaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat\n\n\n\n\n\n\n\n\nCaracter\u00edstiques\n\n\n\n\n\n\n\n\n\n\n\n\nContacte A\n\n\nPersona migrant\n\n\n\n\n\n\nContacte B\n\n\nLlar d'acollida\n\n\n\n\n\n\nRelaci\u00f3 A-B\n\n\n\u00e9s acollida en Xarxa d'Hospitalitat a\n\n\n\n\n\n\nRelaci\u00f3 B-A\n\n\nacull en Xarxa d'Hospitalitat a\n\n\n\n\n\n\n\n\nRelaci\u00f3 de responsable de la llar\n\n\nUtilitzarem la relaci\u00f3 de responsable de la llar \n\u00e9s responsable de la llar de\n\nper indicar les persones responsables de la llar amb les quals l'organitzaci\u00f3\nestableix comunicaci\u00f3 en el proc\u00e9s d'acollida.\n\n\nRelaci\u00f3 de pertinen\u00e7a a la llar\n\n\nUtilitzarem la relaci\u00f3 de pertinen\u00e7a a la llar \n\u00e9s membre de la llar de\n per indicar\nles persones amb les quals volem poder establir algun tipus d'interacci\u00f3 amb el\nCRM per\u00f2 que no s\u00f3n les responsables o interlocutores directes de l'acollida.\n\n\nRelaci\u00f3 de voluntariat\n\n\n\n\nVegeu a \nCiviCRM \n M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure \n Voluntariat \n Relacions\n.\n\n\n\n\nGrups\n\n\n\n\nVegeu m\u00e9s informaci\u00f3 sobre els grups a \nCiviCRM \n Grups\n.\n\n\n\n\nEl m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:\n\n\n\n\n\n\nXarxa d'Hospitalitat\n\n\n\n\nLlars d'acollida en Xarxa d'Hospitalitat\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)\n\n\nLlars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)\n\n\n\n\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\n\n\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nVoluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)\n\n\n\n\n\n\nPersones acollides en Xarxa d'Hospitalitat\n\n\nPersones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)\n\n\nPersones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)\n\n\n\n\n\n\nFam\u00edlies interessades en XH pendents de contactar\n\n\nResponsables fam\u00edlies interessades en XH pendents de contactar\n\n\nFam\u00edlies interessades en XH pendents d'alternativa\n\n\nResponsables fam\u00edlies interessades en XH pendents d'alternativa\n\n\n\n\n\n\n\n\nInformes\n\n\nAcollides en Xarxa d'Hospitalitat - actives\n\n\n\n\n\n\nMen\u00fa\n\n\nInformes personalitzats \n Xarxa d'Hospitalitat \n Acollides en Xarxa d'Hospitalitat - actives\n\n\n\n\n\n\nTipus d'informe\n\n\nInforme de relacions\n\n\n\n\n\n\nColumnes\n\n\n\n\nRelaci\u00f3 A-B\n\n\nData d'inici de la relaci\u00f3\n\n\nData de finalitzaci\u00f3 de la relaci\u00f3\n\n\n\n\n\n\n\n\nFiltres\n\n\n\n\nRelaci\u00f3 = \n\u00e9s acollida en Xarxa d'Hospitalitat a\n\n\nGrup = \npersones acollides en Xarxa d'Hospitalitat - actives\n\n\n\n\n\n\n\n\nFam\u00edlies interessades\n\n\n\n\n\n\nDescripci\u00f3\n\n\nFam\u00edlies que tenen una activitat \n[Xarxa Hospitalitat] Fam\u00edlia interessada\n\n\n\n\n\n\nMen\u00fa\n\n\nInformes personalitzats \n Xarxa d'Hospitalitat \n Fam\u00edlies interessades\n\n\n\n\n\n\nTipus d'informe\n\n\nInforme de detalls d'activitat\n\n\n\n\n\n\nColumnes\n\n\n\n\nNom del contacte dest\u00ed\n\n\nTipus d'activitat\n\n\nData de l'activitat\n\n\nEstat de l'activitat\n\n\nDetalls de l'activitat\n\n\n\n\n\n\n\n\nOrdenaci\u00f3\n\n\n\n\nData de l'activitat \n(Descendent)\n\n\n\n\n\n\n\n\nFiltres\n\n\n\n\nTipus d'activitat = \n[Xarxa Hospitalitat] Fam\u00edlia interessada", 
-            "title": "Introducci\u00f3"
+            "title": "Definici\u00f3"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#modul-xarxa-dhospitalitat", 
+            "location": "/xarxa-hospitalitat/definicio/#modul-xarxa-dhospitalitat", 
             "text": "Depend\u00e8ncies amb altres m\u00f2duls   M\u00f2dul adults  M\u00f2dul de voluntariat", 
             "title": "M\u00f2dul Xarxa d'Hospitalitat"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#contactes", 
+            "location": "/xarxa-hospitalitat/definicio/#contactes", 
             "text": "Vegeu m\u00e9s informaci\u00f3 sobre els contactes a  CiviCRM   Contactes .   Crearem un nou tipus de contacte  Llar  que ens permetr\u00e0 identificar un dels 3 actors\nque conformen el m\u00f2dul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes Persona migrant + Adult  i  Voluntari  ja queden definits per les depend\u00e8ncies del\nm\u00f2dul Xarxa d'Hospitalitat.", 
             "title": "Contactes"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#persones", 
+            "location": "/xarxa-hospitalitat/definicio/#persones", 
             "text": "Adult  Vegeu a  M\u00f2dul adults   Contactes    Persona migrant  Vegeu a  CiviCRM   Contactes    Voluntari  Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Contactes .", 
             "title": "Persones"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#llars", 
+            "location": "/xarxa-hospitalitat/definicio/#llars", 
             "text": "", 
             "title": "Llars"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#llar-dacollida", 
+            "location": "/xarxa-hospitalitat/definicio/#llar-dacollida", 
             "text": "Llar implicada en l'acollida de persones migrants.", 
             "title": "Llar d'acollida"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#activitats", 
+            "location": "/xarxa-hospitalitat/definicio/#activitats", 
             "text": "", 
             "title": "Activitats"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#xarxa-hospitalitat-familia-interessada", 
+            "location": "/xarxa-hospitalitat/definicio/#xarxa-hospitalitat-familia-interessada", 
             "text": "Primer contacte d'una fam\u00edlia amb inter\u00e8s d'acollir una persona migrada.  Possibles estats de l'activitat   Pendent de contactar  Pendent de resoldre  Completat  Cancel\u00b7lat pendent de donar alternatives  Cancel\u00b7lat", 
             "title": "[Xarxa Hospitalitat] Fam\u00edlia interessada"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#xarxa-hospitalitat-seguiment", 
+            "location": "/xarxa-hospitalitat/definicio/#xarxa-hospitalitat-seguiment", 
             "text": "Camps personalitzats    Seguiment Xarxa Hospitalitat    \u00c0mbit  Selecci\u00f3 m\u00faltiple - Acompanyament, Acollida    Observacions  Resposta oberta", 
             "title": "[Xarxa Hospitalitat] Seguiment"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacions", 
+            "location": "/xarxa-hospitalitat/definicio/#relacions", 
             "text": "", 
             "title": "Relacions"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-dacompanyament-xarxa-dhospitalitat", 
+            "location": "/xarxa-hospitalitat/definicio/#relacio-dacompanyament-xarxa-dhospitalitat", 
             "text": "Caracter\u00edstiques       Contacte A  Voluntari    Contacte B  Persona migrant    Relaci\u00f3 A-B  acompanya en Xarxa d'Hospitalitat a    Relaci\u00f3 B-A  \u00e9s acompanyat en Xarxa d'Hospitalitat per", 
             "title": "Relaci\u00f3 d'acompanyament Xarxa d'Hospitalitat"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-dacollida-en-llar-de-xarxa-dhospitalitat", 
+            "location": "/xarxa-hospitalitat/definicio/#relacio-dacollida-en-llar-de-xarxa-dhospitalitat", 
             "text": "Caracter\u00edstiques       Contacte A  Persona migrant    Contacte B  Llar d'acollida    Relaci\u00f3 A-B  \u00e9s acollida en Xarxa d'Hospitalitat a    Relaci\u00f3 B-A  acull en Xarxa d'Hospitalitat a", 
             "title": "Relaci\u00f3 d'acollida en llar de Xarxa d'Hospitalitat"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-de-responsable-de-la-llar", 
+            "location": "/xarxa-hospitalitat/definicio/#relacio-de-responsable-de-la-llar", 
             "text": "Utilitzarem la relaci\u00f3 de responsable de la llar  \u00e9s responsable de la llar de \nper indicar les persones responsables de la llar amb les quals l'organitzaci\u00f3\nestableix comunicaci\u00f3 en el proc\u00e9s d'acollida.", 
             "title": "Relaci\u00f3 de responsable de la llar"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-de-pertinenca-a-la-llar", 
+            "location": "/xarxa-hospitalitat/definicio/#relacio-de-pertinenca-a-la-llar", 
             "text": "Utilitzarem la relaci\u00f3 de pertinen\u00e7a a la llar  \u00e9s membre de la llar de  per indicar\nles persones amb les quals volem poder establir algun tipus d'interacci\u00f3 amb el\nCRM per\u00f2 que no s\u00f3n les responsables o interlocutores directes de l'acollida.", 
             "title": "Relaci\u00f3 de pertinen\u00e7a a la llar"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#relacio-de-voluntariat", 
+            "location": "/xarxa-hospitalitat/definicio/#relacio-de-voluntariat", 
             "text": "Vegeu a  CiviCRM   M\u00f2dul voluntariat, pr\u00e0ctiques i educaci\u00f3 en el lleure   Voluntariat   Relacions .", 
             "title": "Relaci\u00f3 de voluntariat"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#grups", 
+            "location": "/xarxa-hospitalitat/definicio/#grups", 
             "text": "Vegeu m\u00e9s informaci\u00f3 sobre els grups a  CiviCRM   Grups .   El m\u00f2dul definir\u00e0 per defecte la seg\u00fcent jerarquia de grups:    Xarxa d'Hospitalitat   Llars d'acollida en Xarxa d'Hospitalitat  Llars d'acollida en Xarxa d'Hospitalitat - actives (grup intel\u00b7ligent)  Llars d'acollida en Xarxa d'Hospitalitat - hist\u00f2riques (grup intel\u00b7ligent)    Voluntaris d'acollida en Xarxa d'Hospitalitat  Voluntaris d'acollida en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acollida en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)    Voluntaris d'acompanyament en Xarxa d'Hospitalitat  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Voluntaris d'acompanyament en Xarxa d'Hospitalitat - hist\u00f2rics (grup intel\u00b7ligent)    Persones acollides en Xarxa d'Hospitalitat  Persones acollides en Xarxa d'Hospitalitat - actius (grup intel\u00b7ligent)  Persones acollides en Xarxa d'Hospitalitat - hist\u00f2ric (grup intel\u00b7ligent)    Fam\u00edlies interessades en XH pendents de contactar  Responsables fam\u00edlies interessades en XH pendents de contactar  Fam\u00edlies interessades en XH pendents d'alternativa  Responsables fam\u00edlies interessades en XH pendents d'alternativa", 
             "title": "Grups"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#informes", 
+            "location": "/xarxa-hospitalitat/definicio/#informes", 
             "text": "", 
             "title": "Informes"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#acollides-en-xarxa-dhospitalitat-actives", 
+            "location": "/xarxa-hospitalitat/definicio/#acollides-en-xarxa-dhospitalitat-actives", 
             "text": "Men\u00fa  Informes personalitzats   Xarxa d'Hospitalitat   Acollides en Xarxa d'Hospitalitat - actives    Tipus d'informe  Informe de relacions    Columnes   Relaci\u00f3 A-B  Data d'inici de la relaci\u00f3  Data de finalitzaci\u00f3 de la relaci\u00f3     Filtres   Relaci\u00f3 =  \u00e9s acollida en Xarxa d'Hospitalitat a  Grup =  persones acollides en Xarxa d'Hospitalitat - actives", 
             "title": "Acollides en Xarxa d'Hospitalitat - actives"
         }, 
         {
-            "location": "/xarxa-hospitalitat/#families-interessades", 
+            "location": "/xarxa-hospitalitat/definicio/#families-interessades", 
             "text": "Descripci\u00f3  Fam\u00edlies que tenen una activitat  [Xarxa Hospitalitat] Fam\u00edlia interessada    Men\u00fa  Informes personalitzats   Xarxa d'Hospitalitat   Fam\u00edlies interessades    Tipus d'informe  Informe de detalls d'activitat    Columnes   Nom del contacte dest\u00ed  Tipus d'activitat  Data de l'activitat  Estat de l'activitat  Detalls de l'activitat     Ordenaci\u00f3   Data de l'activitat  (Descendent)     Filtres   Tipus d'activitat =  [Xarxa Hospitalitat] Fam\u00edlia interessada", 
             "title": "Fam\u00edlies interessades"
         }, 
