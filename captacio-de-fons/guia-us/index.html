@@ -52,7 +52,7 @@ es dona d'alta i es genera un registre al CRM amb la seva corresponent pertinen�
 <p class="admonition-title">Atenció</p>
 <p>Actualment quan un soci es dona d'alta a través de la web es crea un contacte
 al CRM amb les seves dades i una contribució amb estat pendent i tipus
-financer quota de pertinença. Cal afegir manualment la pertinença com a soci
+financer corresponent. Cal afegir manualment la pertinença com a soci
 de l'entitat.</p>
 </div>
 <ul>
@@ -71,9 +71,9 @@ la possible combinació de contactes duplicats quan es doni el cas.</p>
 <h3 id="generacio-de-contribucions-anuals-de-socis">Generació de contribucions anuals de socis<a class="headerlink" href="#generacio-de-contribucions-anuals-de-socis" title="Permanent link">&para;</a></h3>
 <h4 id="manual">Manual<a class="headerlink" href="#manual" title="Permanent link">&para;</a></h4>
 <p>Si volem generar una contribució corresponent a la quota de soci d'un contacte
-hem d'afegir una contribució amb <strong>tipus financer</strong> 'Quotes de pertinences', definir
+hem d'afegir una contribució amb <strong>tipus financer</strong> corresponent, definir
 la <strong>data de recepció</strong> prevista, l'<strong>import</strong> de la contribució en qüestió i el
-<strong>mètode de pagament</strong> 'Domiciliació bancària' a la vegada que definirem l'<strong>estat
+<strong>mètode de pagament</strong> corresponent a la vegada que definirem l'<strong>estat
 de la contribució</strong> actual bé sigui 'Pendent' o bé 'Completat'.</p>
 <h4 id="en-lots">En lots<a class="headerlink" href="#en-lots" title="Permanent link">&para;</a></h4>
 <p>Per tal d'agilitzar l'entrada de les contribucions recurrents vinculades als socis
@@ -89,8 +89,8 @@ corresponents.</p>
 <li><strong>Import total</strong></li>
 <li><strong>Data de recepció</strong></li>
 <li><strong>Estat de la contribució</strong> - valors possibles: <em>Completed</em> i <em>Pending</em></li>
-<li><strong>Tipus financer</strong> - valor per defecte: <em>Quotes de pertinences</em></li>
-<li><strong>Mètode de pagament</strong> - valor per defecte: <em>Domiciliación bancaria</em></li>
+<li><strong>Tipus financer</strong> - valor per defecte: <em>El tipus financer corresponent tal com apareix al CRM</em></li>
+<li><strong>Mètode de pagament</strong> - valor per defecte: <em>El nom del mètode de pagament corresponent (normalment de tipus domiciliació) tal com apareix al CRM</em></li>
 <li><strong>És un pagament diferit</strong> - valor per defecte: <em>1</em> (sí)</li>
 </ul>
 <p>Un cop tinguem el fitxer CSV amb les contribucions a importar ja podrem procedir
@@ -107,7 +107,7 @@ actual. Per tal de no haver de fer aquesta acció manualment contacte a contacte
 contribució a contribució el CRM ofereix una eina per poder fer aquesta acció en
 bloc.</p>
 <p>Per fer-ho ens cal cercar les contribucions que volem actualitzar (per exemple les
-contribucions de <strong>tipus financer</strong> 'Quotes de pertinences' amb <strong>data de recepció</strong> 'El mes actual' i amb <strong>estat de la contribució</strong> 'Pendent') i utilitzar
+contribucions de <strong>tipus financer</strong> corresponent amb <strong>data de recepció</strong> 'El mes actual' i amb <strong>estat de la contribució</strong> 'Pendent') i utilitzar
 l'acció <strong>Actualitza l'estat de les contribucions pendents</strong>.</p>
 <blockquote>
 <p>Vegeu <a href="https://docs.civicrm.org/user/ca/latest/contributions/finding-and-viewing-contributions/">CiviCRM - Guia de l'usuari &gt; Contribucions &gt; Cerca i visualització de contribucions</a> per a més informació de com actualitzar l'estat de les contribucions pendents.</p>
