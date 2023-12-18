@@ -4,8 +4,8 @@
 
 ## Persones
 
-- **Infant / Jove: *** persona menor d'edat i usuària de l'entitat.
-- **Adult - infància: *** persona adulta vinculada a la unitat familiar i de convivència dels usuaris de l'entitat menors d'edat.
+- **Infant / Jove: **\* persona menor d'edat i usuària de l'entitat.
+- **Adult - infància: **\* persona adulta vinculada a la unitat familiar i de convivència dels usuaris de l'entitat menors d'edat.
 - **Docent:** docent d'un centre educatiu on estudien usuaris de l'entitat menors d'edat.
 
 ## Organitzacions
@@ -24,7 +24,7 @@
 
 ## Llars
 
-- **Unitat familiar i de convivència: *** llar on conviuen diferents membres d'una unitat familiar i de convivència vinculada al usuaris de l'entitat menors d'edat.
+- **Unitat familiar i de convivència: **\* llar on conviuen diferents membres d'una unitat familiar i de convivència vinculada al usuaris de l'entitat menors d'edat.
 
 > \* Els contactes marcats amb un asterisc tenen definits camps personalitzats.
 

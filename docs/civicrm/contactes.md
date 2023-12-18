@@ -6,20 +6,20 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 ## Persones
 
-- **Persona: *** qualsevol persona que té vinculació directa o indirecta amb l'entitat.
-- **Persona migrant: *** persona usuària de l'entitat que ha realitzat un procés migratori cap al nostre país.
-- **Professional: *** professionals que presten o poden prestar assistència a participants dels diferents programes de l'entitat.
-- **Usuaris: *** en els mòduls definim diferents tipus de persones usuàries de l'entitat que actuen com a tipus de contactes.
-- **Usuaris adults: *** en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.
+- **Persona: **\* qualsevol persona que té vinculació directa o indirecta amb l'entitat.
+- **Persona migrant: **\* persona usuària de l'entitat que ha realitzat un procés migratori cap al nostre país.
+- **Professional: **\* professionals que presten o poden prestar assistència a participants dels diferents programes de l'entitat.
+- **Usuaris: **\* en els mòduls definim diferents tipus de persones usuàries de l'entitat que actuen com a tipus de contactes.
+- **Usuaris adults: **\* en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.
 - **Treballador:** treballador de l'entitat.
 
 ## Organitzacions
 
 - **Organització:** qualsevol organització que té vinculació directa o indirecta amb l'entitat.
-- **Centre educació infantil: *** centre d'educació infantil vinculat als participants dels diferents programes de l'entitat.
-- **Centre educació primària: *** centre d'educació primària vinculat als participants dels diferents programes de l'entitat.
-- **Centre educació secundària: *** centre d'educació secundària vinculat als participants dels diferents programes de l'entitat.
-- **Centre de batxillerat: *** centre de batxillerat vinculat als participants dels diferents programes de l'entitat.
+- **Centre educació infantil: **\* centre d'educació infantil vinculat als participants dels diferents programes de l'entitat.
+- **Centre educació primària: **\* centre d'educació primària vinculat als participants dels diferents programes de l'entitat.
+- **Centre educació secundària: **\* centre d'educació secundària vinculat als participants dels diferents programes de l'entitat.
+- **Centre de batxillerat: **\* centre de batxillerat vinculat als participants dels diferents programes de l'entitat.
 - **Col·legi professional:** Col·legis de psicòlegs, psicopedagogs i d'altres professionals vinculats directament o indirecta amb els participants dels diferents programes de l'entitat.
 
 ## Llars

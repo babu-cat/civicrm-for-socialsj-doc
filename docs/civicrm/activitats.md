@@ -21,11 +21,11 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 ## Activitats amb contactes
 
-- **Canvi d'adreça: *** Registre d'un canvi d'adreça d'un contacte.
+- **Canvi d'adreça: **\* Registre d'un canvi d'adreça d'un contacte.
 
 - **Col·laboració esporàdica:**  Registre d'una col·laboració esporàdica amb algun voluntari, tallerista o professional que fa alguna xerrada, taller o altre activitat no directament relacionada amb els projectes i cursos de l'entitat.
 
-- **Coordinació [gestió i administració]: *** Coordinació amb un contacte amb contingut sensible o privat només accessible per a perfils administradors.
+- **Coordinació [gestió i administració]: **\* Coordinació amb un contacte amb contingut sensible o privat només accessible per a perfils administradors.
 
 ## Activitats amb usuaris
 
@@ -33,11 +33,11 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 > Adults del [mòdul adults](/adults).
 
-- **Acollida: *** Registre d'una acollida d'un usuari a l'entitat amb o sense derivació.
+- **Acollida: **\* Registre d'una acollida d'un usuari a l'entitat amb o sense derivació.
 
-- **Derivació: *** Registre d'una derivació d'un usuari de l'entitat cap a una altra organització.
+- **Derivació: **\* Registre d'una derivació d'un usuari de l'entitat cap a una altra organització.
 
-- **Migració: *** Registre d'un desplaçament migratori d'un usuari de l'entitat.
+- **Migració: **\* Registre d'un desplaçament migratori d'un usuari de l'entitat.
 
 ## Activitats amb usuaris adults
 
@@ -45,7 +45,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 > Adults del [mòdul adults](/adults).
 
-- **Registre de situació laboral: *** Registre de situació laboral d'un usuari de l'entitat adult.
+- **Registre de situació laboral: **\* Registre de situació laboral d'un usuari de l'entitat adult.
 
 > \* Les activitats marcades amb un asterisc tenen definits camps personalitzats.
 
@@ -85,13 +85,13 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 - **Acords**
 
-    Àrea de text	 
+    Àrea de text
 
 ### Acollida
 
 #### Derivació acollida
 
-- **Derivació** -	L'usuari/ària ve derivat per una altra organització o per algun professional?
+- **Derivació** - L'usuari/ària ve derivat per una altra organització o per algun professional?
 
     Resposta Sí/No
 
@@ -105,7 +105,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 - **Motius** - Indiqueu, si s'escau, els motius i detalls de la derivació.
 
-    Àrea de text	 
+    Àrea de text
 
 ### Derivació
 
@@ -136,7 +136,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
     Selecció de país
 
-- **Lloc de destí** -	Especifiqueu quina és la població o regió destí de la migració.
+- **Lloc de destí** - Especifiqueu quina és la població o regió destí de la migració.
 
     Text
 
@@ -156,7 +156,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 - **CV**
 
-    Fitxer	 
+    Fitxer
 
 - **Observacions situació laboral**
 

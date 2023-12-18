@@ -6,30 +6,30 @@ En aquest apartat definirem un seguit d'activitats que ens permetran definir dif
 
 ## Infant / Jove
 
-- **Registre de documentació: *** Registre de documentació d'un infant o jove. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
-- **Registre d'autoritzacions: *** Registre d'autoritzacions d'un infant o jove. Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzacions aportades en registres anteriors.
-- **Registre de resultats acadèmics: *** Registre de resultats acadèmics d'un infant o jove.
+- **Registre de documentació: **\* Registre de documentació d'un infant o jove. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
+- **Registre d'autoritzacions: **\* Registre d'autoritzacions d'un infant o jove. Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzacions aportades en registres anteriors.
+- **Registre de resultats acadèmics: **\* Registre de resultats acadèmics d'un infant o jove.
 - **Registre expedient acadèmic:** Registre d'expedient acadèmic d'un infant o jove.
-- **Registre situació menjador escolar: *** Registre de situació en el menjador escolar d'un infant / jove.
-- **Entrega xecs CPI: *** Registre d'una entrega de xecs a l'infant o jove del programa de la CaixaProinfància.
+- **Registre situació menjador escolar: **\* Registre de situació en el menjador escolar d'un infant / jove.
+- **Entrega xecs CPI: **\* Registre d'una entrega de xecs a l'infant o jove del programa de la CaixaProinfància.
 - **Observació de salut:** Registre d'una observació relativa a la salut de l'infant o jove.
 - **Observació d'escolarització:** Registre d'una observació relativa a l'escolarització d'un infant o jove.
 - **Registre d'activitats extraescolars:** Registre de la realització d'activitats extraescolars per part d'un infant o jove. Un registre d'activitats extraescolars nou deixa obsolet un registre antic.
-- **Registre de seguiment/coordinació: *** Registre de seguiment/coordinació d'un infant o jove amb un o més contactes relacionats directa o indirectament amb aquest infant o jove.
-- **Rep atenció psicoterapèutica: *** Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.
-- **Registre de documentació CPI: ***
+- **Registre de seguiment/coordinació: **\* Registre de seguiment/coordinació d'un infant o jove amb un o més contactes relacionats directa o indirectament amb aquest infant o jove.
+- **Rep atenció psicoterapèutica: **\* Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.
+- **Registre de documentació CPI: **\*
 
 ## Adult - Infància
-- **Registre de documentació: *** Registre de documentació d'un adult infància. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
-- **Registre de situació econòmica - ingressos: *** Registre de situació econòmica d'un adult - infància.
-- **Rep atenció psicoterapèutica: *** Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.
+- **Registre de documentació: **\* Registre de documentació d'un adult infància. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
+- **Registre de situació econòmica - ingressos: **\* Registre de situació econòmica d'un adult - infància.
+- **Rep atenció psicoterapèutica: **\* Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.
 
 ## Unitat familiar i de convivència
-- **Registre de documentació: *** Registre de documentació d'una UFC. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
-- **Registre de justificant de percepció de serveis CPI: *** Registre de justificant de percepció de serveis Caixa ProInfància durant el curs. El justificant pot ser aportat en nom d'un infant o jove o bé dels infants o joves d'una Unitat Familiar i de Convivència.
-- **Registre de situació econòmica - despeses: *** Registre de situació econòmica d'una Unitat Familiar i de Convivència.
-- **Registre de seguiment familiar: *** Registre de seguiment d'una Unitat Familiar i de Convivència.
-- **Intervenció educativa: *** Registre d'una intervenció educativa centrada en una Unitat Familiar i de Convivència.
+- **Registre de documentació: **\* Registre de documentació d'una UFC. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.
+- **Registre de justificant de percepció de serveis CPI: **\* Registre de justificant de percepció de serveis Caixa ProInfància durant el curs. El justificant pot ser aportat en nom d'un infant o jove o bé dels infants o joves d'una Unitat Familiar i de Convivència.
+- **Registre de situació econòmica - despeses: **\* Registre de situació econòmica d'una Unitat Familiar i de Convivència.
+- **Registre de seguiment familiar: **\* Registre de seguiment d'una Unitat Familiar i de Convivència.
+- **Intervenció educativa: **\* Registre d'una intervenció educativa centrada en una Unitat Familiar i de Convivència.
 
 Si es desitja registrar algun tipus d'activitat o comentari que no queda contemplat en aquest funcional d'activitats, sempre es pot afegir l'observació com una **nota** adjunta al contacte. Les notes, de la mateixa manera que les activitats permeten l'adjunció de fitxers. També permet definir-ne la privacitat, o bé per a tothom, o bé només per l'autor i els usuaris amb permís per veure totes les notes.
 
