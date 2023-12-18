@@ -16,7 +16,13 @@ o bé...
 
 `pipx install mkdocs`
 
-`pipx inject mkdocs mkdocs-material mkdocs-material-extensions mkdocs-macros-plugins pymdown-extensions`
+`pipx inject mkdocs mkdocs-material mkdocs-material-extensions pymdown-extensions`
+
+### Upgrade Mkdocs
+
+`pipx upgrade mkdocs`
+
+`pipx inject mkdocs mkdocs-material mkdocs-material-extensions pymdown-extensions`
 
 ## Desenvolupament
 
