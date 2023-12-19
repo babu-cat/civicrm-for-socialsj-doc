@@ -51,9 +51,9 @@ Abans de procedir amb la presentació del model 993, és molt important fer els 
 1. Accedir a l'informe del 182 del CRM
 2. Filtrar per les províncies `Barcelona`, `Tarragona`, `Lleida` i `Girona` i per tipus de contacte `Individual`
 3. Exportar en CSV els resultats
-4. Copiar la resta d'informació segons les instruccions que publiqui gencat [https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf)
+4. Adaptar el CSV segons les instruccions que publiqui gencat [https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf)
 5. Presentar fent una importació de l’arxiu CSV
-6. Premem el botó de Validar
+6. Clicar el botó de Validar
 7. Acceptar el quadre de condicions que apareix
 8. Per finalitzar guardar el justificant de la Declaració
 
