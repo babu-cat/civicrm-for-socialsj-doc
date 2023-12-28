@@ -13,7 +13,6 @@ El CRM incorpora una extensió que permet, a través d'un informe, generar els f
 Abans de procedir amb la generació dels fitxers o dades necessàries és necessari assegurar-nos, no només que les dades estan introduïdes, sinó que ho estan de forma correcte. Per això l'extensió preveu tot un seguit de validacions que faciliten part de les comprovacions necessàries d'aquests processos.
 
 Des de l'informe del 182 habilitat en el CRM i abans de procedir a la presentacio de qualsevol dels dos models caldrà:
-Abans de procedir amb la presentació de qualsevol dels dos models cal:
 
 1. Revisar els avisos (en groc) que es mostren en la pantalla de l'informe
 2. Prémer el botó **Validate 182** i corregir els errors (en vermell) que es mostrin en la pantalla de l'informe
@@ -23,6 +22,15 @@ Més enllà d'aquestes dues principals indicacions cal tenir en compte també aq
 - Marcar tots els donatius que no es volen declarar, si és que n'hi ha
 - Validar amb la comptabilitat els números que es mostren a l'informe 182 (totals de número de donatius i d'imports)
 - Assegurar-se que estan entrats els donatius dels dos períodes impositius anteriors
+- Les contribucions de contactes sense NIF/NIE/CIF registrat no s'inclouen en l'informe
+
+!!! info "Validacions"
+    L'informe fa les següents comprovacions i mostra els corresponents avisos en pantalla:
+
+    - Contactes amb identificadors fiscals duplicats
+    - Validesa dels camps NIF, NIE i CIF
+    - Validesa del camp codi postal
+    - Correspondència entre el codi postal i la provincia
 
 ## Presentació del model 182
 
