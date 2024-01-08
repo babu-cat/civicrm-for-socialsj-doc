@@ -1728,12 +1728,16 @@
 <p>Abans de procedir amb la presentació del model 993, és molt important fer els <a href="#presentacio-del-model-182">6 primers passos</a> de la presentació del model 182 que ens permeten assegurar que no tenim errors en les dades a presentar. Un cop fetes les corresponents verificacions podrem procedir amb els següents passos:</p>
 <ol>
 <li>Accedir a l'informe del 182 del CRM</li>
-<li>Filtrar per les províncies <code>Barcelona</code>, <code>Tarragona</code>, <code>Lleida</code> i <code>Girona</code> i per tipus de contacte <code>Individual</code></li>
+<li>Filtrar per les províncies <code>Barcelona</code>, <code>Tarragona</code>, <code>Lleida</code> i <code>Girona</code> i per tipus de contacte <code>Persona</code></li>
 <li>Exportar en CSV els resultats</li>
-<li>Adaptar el CSV segons les instruccions que publiqui gencat <a href="https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf">https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf</a></li>
+<li>Adaptar el CSV segons les instruccions que publiqui gencat <a href="https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf">https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf</a>. Del CSV aprofitarem les columnes</li>
+<li>"Identificador fiscal" pel <strong>"NIF del donant"</strong></li>
+<li>"Nom del contacte 993" pel <strong>"COGNOM1 COGNOM2 NOM"</strong></li>
+<li>"Import 993" pel <strong>"Import en euros"</strong>
+  El <strong>"NIF del representant"</strong> el deixarem buit i omplirem totes les files del <strong>"NIF de la entitat receptora"</strong> i <strong>"NOM o RAÓ SOCIAL de la entitat receptora"</strong> (en majúscules) amb el NIF i Nom de l'entitat.</li>
 <li>Presentar fent una importació de l’arxiu CSV</li>
-<li>Clicar el botó de Validar</li>
-<li>Acceptar el quadre de condicions que apareix</li>
+<li>Clicar el botó de Validar i revisar si hi ha errors. En cas d'haver-hi, corregir-los al CRM i tornar a començar pel punt 1</li>
+<li>Un cop validat, acceptar el quadre de condicions que apareix</li>
 <li>Per finalitzar guardar el justificant de la Declaració</li>
 </ol>
 <div class="admonition question">
