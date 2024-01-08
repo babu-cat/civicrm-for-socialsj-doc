@@ -57,12 +57,16 @@ Passos per a presentar el model 182:
 Abans de procedir amb la presentació del model 993, és molt important fer els [6 primers passos](#presentacio-del-model-182) de la presentació del model 182 que ens permeten assegurar que no tenim errors en les dades a presentar. Un cop fetes les corresponents verificacions podrem procedir amb els següents passos:
 
 1. Accedir a l'informe del 182 del CRM
-2. Filtrar per les províncies `Barcelona`, `Tarragona`, `Lleida` i `Girona` i per tipus de contacte `Individual`
+2. Filtrar per les províncies `Barcelona`, `Tarragona`, `Lleida` i `Girona` i per tipus de contacte `Persona`
 3. Exportar en CSV els resultats
-4. Adaptar el CSV segons les instruccions que publiqui gencat [https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf)
+4. Adaptar el CSV segons les instruccions que publiqui gencat [https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf). Del CSV aprofitarem les columnes
+   - "Identificador fiscal" pel **"NIF del donant"**
+   - "Nom del contacte 993" pel **"COGNOM1 COGNOM2 NOM"**
+   - "Import 993" pel **"Import en euros"**
+  El **"NIF del representant"** el deixarem buit i omplirem totes les files del **"NIF de la entitat receptora"** i **"NOM o RAÓ SOCIAL de la entitat receptora"** (en majúscules) amb el NIF i Nom de l'entitat.
 5. Presentar fent una importació de l’arxiu CSV
-6. Clicar el botó de Validar
-7. Acceptar el quadre de condicions que apareix
+6. Clicar el botó de Validar i revisar si hi ha errors. En cas d'haver-hi, corregir-los al CRM i tornar a començar pel punt 1
+7. Un cop validat, acceptar el quadre de condicions que apareix
 8. Per finalitzar guardar el justificant de la Declaració
 
 !!! question "Puc rectificar una declaració ja presentada?"
