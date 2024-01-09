@@ -58,16 +58,9 @@ Abans de procedir amb la presentació del model 993, és molt important fer els 
 
 1. Accedir a l'informe del 182 del CRM
 2. Filtrar per les províncies `Barcelona`, `Tarragona`, `Lleida` i `Girona` i per tipus de contacte `Persona`
-3. Exportar en CSV els resultats
-4. Adaptar el CSV segons les instruccions que publiqui gencat [https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf). Del CSV aprofitarem les columnes
-
-    - "Identificador fiscal" pel **"NIF del donant"**
-    - "Nom del contacte 993" pel **"COGNOM1 COGNOM2 NOM"**
-    - "Import 993" pel **"Import en euros"**
-
-    El **"NIF del representant"** el deixarem buit i omplirem totes les files de les celes del **"NIF de la entitat receptora"** i del **"NOM o RAÓ SOCIAL de la entitat receptora"** (en majúscules) amb el NIF i Nom de l'entitat.
-
-5. Presentar fent una importació de l’arxiu CSV
+3. Prémer el botó **Export 993**. El botó "Export 993" apareix un cop premut el botó "Validate 182" sempre que estiguin definits els filtres .
+4. Anar a la [pàgina de presentació del Model 993](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf) de la web de l'Agència Tributària de Catalunya.
+5. Importar el fitxer anteriorment descarregat
 6. Clicar el botó de Validar i revisar si hi ha errors. En cas d'haver-hi, corregir-los al CRM i tornar a començar pel punt 1
 7. Un cop validat, acceptar el quadre de condicions que apareix
 8. Per finalitzar guardar el justificant de la Declaració
