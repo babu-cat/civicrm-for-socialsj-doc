@@ -1,4 +1,4 @@
-# Declaració i certificació de donatius
+# Declaració i certificació de donatius (182 i 993)
 
 !!! info "Important"
     Tot i que el termini de presentació del model 993 acaba abans que el del model 182, és altament recomanable presentar-los els dos al mateix moment, o en el seu defecte, en el moment de presentar el 182, per així assegurar-se que tots els declarats en el 182 han estat declarats prèviament en el 993, i viceversa.
@@ -38,7 +38,7 @@ Veure la [documentació oficial](https://sede.agenciatributaria.gob.es/Sede/ca_e
 
 Passos per a presentar el model 182:
 
-1. Quan haguem corregit tots els errors prémer el botó **Export 182**. El botó "Export 182" apareix un cop premut el botó "Validate 182".
+1. Quan haguem corregit tots els errors prémer el botó **Export 182**. El botó apareix un cop premut el botó "Validate 182".
 2. Es descarregarà un fitxer. Aquest és el que hem de pujar a Hisenda.
 3. Anar a la [pàgina de presentació del Model 182](https://sede.agenciatributaria.gob.es/Sede/va_es/procedimientoini/GI02.shtml) de la web d'Hisenda
 4. Seleccionar la presentació fins a 40.000 registres
@@ -58,7 +58,7 @@ Abans de procedir amb la presentació del model 993, és molt important fer els 
 
 1. Accedir a l'informe del 182 del CRM
 2. Filtrar per les províncies `Barcelona`, `Tarragona`, `Lleida` i `Girona` i per tipus de contacte `Persona`
-3. Prémer el botó **Export 993**. El botó "Export 993" apareix un cop premut el botó "Validate 182" sempre que estiguin definits els filtres .
+3. Prémer el botó **Export 993**. El botó apareix un cop premut el botó "Validate 182" sempre que estiguin definits els filtres .
 4. Anar a la [pàgina de presentació del Model 993](https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf) de la web de l'Agència Tributària de Catalunya.
 5. Importar el fitxer anteriorment descarregat
 6. Clicar el botó de Validar i revisar si hi ha errors. En cas d'haver-hi, corregir-los al CRM i tornar a començar pel punt 1
