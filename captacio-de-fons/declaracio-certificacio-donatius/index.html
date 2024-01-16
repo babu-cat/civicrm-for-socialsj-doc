@@ -1674,10 +1674,6 @@
 <p class="admonition-title">Important</p>
 <p>Tot i que el termini de presentació del model 993 acaba abans que el del model 182, és altament recomanable presentar-los els dos al mateix moment, o en el seu defecte, en el moment de presentar el 182, per així assegurar-se que tots els declarats en el 182 han estat declarats prèviament en el 993, i viceversa.</p>
 </div>
-<div class="admonition danger">
-<p class="admonition-title">Atenció!</p>
-<p>No utilitzar l'exportació a Excel des de l'informe 182. Podria ser que no funcionés correctament. Només exportar els registres mitjançant CSV.</p>
-</div>
 <p>El CRM incorpora una extensió que permet, a través d'un informe, generar els fitxers necessaris per a presentar el <strong>model 182</strong>, com també facilitar la presentació, si cal, del <strong>model 993</strong> i l'obtenció de les dades necessàries per tal de generar els <strong>certificats fiscals</strong> de donacions.</p>
 <h2 id="previs-a-la-presentacio-dels-models-182-i-993">Previs a la presentació dels models 182 i 993<a class="headerlink" href="#previs-a-la-presentacio-dels-models-182-i-993" title="Permanent link">&para;</a></h2>
 <p>Abans de procedir amb la generació dels fitxers o dades necessàries és necessari assegurar-nos, no només que les dades estan introduïdes, sinó que ho estan de forma correcte. Per això l'extensió preveu tot un seguit de validacions que faciliten part de les comprovacions necessàries d'aquests processos.</p>
@@ -1688,10 +1684,11 @@
 </ol>
 <p>Més enllà d'aquestes dues principals indicacions cal tenir en compte també aquestes altres:</p>
 <ul>
-<li>Marcar tots els donatius que no es volen declarar, si és que n'hi ha</li>
-<li>Validar amb la comptabilitat els números que es mostren a l'informe 182 (totals de número de donatius i d'imports)</li>
-<li>Assegurar-se que estan entrats els donatius dels dos períodes impositius anteriors</li>
-<li>Les contribucions de contactes sense NIF/NIE/CIF registrat no s'inclouen en l'informe</li>
+<li>Les contribucions de contactes sense NIF/NIE/CIF registrat no s'inclouen en l'informe.</li>
+<li>Els donatius dels donants dels quals no es sàpiga la província, inferida dels 2 primers dígits del codi postal, no es poden declarar. Si no aconseguim disposar del codi postal abans de fer la presentació del model, podrem indicar en la contribució del CRM de no declarar-la.</li>
+<li>Validar amb la comptabilitat els números que es mostren a l'informe 182 (totals de número de donatius i d'imports).</li>
+<li>Marcar tots els donatius que no es volen declarar, si és que n'hi ha.</li>
+<li>Assegurar-se que estan entrats els donatius dels dos períodes impositius anteriors. En general ho estaran si ja s'ha presentat el període anterior des del CRM.</li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">Validacions</p>
@@ -1709,6 +1706,13 @@
 <ol>
 <li>Quan haguem corregit tots els errors prémer el botó <strong>Export 182</strong>. El botó apareix un cop premut el botó "Validate 182".</li>
 <li>Es descarregarà un fitxer. Aquest és el que hem de pujar a Hisenda.</li>
+<li>Exportar, des d'accions, el fitxer CSV corresponent a l'informe com a comprovant i per poder-lo utilitzar a posteriori per a la <a href="#gestio-de-certificats-fiscals">generació dels certificats fiscals</a>.</li>
+</ol>
+<div class="admonition danger">
+<p class="admonition-title">Atenció!</p>
+<p>No utilitzar l'exportació a Excel des de l'informe 182. Podria ser que no funcionés correctament. Només exportar els registres mitjançant CSV.</p>
+</div>
+<ol>
 <li>Anar a la <a href="https://sede.agenciatributaria.gob.es/Sede/va_es/procedimientoini/GI02.shtml">pàgina de presentació del Model 182</a> de la web d'Hisenda</li>
 <li>Seleccionar la presentació fins a 40.000 registres</li>
 <li>Importar el fitxer anteriorment descarregat</li>
@@ -1725,11 +1729,12 @@
 <p>Si es vol fer qualsevol modificació s'ha de presentar de nou la declaració completa. Dit d'una altra manera, la darrera declaració presentada és la que preval.</p>
 </div>
 <h2 id="presentacio-del-model-993">Presentació del model 993<a class="headerlink" href="#presentacio-del-model-993" title="Permanent link">&para;</a></h2>
-<p>Abans de procedir amb la presentació del model 993, és molt important fer els <a href="#presentacio-del-model-182">6 primers passos</a> de la presentació del model 182 que ens permeten assegurar que no tenim errors en les dades a presentar. Un cop fetes les corresponents verificacions podrem procedir amb els següents passos:</p>
+<p>Abans de procedir amb la presentació del model 993, és molt important fer els <a href="#presentacio-del-model-182">7 primers passos</a> de la presentació del model 182 que ens permeten assegurar que no tenim errors en les dades a presentar. Un cop fetes les corresponents verificacions podrem procedir amb els següents passos:</p>
 <ol>
 <li>Accedir a l'informe del 182 del CRM</li>
 <li>Filtrar per les províncies <code>Barcelona</code>, <code>Tarragona</code>, <code>Lleida</code> i <code>Girona</code> i per tipus de contacte <code>Persona</code></li>
-<li>Prémer el botó <strong>Export 993</strong>. El botó apareix un cop premut el botó "Validate 182" sempre que estiguin definits els filtres .</li>
+<li>Prémer el botó <strong>Export 993</strong>. El botó apareix un cop premut el botó "Validate 182" sempre que estiguin definits els filtres.</li>
+<li>Exportar, des d'accions, el fitxer CSV corresponent a l'informe com a comprovant.</li>
 <li>Anar a la <a href="https://atc.gencat.cat/es/tributs/irpf/deduccions-autonomiques-irpf">pàgina de presentació del Model 993</a> de la web de l'Agència Tributària de Catalunya.</li>
 <li>Importar el fitxer anteriorment descarregat</li>
 <li>Clicar el botó de Validar i revisar si hi ha errors. En cas d'haver-hi, corregir-los al CRM i tornar a començar pel punt 1</li>
