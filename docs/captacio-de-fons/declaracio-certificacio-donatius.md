@@ -1,6 +1,6 @@
 # Declaració i certificació de donatius (182 i 993)
 
-!!! Tip "Terninis de presentació"
+!!! Tip "Terminis de presentació"
     Tot i que el termini de presentació del model 993 acaba abans que el del model 182, és altament recomanable presentar-los els dos al mateix moment, o en el seu defecte, en el moment de presentar el 182, per així assegurar-se que tots els declarats en el 182 han estat declarats prèviament en el 993, i viceversa.
 
 El CRM incorpora una extensió que permet, a través d'un informe, generar els fitxers necessaris per a presentar el **model 182**, com també facilitar la presentació, si cal, del **model 993** i l'obtenció de les dades necessàries per tal de generar els **certificats fiscals** de donacions.
