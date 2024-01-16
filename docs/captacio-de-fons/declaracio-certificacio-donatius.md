@@ -40,8 +40,8 @@ Passos per a presentar el model 182:
 2. Es descarregarà un fitxer. Aquest és el que hem de pujar a Hisenda.
 3. Exportar, des d'accions, el fitxer CSV corresponent a l'informe com a comprovant i per poder-lo utilitzar a posteriori per a la [generació dels certificats fiscals](#gestio-de-certificats-fiscals).
 
-!!! danger "Atenció!"
-    No utilitzar l'exportació a Excel des de l'informe 182. Podria ser que no funcionés correctament. Només exportar els registres mitjançant CSV.
+    !!! danger "Atenció!"
+        No utilitzar l'exportació a Excel des de l'informe 182. Podria ser que no funcionés correctament. Només exportar els registres mitjançant CSV.
 
 4. Anar a la [pàgina de presentació del Model 182](https://sede.agenciatributaria.gob.es/Sede/va_es/procedimientoini/GI02.shtml) de la web d'Hisenda
 5. Seleccionar la presentació fins a 40.000 registres
