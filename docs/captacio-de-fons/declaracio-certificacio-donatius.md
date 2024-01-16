@@ -52,7 +52,7 @@ Passos per a presentar el model 182:
 
 8. Un cop no tinguem errors al importar el fitxer, introduir manualment si n’hi ha, els donatius en espècie i prémer a Signar i Enviar.
 
-!!! question "Puc rectificar una declaració ja presentada?"
+!!! question "Puc rectificar una declaració del 182 ja presentada?"
     Si es vol fer qualsevol modificació s'ha de presentar de nou la declaració completa. Dit d'una altra manera, la darrera declaració presentada és la que preval.
 
 ## Presentació del model 993
@@ -69,7 +69,7 @@ Abans de procedir amb la presentació del model 993, és molt important fer els 
 8. Un cop validat, acceptar el quadre de condicions que apareix
 9. Per finalitzar guardar el justificant de la Declaració
 
-!!! question "Puc rectificar una declaració ja presentada?"
+!!! question "Puc rectificar una declaració del 993 ja presentada?"
     Es poden presentar registres “descuidats” en presentacions prèvies mentre s'estigui dintre de termini. El que no és possible és fer rectificacions sobre registres de donants ja declarats o almenys aquest és el missatge de l'aplicatiu quan en una ocasió vam intentar presentar una complementària:
 
     ```
