@@ -20,6 +20,7 @@ Des de l'informe del 182 habilitat en el CRM i abans de procedir a la presentaci
 
 Més enllà d'aquestes dues principals indicacions cal tenir en compte també aquestes altres:
 
+- Tots els contactes amb **donatius han de tenir una adreça amb com a mínim el país informat**, altrament l'informe no té manera de saber si es tracta d'un donatiu Espanyol i per tant no el té en compte.
 - Les contribucions de **contactes sense NIF/NIE/CIF** registrat no s'inclouen en l'informe.
 - Els donatius dels **donants dels quals no es sàpiga la província**, inferida dels 2 primers dígits del codi postal, no es poden declarar. Si no aconseguim disposar del codi postal abans de fer la presentació del model, podrem indicar en la contribució del CRM de no declarar-la.
 - **Validar amb comptabilitat** els números que es mostren a l'informe 182, els totals de número de donatius i d'imports que es mostren un cop valida l'informe.
