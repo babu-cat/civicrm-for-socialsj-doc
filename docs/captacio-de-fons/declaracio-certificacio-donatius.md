@@ -41,7 +41,7 @@ Veure la [documentació oficial](https://sede.agenciatributaria.gob.es/Sede/ca_e
 
 Passos per a presentar el model 182:
 
-1. Quan haguem corregit tots els errors, desrpés de prémer el botó **Validate 182** ens apareixerà el resum del resultat de la declaració i podrem procedir a prémer el botó **Export 182**. El botó apareix un cop premut el botó "Validate 182".
+1. Quan haguem corregit tots els errors, després de prémer el botó **Validate 182** ens apareixerà el resum del resultat de la declaració i podrem procedir a prémer el botó **Export 182**.
 2. Es descarregarà un fitxer. Aquest és el que hem de pujar a Hisenda.
 3. Exportar, des d'accions, el fitxer CSV corresponent a l'informe com a comprovant i per poder-lo utilitzar a posteriori per a la [generació dels certificats fiscals](#gestio-de-certificats-fiscals).
 
