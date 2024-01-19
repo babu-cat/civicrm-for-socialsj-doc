@@ -4,7 +4,6 @@ Les persones físiques amb residència fiscal a l'estat espanyol tenen dret a de
 
 Cal presentar 2 models informatius: el 182 a l’agència tributària de l’estat (de l’1 al 30 de gener) i el 993 a l’agència tributària catalana (de l’1 al 20 de gener). Ambdós terminis poden variar d'un any a l'altre i per això convé confirmar-los cada any. Posteriorment, habitualment cap al març abans que comenci el període per poder presentar la declaració de la renda, cal procedir amb l’enviament dels certificats fiscals a tots aquells donants declarats al 182.
 
-
 !!! Tip "Terminis de presentació"
     Tot i que el termini de presentació del model 993 acaba abans que el del model 182, és altament recomanable presentar-los els dos al mateix moment, o en el seu defecte, en el moment de presentar el 182, per així assegurar-se que tots els declarats en el 182 han estat declarats prèviament en el 993, i viceversa.
 
@@ -42,7 +41,7 @@ Veure la [documentació oficial](https://sede.agenciatributaria.gob.es/Sede/ca_e
 
 Passos per a presentar el model 182:
 
-1. Quan haguem corregit tots els errors prémer el botó **Export 182**. El botó apareix un cop premut el botó "Validate 182".
+1. Quan haguem corregit tots els errors, desrpés de prémer el botó **Validate 182** ens apareixerà el resum del resultat de la declaració i podrem procedir a prémer el botó **Export 182**. El botó apareix un cop premut el botó "Validate 182".
 2. Es descarregarà un fitxer. Aquest és el que hem de pujar a Hisenda.
 3. Exportar, des d'accions, el fitxer CSV corresponent a l'informe com a comprovant i per poder-lo utilitzar a posteriori per a la [generació dels certificats fiscals](#gestio-de-certificats-fiscals).
 
