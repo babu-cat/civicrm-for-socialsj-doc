@@ -1,5 +1,10 @@
 # Declaració i certificació de donatius (182 i 993)
 
+Les persones físiques amb residència fiscal a l'estat espanyol tenen dret a desgravar els donatius. Si l'entitat està adherida al cens d’entitats que promocionen l’ús de la llengua catalana, els que tinguin residència fiscal a Catalunya també poden desgravar els donatius de la part autonòmica corresponent a aquest concepte.
+
+Cal presentar 2 models informatius: el 182 a l’agència tributària de l’estat (de l’1 al 30 de gener) i el 993 a l’agència tributària catalana (de l’1 al 20 de gener). Ambdós terminis poden variar d'un any a l'altre i per això convé confirmar-los cada any. Posteriorment, habitualment cap al març abans que comenci el període per poder presentar la declaració de la renda, cal procedir amb l’enviament dels certificats fiscals a tots aquells donants declarats al 182.
+
+
 !!! Tip "Terminis de presentació"
     Tot i que el termini de presentació del model 993 acaba abans que el del model 182, és altament recomanable presentar-los els dos al mateix moment, o en el seu defecte, en el moment de presentar el 182, per així assegurar-se que tots els declarats en el 182 han estat declarats prèviament en el 993, i viceversa.
 
@@ -16,11 +21,12 @@ Des de l'informe del 182 habilitat en el CRM i abans de procedir a la presentaci
 
 Més enllà d'aquestes dues principals indicacions cal tenir en compte també aquestes altres:
 
-- Les contribucions de contactes sense NIF/NIE/CIF registrat no s'inclouen en l'informe.
-- Els donatius dels donants dels quals no es sàpiga la província, inferida dels 2 primers dígits del codi postal, no es poden declarar. Si no aconseguim disposar del codi postal abans de fer la presentació del model, podrem indicar en la contribució del CRM de no declarar-la.
-- Validar amb la comptabilitat els números que es mostren a l'informe 182 (totals de número de donatius i d'imports).
-- Marcar tots els donatius que no es volen declarar, si és que n'hi ha.
-- Assegurar-se que estan entrats els donatius dels dos períodes impositius anteriors. En general ho estaran si ja s'ha presentat el període anterior des del CRM.
+- Les contribucions de **contactes sense NIF/NIE/CIF** registrat no s'inclouen en l'informe.
+- Els donatius dels **donants dels quals no es sàpiga la província**, inferida dels 2 primers dígits del codi postal, no es poden declarar. Si no aconseguim disposar del codi postal abans de fer la presentació del model, podrem indicar en la contribució del CRM de no declarar-la.
+- **Validar amb comptabilitat** els números que es mostren a l'informe 182, els totals de número de donatius i d'imports que es mostren un cop valida l'informe.
+- Marcar tots els **donatius que no es volen declarar**, si és que n'hi ha.
+- És especialment recomanable assegurar-se que no es tenen **contactes duplicats** entre els donants del període a presentar, per evitar incórrer en errors de càlculs de recurrència de donatius o per exemple també deixar de declarar donatius per manca de NIF o codi postal quan algun dels seus contactes duplicats té la informació. Pot ser suficient fer una cerca de contactes duplicats amb diferents regles sobre contactes amb donatius de l'any anterior.
+- Assegurar-se que estan entrats els donatius dels **tres períodes impositius anteriors** al període a declarar (dos a partir dels donatius fets de l'1 de gener del 2024 en endavant). En general ho estaran si ja s'ha presentat el període anterior des del CRM.
 
 !!! info "Validacions"
     L'informe fa les següents comprovacions i mostra els corresponents avisos en pantalla:
