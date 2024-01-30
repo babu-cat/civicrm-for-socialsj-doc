@@ -81,6 +81,7 @@ nav:
 - Xarxa d'Hospitalitat:
     - 'Definició': 'xarxa-hospitalitat/definicio.md'
     - "Guia d'ús": 'xarxa-hospitalitat/guia-us.md'
+- Imprescindibles 🪄: 'imprescindibles.md'
 
 theme:
   name: material
@@ -99,6 +100,14 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - glightbox
 
 extra:
   analytics:

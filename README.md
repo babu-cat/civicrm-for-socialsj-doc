@@ -12,11 +12,13 @@ Instal·lar MkDocs i Mkdocs Material per poder compilar el projecte.
 
 `pip3 install mkdocs-material`
 
+`pip3 install mkdocs-glightbox`
+
 o bé...
 
 `pipx install mkdocs`
 
-`pipx inject mkdocs mkdocs-material mkdocs-material-extensions pymdown-extensions`
+`pipx inject mkdocs mkdocs-material mkdocs-material-extensions pymdown-extensions mkdocs-glightbox`
 
 ### Upgrade Mkdocs
 
