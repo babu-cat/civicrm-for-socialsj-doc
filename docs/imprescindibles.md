@@ -52,6 +52,19 @@ En el següent article podeu trobar alguns consells i trucs de com gestionar i o
 - Les seves extensions per [Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji) i [Firefox](https://addons.mozilla.org/firefox/addon/languagetool/)
 - Els seus complements per [Microsoft Word](https://languagetool.org/ca/word) i per [LibreOffice](https://languagetool.org/ca/libre-office)
 
+## Optimització del navegador
+
+Fixar pestanyes permet mantenir obertes les teves pàgines web preferides. Les pestanyes fixades s'obren automàticament en iniciar el navegador i, el que també és d'agraïr, queden col·lapsades i estalvien espai en una barra de pestanyes que té tendència a quedar força sobrecarregada.
+
+!!! Tip "Fixar pestanya"
+    Per fixar una pestanya només has de fer clic al botó dret del ratolí sobre la pestanya en qüestió i seleccionar `Fixar pestanya`.
+
+Una configuració imprescindible que no ve per defecte en els navegadors és la d'**indicar obrir el navegador amb totes les pestanyes que estaven obertes abans de tancar-lo**. D'aquesta manera no cal preocupar-se de perdre el fil a l'hora de tancar el navegador.
+
+[:fontawesome-brands-chrome: Configurar "Continuar des d'on es va deixar" (amb Chrome)](https://support.google.com/chrome/answer/95314?hl=ca&co=GENIE.Platform%3DDesktop&sjid=1852817060369143215-EU#)
+
+[:fontawesome-brands-firefox: Configurar "Continuar des d'on es va deixar" (amb Firefox)](https://support.mozilla.org/es/kb/restaurar-sesion-anterior-configurar-como-firefox-#w_configurar-la-restauracion-de-sesion)
+
 ## Seguretat i gestió de contrasenyes 🔒
 
 Quatre bàsics per garantir uns mínims de seguretat amb tots els comptes que requereixin contrasenyes:
