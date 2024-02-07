@@ -25,7 +25,7 @@ Aquesta secció recull un seguit de consells i trucs, alguns de més bàsics, al
 | 🖱 `Doble clic botó esquerra`               | Seleccionar una paraula                                                      |
 | 🖱 `Triple clic botó esquerra`              | Seleccionar una línia                                                        |
 | `Ctrl` + 🖱 `Rodeta del ratolí amunt/avall` | Apropar/Allunyar                                                             |
-| `Ctrl` + `0`                               | Restrablir zoom                                                              |
+| `Ctrl` + `0`                               | Restablir zoom                                                               |
 | :fontawesome-brands-windows: + `.`         | [Obrir selector de pictogrames](#pictogrames-emojis-a-un-clic)               |
 
 === ":fontawesome-brands-firefox: Firefox"
