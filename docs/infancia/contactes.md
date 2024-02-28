@@ -128,11 +128,15 @@
 
 ### Unitat familiar i de convivència
 
-#### Perfil unitat familiar i de convivència
+#### Característiques de la unitat familiar i de convivència
 
-- **Monoparental** - Família formada per un/una o més fills/filles menors de 21 anys, o de 26 anys si estudien, que conviuen i depenen econòmicament d'una sola persona.
+- **Fills/es**
 
-    Resposta Sí/No
+    Numèric
+
+- **Monoparental** - Una família monoparental està formada per un/una o més fills/filles menors de 21 anys, o de 26 anys si estudien, que conviuen i depenen econòmicament d'una sola persona.
+
+    Selecció - No; Sí - masculina; Sí - femenina; Sí - no binària; Sí - sense especificar;
 
 - **Convivència familiar** - Número de persones que conviuen a l'habitatge i són de la unitat familiar.
 
