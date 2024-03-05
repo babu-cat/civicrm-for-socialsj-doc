@@ -13,6 +13,10 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 - **Usuaris adults: **\* en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.
 - **Treballador:** treballador de l'entitat.
 
+### Perfil demogràfic
+
+- Gènere: Dona; Home; No-binari;
+
 ## Organitzacions
 
 - **Organització:** qualsevol organització que té vinculació directa o indirecta amb l'entitat.

@@ -8,10 +8,6 @@
 - **Adult - infància: **\* persona adulta vinculada a la unitat familiar i de convivència dels usuaris de l'entitat menors d'edat.
 - **Docent:** docent d'un centre educatiu on estudien usuaris de l'entitat menors d'edat.
 
-### Perfil demogràfic
-
-- Gènere: Dona; Home; No-binari;
-
 ## Organitzacions
 
 - **Centre de formació d'adults:** centre de formació d'adults vinculat als participants dels diferents programes d'infància de l'entitat.
