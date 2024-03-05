@@ -15,7 +15,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 ### Perfil demogràfic
 
-- Gènere: Dona; Home; No-binari;
+- Gènere: `Dona`; `Home`; `No-binari`;
 
 ## Organitzacions
 
@@ -40,7 +40,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Tipus de document** - Seleccioneu el tipus de document que acrediti la identitat de la persona tenint en compte el següent ordre com a prioritat a l'hora de triar el tipus de document : NIF, NIE, Passaport, Altres, Sense documentació.
 
-    Selecció - NIF; NIE; Passaport; Altres; Sense documentació
+    Selecció - `NIF`; `NIE`; `Passaport`; `Altres`; `Sense documentació`
 
 - **Número de document**
 
@@ -73,11 +73,11 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Situació administrativa**
 
-    Selecció - Irregular; Residència i treball temporal; Residència i treball permanent; Residència sense treball (temporal i/o permanent?); Sol·licitant d'asil; Refugiat; Comunitari; Nacionalitat;
+    Selecció - `Irregular`; `Residència i treball temporal`; `Residència i treball permanent`; `Residència sense treball (temporal i/o permanent?)`; `Sol·licitant d'asil`; `Refugiat`; `Comunitari`; `Nacionalitat`;
 
 - **Targeta sanitària**
 
-    Selecció - Regulada; En tramitació; Li falta algun document; No pot sol·licitar-la;
+    Selecció - `Regulada`; `En tramitació`; `Li falta algun document`; `No pot sol·licitar-la`;
 
 - **Empadronat/da** - Està donat/da d'alta al padró d'algun municipi?
 
@@ -107,7 +107,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Tipus de professional**
 
-    Casella de selecció - psicòleg/loga; psicopedagog/a; treballador/a social; educador/a social; inspector/a d'ensenyament; logopeda; psiquiatra; pediatra
+    Casella de selecció - `psicòleg/loga`; `psicopedagog/a`; `treballador/a social`; `educador/a social`; `inspector/a d'ensenyament`; `logopeda`; `psiquiatra`; `pediatra`
 
 ### Treballador
 
@@ -155,11 +155,11 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Estat civil**
 
-    Casella de selecció - Solter/a; Casat/da; Divorciat/da; Separat/da de fet; Separat/da; Parella de fet; Parella; Vidu/a
+    Casella de selecció - `Solter/a`; `Casat/da`; `Divorciat/da`; `Separat/da de fet`; `Separat/da`; `Parella de fet`; `Parella`; `Vidu/a`
 
 #### Perfil lingüístic
 
-- **Alfabetització** -	Sap llegir i escriure en algun alfabet?
+- **Alfabetització** - Sap llegir i escriure en algun alfabet?
 
     Resposta Sí/No
 
@@ -177,7 +177,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Selecció - Usuari/a bàsic; Usuari/a independent; Usuari/a experimentat
 
-- **Castellà**	Coneix el castellà?
+- **Castellà** Coneix el castellà?
 
     Resposta Sí/No
 
@@ -189,7 +189,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     C - *Usuari experimentat* (engloba el nivell C1 i C2, domini funcional efectiu i domini respectivament)
 
-    Selecció - Usuari/a bàsic; Usuari/a independent; Usuari/a experimentat
+    Selecció - `Usuari/a bàsic`; `Usuari/a independent`; `Usuari/a experimentat`
 
 - **Altres idiomes** - Si coneix o domina altres idiomes especifiqueu quins. Vegeu [Documentació - Annex: Llistat d'idiomes](http://docs.crm.socialsj.cat/civicrm/annex-idiomes).
 
@@ -207,7 +207,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     *Estudis superiors*: corresponen a uns estudis de formació professional superior, universitaris o equivalents
 
-    Selecció - Sense estudis; Estudis primaris; Estudis secundaris; Estudis superiors
+    Selecció - `Sense estudis`; `Estudis primaris`; `Estudis secundaris`; `Estudis superiors`
 
 - **Titulacions superiors o professionals** - Si ha cursat estudis superiors o professionals especifiqueu quines titulacions ha obtingut (p. ex. Llicenciatura en dret, Tècnic en gestió administrativa, Tècnic superior en manteniment electrònic, etc.) i, si s'escau, indiqueu si ha obtingut alguna titulació a l'estranger i especifiqueu si aquests estudis estan reconeguts en el nostre país.
 
@@ -231,8 +231,8 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Naturalesa del centre**
 
-    Selecció - pública; privada
+    Selecció - `pública`; `privada`
 
 - **Titularitat del centre**
 
-    Selecció - laica; religiosa
+    Selecció - `laica`; `religiosa`
