@@ -1977,11 +1977,12 @@ corresponents.</p>
 <ul>
 <li><strong>Identificador del contacte</strong></li>
 <li><strong>Import total</strong></li>
-<li><strong>Data de recepció</strong> - format <code>dd-mm-YYYY</code> o <code>dd/mm/YYYY</code> (en la importació posterior caldrà especificar el format escollit)</li>
+<li><strong>Data de la contribució</strong> - format <code>dd-mm-YYYY</code> o <code>dd/mm/YYYY</code> (en la importació posterior caldrà especificar el format escollit)</li>
 <li><strong>Estat de la contribució</strong> - valors possibles: <code>Completed</code> i <code>Pending</code></li>
 <li><strong>Tipus financer</strong> - valor per defecte: <em>El tipus financer corresponent tal com apareix al CRM</em></li>
 <li><strong>Mètode de pagament</strong> - valor per defecte: <em>El nom del mètode de pagament corresponent (normalment de tipus domiciliació) tal com apareix al CRM</em></li>
 <li><strong>És un pagament diferit</strong> - valor per defecte: <code>1</code> (sí)</li>
+<li><strong>Demana desgravar l'aportació a la declaració de la renda</strong> - valors possibles <code>1</code> (sí) o <code>0</code> (no)</li>
 </ul>
 <p>Un cop tinguem el fitxer CSV amb les contribucions a importar ja podrem procedir
 amb la importació accedint-hi des del menú <strong>Contribucions &gt; Importació de contribucions</strong>.</p>
@@ -1989,18 +1990,11 @@ amb la importació accedint-hi des del menú <strong>Contribucions &gt; Importac
 <ol>
 <li>Carregar el fitxer CSV com a <strong>Fitxers de dades d'importació</strong></li>
 <li>Marcar que <strong>La primera fila conté les capçaleres de les columnes</strong></li>
-<li>Marcar el <strong>Tipus de contacte</strong> com a <code>Persona</code> o <code>Organització</code> segons correspongui</li>
+<li>Marcar el <strong>Tipus de contacte</strong> com a <code>Persona</code> o <code>Organització</code>, és indiferent quin seleccionem, podem importar de cop contribucions de persones i organitzacions</li>
 <li>Seleccionar el <strong>Mode d'importació</strong> <code>Afegir contribucions noves</code></li>
 <li>Indicar el <strong>Separador dels camps d'importació</strong> que utilitza el fitxer CSV, normalment si s'ha generat amb Microsoft Excel serà amb <code>;</code> i si s'ha fet amb LibreOffice serà amb <code>,</code></li>
 <li>Seleccionar el <strong>Format de data</strong> utilitzat en el fitxer CSV</li>
 </ol>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Només es poden importar contribucions de contactes del mateix tipus. És a dir,
-si volem importar contribucions de persones i organitzacions ho haurem de fer en
-dos importacions diferents i per tant també amb dos fitxers diferents, un per les
-contribucions de persones i l'altre per les de les organitzacions.</p>
-</div>
 <blockquote>
 <p>Vegeu <a href="https://docs.civicrm.org/user/ca/latest/common-workflows/importing-data-into-civicrm/#importacio-de-contribucions">CiviCRM - Guia de l'usuari &gt; Fluxos de treball comuns &gt; Importació de dades
 en el CiviCRM - Importació de contribucions</a> per a més informació de com importar contribucions al CRM.</p>
