@@ -78,11 +78,12 @@ Per importar les contribucions ens caldrà un fitxer CSV amb les següents colum
 
 - **Identificador del contacte**
 - **Import total**
-- **Data de recepció** - format ```dd-mm-YYYY``` o ```dd/mm/YYYY``` (en la importació posterior caldrà especificar el format escollit)
+- **Data de la contribució** - format ```dd-mm-YYYY``` o ```dd/mm/YYYY``` (en la importació posterior caldrà especificar el format escollit)
 - **Estat de la contribució** - valors possibles: ```Completed``` i ```Pending```
 - **Tipus financer** - valor per defecte: *El tipus financer corresponent tal com apareix al CRM*
 - **Mètode de pagament** - valor per defecte: *El nom del mètode de pagament corresponent (normalment de tipus domiciliació) tal com apareix al CRM*
 - **És un pagament diferit** - valor per defecte: ```1``` (sí)
+- **Demana desgravar l'aportació a la declaració de la renda** - valors possibles ```1``` (sí) o ```0``` (no)
 
 Un cop tinguem el fitxer CSV amb les contribucions a importar ja podrem procedir
 amb la importació accedint-hi des del menú **Contribucions > Importació de contribucions**.
@@ -91,16 +92,10 @@ En el primer pas "Carrega les dades" haurem de:
 
 1. Carregar el fitxer CSV com a **Fitxers de dades d'importació**
 2. Marcar que **La primera fila conté les capçaleres de les columnes**
-3. Marcar el **Tipus de contacte** com a ```Persona``` o ```Organització``` segons correspongui
+3. Marcar el **Tipus de contacte** com a ```Persona``` o ```Organització```, és indiferent quin seleccionem, podem importar de cop contribucions de persones i organitzacions
 4. Seleccionar el **Mode d'importació** ```Afegir contribucions noves```
 5. Indicar el **Separador dels camps d'importació** que utilitza el fitxer CSV, normalment si s'ha generat amb Microsoft Excel serà amb ```;``` i si s'ha fet amb LibreOffice serà amb ```,```
 6. Seleccionar el **Format de data** utilitzat en el fitxer CSV
-
-!!! info "Info"
-    Només es poden importar contribucions de contactes del mateix tipus. És a dir,
-    si volem importar contribucions de persones i organitzacions ho haurem de fer en
-    dos importacions diferents i per tant també amb dos fitxers diferents, un per les
-    contribucions de persones i l'altre per les de les organitzacions.
 
 > Vegeu [CiviCRM - Guia de l'usuari > Fluxos de treball comuns > Importació de dades
 en el CiviCRM - Importació de contribucions](https://docs.civicrm.org/user/ca/latest/common-workflows/importing-data-into-civicrm/#importacio-de-contribucions) per a més informació de com importar contribucions al CRM.
@@ -118,7 +113,6 @@ Per registrar un pagament d'una contribució pendent es pot fer
 ![Registre de pagament pendent contribució desplegada](/captacio-de-fons/images/registre-pagament.png)
 
 No és aconsellable registrar el pagament editant la contribució i canviant l'estat a completada.
-
 
 ### Registre de pagaments de contribucions en bloc
 
