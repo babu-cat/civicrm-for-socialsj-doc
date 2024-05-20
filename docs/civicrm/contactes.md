@@ -71,6 +71,10 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Resposta Sí/No
 
+- **Ha estat menor tutelat**
+
+    Resposta Sí/No
+
 - **Situació administrativa**
 
     Selecció - `Irregular`; `Residència i treball temporal`; `Residència i treball permanent`; `Residència sense treball (temporal i/o permanent?)`; `Sol·licitant d'asil`; `Refugiat`; `Comunitari`; `Nacionalitat`;
@@ -91,6 +95,10 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Resposta Sí/No
 
+- **Observacions**
+
+  Àrea de text
+  
 #### Perfil acadèmic i professional persona migrant
 
 - Homologació - Té el nivell d'estudis homologat?
