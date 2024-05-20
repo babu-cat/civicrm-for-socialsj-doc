@@ -71,7 +71,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Resposta Sí/No
 
-- **Ha estat menor tutelat**
+- **És o ha estat menor tutelat**
 
     Resposta Sí/No
 
@@ -98,7 +98,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 - **Observacions**
 
   Àrea de text
-  
+
 #### Perfil acadèmic i professional persona migrant
 
 - Homologació - Té el nivell d'estudis homologat?
