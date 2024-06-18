@@ -84,4 +84,17 @@ Abans de procedir amb la presentació del model 993, és molt important fer els 
 
 ## Gestió de certificats fiscals
 
-Els certificats fiscals convé enviar-los **durant la segona quinzena del mes de març** (abans que s’activi la campanya de la declaració de la Renda). No obstant això, les dades les obtindrem en el mateix moment que presentem el 182.
+Els certificats fiscals convé enviar-los **durant la segona quinzena del mes de març** (abans que s’activi la campanya de la declaració de la Renda). No obstant això, les dades les obtindrem en el mateix moment que presentem el 182 i així assegurar-nos que la informació presentada a hisenda és la mateixa que certifiquem.
+
+!!! question "Un donant reclama un certificat que no hem expedit perquè no hem declarat a hisenda"
+    En ocasions en el moment de fer la presentació del 182 no es tenen totes les dades del donant per declarar el seu donatiu. En aquests casos no s'expedeix el certificat fiscal.
+    En període de presentar la declaració de la Renda es pot donar el cas que algun donant reclami un d'aquests certificats de donatius no declarats. En aquests casos caldrà:
+
+    1. Fer la corresponent declaració complementària del 182
+    2. Fer la corresponent declaració complementària del 993.*
+    3. Expedir el certificat al donant que fa la reclamació
+    
+    * Si no és possible fer la complemenària del 993, es pot provar amb la següent procediment:
+      * 1. Entrar a un apartat de consultes general de la Generalitat, cercar l'opció "Formulari genèric" i a les dades del tràmit posar "Altres tràmits tributaris amb l'ATC"
+      * 2. Per fer arribar a les persones que tramiten el Model 993. Aquí presento una declaració complementària del Model 993 per a l'any XXXX
+      * 3. Adjuntar el csv només amb les dades del donant que faltava
