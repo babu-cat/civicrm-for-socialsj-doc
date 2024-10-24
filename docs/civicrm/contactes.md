@@ -233,6 +233,11 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Text
 
+#### Captació de fons
+
+- **Impost sobre societats** - Indica si l'organització té l'obligació legal de presentar l'impost sobre societats i, per tant, la possibilitat de desgravar-hi donatius.
+    Selecció - `Sí`; `No`
+
 ### Centres educatius (infantil, primària, secundària i batxillerat)
 
 #### Perfil centre educatiu
