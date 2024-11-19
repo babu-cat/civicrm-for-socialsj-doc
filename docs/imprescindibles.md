@@ -21,6 +21,7 @@ Aquesta secció recull un seguit de consells i trucs, alguns de més bàsics, al
 | `Ctrl` + `Tab`                             | Canviar a la següent pestanya                                                |
 | `Ctrl` + `Mayus` + `Tab`                   | Canviar a l'anterior pestanya                                                |
 | `Ctrl`+ `A`                                | Selecciona tot el text                                                       |
+| `Ctrl` + 🖱 `Clic al botó esquerra` (sobre un enllaç) | [Obrir enllaç en una nova pestanya]                                |
 | 🖱 `Clic al botó del mig` (sobre un enllaç) | [Obrir enllaç en una nova pestanya](#la-rodeta-del-ratoli-tambe-es-clicable) |
 | 🖱 `Doble clic botó esquerra`               | Seleccionar una paraula                                                      |
 | 🖱 `Triple clic botó esquerra`              | Seleccionar una línia                                                        |
@@ -102,6 +103,8 @@ Com a mostra un exemple en el que s'aprofita per obrir els resultats d'una cerca
 ![Obertura de noves pestanyes](https://user-images.githubusercontent.com/870343/110662988-f5593b80-81bd-11eb-9412-04feec3ca9fb.gif)
 
 *[Improve quicksearch result presentation to enable browser link functions](https://github.com/civicrm/civicrm-core/pull/19779)*
+
+Una drecera equivalent i potser més còmoda i tot és `Ctrl` + 🖱 `Clic al botó esquerra` (sobre un enllaç).
 
 ## Pictogrames (emojis) a un clic 👆
 
