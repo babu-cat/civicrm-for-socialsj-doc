@@ -21,7 +21,7 @@ Aquesta secció recull un seguit de consells i trucs, alguns de més bàsics, al
 | `Ctrl` + `Tab`                             | Canviar a la següent pestanya                                                |
 | `Ctrl` + `Mayus` + `Tab`                   | Canviar a l'anterior pestanya                                                |
 | `Ctrl`+ `A`                                | Selecciona tot el text                                                       |
-| `Ctrl` + 🖱 `Clic al botó esquerra` (sobre un enllaç) | [Obrir enllaç en una nova pestanya]                                |
+| `Ctrl` + 🖱 `Clic al botó esquerra` (sobre un enllaç) | Obrir enllaç en una nova pestanya                                |
 | 🖱 `Clic al botó del mig` (sobre un enllaç) | [Obrir enllaç en una nova pestanya](#la-rodeta-del-ratoli-tambe-es-clicable) |
 | 🖱 `Doble clic botó esquerra`               | Seleccionar una paraula                                                      |
 | 🖱 `Triple clic botó esquerra`              | Seleccionar una línia                                                        |
