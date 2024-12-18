@@ -342,19 +342,19 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Àrea de text
 
-- **Aporta documentació PIRMI** - Aporta documentació conforme percep algun tipus de prestació per renda mínima d'inserció?
+- **Aporta documentació Renda garantida de ciutadania** - Aporta documentació conforme percep algun tipus de prestació per renda mínima d'inserció?
 
     Resposta Sí/No
 
-- **Documentació PIRMI** - Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció podeu adjuntar-la.
+- **Documentació Renda garantida de ciutadania** - Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció podeu adjuntar-la.
 
     Fitxer
 
-- **Ingressos PIRMI** -	Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció indiqueu la suma d'aquestes prestacions.
+- **Ingressos Renda garantida de ciutadania** -	Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció indiqueu la suma d'aquestes prestacions.
 
     Diners
 
-- **Observacions PIRMI**
+- **Observacions Renda garantida de ciutadania**
 
     Àrea de text
 
