@@ -190,8 +190,7 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 
 ### Entrega béns CPI
 
-
-#### Béms CPI
+#### Béns CPI
 
 - **Equipació escolar** - Se li fa entrega d'un bé d'equipació escolar?
 
@@ -209,11 +208,11 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 
     Text
 
-- **Ulleres i audífons** - Se li fa entrega d'un bé d'ulleres i audífons?
+- **Ulleres i audiòfons** - Se li fa entrega d'un bé d'ulleres i audífons?
 
     Resposta Sí/No
 
-- **Codi ulleres i audífons** - Codi del bé
+- **Codi ulleres i audiòfons** - Codi del bé
 
     Text
 
