@@ -11,7 +11,7 @@ En aquest apartat definirem un seguit d'activitats que ens permetran definir dif
 - **Registre de resultats acadèmics: **\* Registre de resultats acadèmics d'un infant o jove.
 - **Registre expedient acadèmic:** Registre d'expedient acadèmic d'un infant o jove.
 - **Registre situació menjador escolar: **\* Registre de situació en el menjador escolar d'un infant / jove.
-- **Entrega xecs CPI: **\* Registre d'una entrega de xecs a l'infant o jove del programa de la CaixaProinfància.
+- **Entrega béns CPI: **\* Registre d'una entrega de béns a l'infant o jove del programa de la CaixaProinfància.
 - **Observació de salut:** Registre d'una observació relativa a la salut de l'infant o jove.
 - **Observació d'escolarització:** Registre d'una observació relativa a l'escolarització d'un infant o jove.
 - **Registre d'activitats extraescolars:** Registre de la realització d'activitats extraescolars per part d'un infant o jove. Un registre d'activitats extraescolars nou deixa obsolet un registre antic.
@@ -188,44 +188,44 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 
     Selecció - No; Mitja; Completa
 
-### Entrega xecs CPI
+### Entrega béns CPI
 
 
-#### Xecs CPI
+#### Béms CPI
 
-- **Equipació escolar** - Se li fa entrega d'un xec d'equipació escolar?
-
-    Resposta Sí/No
-
-- **Codi equipació escolar** - Codi del xec
-
-    Text
-
-- **Alimentació infantil** - Se li fa entrega d'un xec d'alimentació infantil?
+- **Equipació escolar** - Se li fa entrega d'un bé d'equipació escolar?
 
     Resposta Sí/No
 
-- **Codi alimentació infantil** - Codi del xec
+- **Codi equipació escolar** - Codi del bé
 
     Text
 
-- **Ulleres i audífons** - Se li fa entrega d'un xec d'ulleres i audífons?
+- **Alimentació infantil** - Se li fa entrega d'un bé d'alimentació infantil?
 
     Resposta Sí/No
 
-- **Codi ulleres i audífons** - Codi del xec
+- **Codi alimentació infantil** - Codi del bé
 
     Text
 
-- **Higiene infantil** - Se li fa entrega d'un xec d'higiene infantil?
+- **Ulleres i audífons** - Se li fa entrega d'un bé d'ulleres i audífons?
 
     Resposta Sí/No
 
-- **Codi higiene infantil** - Codi del xec
+- **Codi ulleres i audífons** - Codi del bé
 
     Text
 
-- **Acusament de percepció de xecs CPI** - Justificant digitalitzat dels xecs CPI percebuts en l'entrega per l'infant o jove.
+- **Higiene infantil** - Se li fa entrega d'un bé d'higiene infantil?
+
+    Resposta Sí/No
+
+- **Codi higiene infantil** - Codi del bé
+
+    Text
+
+- **Acusament de percepció de béns CPI** - Justificant digitalitzat dels béns CPI percebuts en l'entrega per l'infant o jove.
 
     Fitxer
 

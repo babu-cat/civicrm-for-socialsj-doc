@@ -95,7 +95,7 @@ Rol **tècnic infància** El tècnic infància, en canvi, només està capacitat
 |Tècnic Infància | Edita ingressos registrats         | Edita         | Un conjunt de camps de dades personalitzades | Ingressos registrats|
 |Tècnic Infància | Edita despeses registrades         | Edita         | Un conjunt de camps de dades personalitzades | Despeses registrades|
 |Tècnic Infància | Edita seguiment psicoterapèutic    | Edita         | Un conjunt de camps de dades personalitzades | Seguiment psicoterapèutic|
-|Tècnic Infància | Edita xec CPI                      | Edita         | Un conjunt de camps de dades personalitzades | Xec CPI|
+|Tècnic Infància | Edita bé CPI                      | Edita         | Un conjunt de camps de dades personalitzades | Bé CPI|
 |Tècnic Infància | Edita adreça antiga                | Edita         | Un conjunt de camps de dades personalitzades | Adreça antiga|
 |Tècnic Infància | Edita derivació                    | Edita         | Un conjunt de camps de dades personalitzades | Derivació|
 |Tècnic Infància | Edita migració                     | Edita         | Un conjunt de camps de dades personalitzades | Migració|
