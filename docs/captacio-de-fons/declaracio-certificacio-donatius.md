@@ -26,7 +26,7 @@ Més enllà d'aquestes dues principals indicacions cal tenir en compte també aq
 - **Validar amb comptabilitat** els números que es mostren a l'informe 182, els totals de número de donatius i d'imports que es mostren un cop valida l'informe.
 - Marcar tots els **donatius que no es volen declarar**, si és que n'hi ha.
 - És especialment recomanable assegurar-se que no es tenen **contactes duplicats** entre els donants del període a presentar, per evitar incórrer en errors de càlculs de recurrència de donatius o per exemple també deixar de declarar donatius per manca de NIF o codi postal quan algun dels seus contactes duplicats té la informació. Pot ser suficient fer una cerca de contactes duplicats amb diferents regles sobre contactes amb donatius de l'any anterior.
-- Assegurar-se que estan entrats els donatius dels **tres períodes impositius anteriors** al període a declarar (dos a partir dels donatius fets de l'1 de gener del 2024 en endavant). En general ho estaran si ja s'ha presentat el període anterior des del CRM.
+- Assegurar-se que estan entrats els donatius dels **dos períodes impositius anteriors** al període a declarar. En general ho estaran si ja s'ha presentat el període anterior des del CRM.
 
 !!! info "Validacions"
     L'informe fa les següents comprovacions i mostra els corresponents avisos en pantalla:
