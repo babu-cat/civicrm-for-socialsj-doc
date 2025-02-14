@@ -10,11 +10,11 @@
 
 ## Estats de contribució
 
-> Vegeu informació sobre els estats de contribució a [CiviCRM > Contribucions](/civicrm/contribucions/#estats-de-contribucio).
+> Vegeu informació sobre els estats de contribució a [CiviCRM > Contribucions](../civicrm/contribucions.md/#estats-de-contribucio).
 
 ## Mètodes de pagament
 
-> Vegeu informació sobre els mètodes de pagament a [CiviCRM > Contribucions](/civicrm/contribucions/#metodes-de-pagament).
+> Vegeu informació sobre els mètodes de pagament a [CiviCRM > Contribucions](../civicrm/contribucions.md/#metodes-de-pagament).
 
 ## Impost sobre societats
 

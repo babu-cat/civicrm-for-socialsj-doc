@@ -2,11 +2,11 @@
 
 Dependències amb d'altres mòduls:
 
-- [Voluntariat](/voluntariat-practiques-educacio-lleure/voluntariat/index.md)
+- [Voluntariat](../voluntariat-practiques-educacio-lleure/voluntariat/index.md)
 
 ## Contactes
 
-> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](/civicrm/contactes/).
+> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](../civicrm/contactes.md).
 
 ### Persones
 
@@ -14,7 +14,7 @@ Dependències amb d'altres mòduls:
 
 **Camps personalitzats**
 
-> Vegeu més informació sobre els camps personalitzats de les persones usuàries a [CiviCRM > Contactes](/civicrm/contactes/#usuaris).
+> Vegeu més informació sobre els camps personalitzats de les persones usuàries a [CiviCRM > Contactes](../civicrm/contactes.md#usuaris).
 
 - **Condicions de la persona gran i del seu domicili**
 
@@ -40,7 +40,7 @@ Dependències amb d'altres mòduls:
 
 #### Voluntari
 
- > Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Contactes](/voluntariat-practiques-educacio-lleure/voluntariat/contactes/#voluntariaria).
+ > Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Contactes](../voluntariat-practiques-educacio-lleure/voluntariat/contactes.md).
 
 ## Activitats
 
@@ -78,11 +78,11 @@ Dependències amb d'altres mòduls:
 
 ### Relació de voluntariat
 
-> Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Relacions](/voluntariat-practiques-educacio-lleure/voluntariat/relacions/#es-voluntariaria-a-te-de-voluntariaria-a).
+> Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Relacions](../voluntariat-practiques-educacio-lleure/voluntariat/relacions.md#es-voluntariaria-a-te-de-voluntariaria-a).
 
 ## Grups
 
-> Vegeu més informació sobre els grups a [CiviCRM > Grups](/civicrm/grups/).
+> Vegeu més informació sobre els grups a [CiviCRM > Grups](../civicrm/grups.md).
 
 El mòdul definirà per defecte la següent jerarquia de grups:
 

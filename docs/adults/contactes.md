@@ -1,6 +1,6 @@
 # Contactes
 
-> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](/civicrm/contactes/).
+> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](../civicrm/contactes.md).
 
 ## Persones
 
@@ -10,4 +10,4 @@
 
 ## Camps personalitzats
 
-> Vegeu més camps personalitzats dels contactes a [CiviCRM > Contactes > Camps personalitzats](/civicrm/contactes/#camps-personalitzats).
+> Vegeu més camps personalitzats dels contactes a [CiviCRM > Contactes > Camps personalitzats](../civicrm/contactes.md#camps-personalitzats).

@@ -16,7 +16,7 @@ Crearem un nou tipus de contacte que ens servirà per identificar les persones q
 
 ### Camps personalitzats - Perfil acadèmic i professional
 
-> Vegeu [CiviCRM > Contactes > Perfil acadèmic i professional](/civicrm/contactes/#perfil-academic-i-professional).
+> Vegeu [CiviCRM > Contactes > Perfil acadèmic i professional](../../civicrm/contactes.md#perfil-academic-i-professional).
 
 ### Camps personalitzats - Perfil competencial
 

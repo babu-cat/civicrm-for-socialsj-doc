@@ -126,7 +126,7 @@ Registre d'una activitat de seguiment a una persona voluntària.
 
 ## Registre de situació laboral
 
-> Vegeu [CiviCRM > Activitats > Registre de situació laboral](/civicrm/activitats/#registre-de-situacio-laboral).
+> Vegeu [CiviCRM > Activitats > Registre de situació laboral](../../civicrm/activitats.md#registre-de-situacio-laboral).
 
 ### Estats
 

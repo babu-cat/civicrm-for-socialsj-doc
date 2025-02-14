@@ -8,9 +8,9 @@ Hi ha dues possibilitats per registrar el telèfon de contacte en cas d'emergèn
 
 (B) Si no volem crear el contacte en el CRM o no tenim manera de relacionar-lo amb el contacte principal, tenim la possibilitat d'enregistrar el telèfon com ho fariem per als telèfons del mateix contacte però utilitzant (encara que aquesta no sigui la seva finalitat) el camp destinat per a l'extensió del telèfon per tal de desar la referència del contacte d'emergència. Cal tenir en compte que aquest camp tan sols ens permetrà desar un màxim de 16 caràcters.
 
-![Edició telèfons d'emergència](/civicrm/images/telefons-emergencia-edita.png)
+![Edició telèfons d'emergència](../civicrm/images/telefons-emergencia-edita.png)
 
-![Telèfons d'emergència](/civicrm/images/telefons-emergencia.png)
+![Telèfons d'emergència](../civicrm/images/telefons-emergencia.png)
 
 
 ## Es poden guardar les adreces antigues dels contactes?

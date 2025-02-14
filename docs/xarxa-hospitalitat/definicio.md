@@ -7,7 +7,7 @@
 ## Contactes
 
 !!! info ""
-    Vegeu més informació sobre els contactes a [CiviCRM > Contactes](/civicrm/contactes/).
+    Vegeu més informació sobre els contactes a [CiviCRM > Contactes](../civicrm/contactes.md).
 
 Crearem un nou tipus de contacte `Llar` que ens permetrà identificar un dels 3 actors
 que conformen el mòdul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes
@@ -17,13 +17,13 @@ mòdul Xarxa d'Hospitalitat.
 ### Persones
 
 !!! info "Adult"
-    Vegeu a [Mòdul adults > Contactes](/adults/contactes/#persones)
+    Vegeu a [Mòdul adults > Contactes](../adults/contactes.md#persones)
 
 !!! info "Persona migrant"
-    Vegeu a [CiviCRM > Contactes](/civicrm/contactes/#persones)
+    Vegeu a [CiviCRM > Contactes](../civicrm/contactes.md#persones)
 
 !!! info "Voluntari"
-    Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Contactes](/voluntariat-practiques-educacio-lleure/voluntariat/contactes/#voluntariaria).
+    Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Contactes](../voluntariat-practiques-educacio-lleure/voluntariat/contactes.md).
 
 ### Llars
 
@@ -98,12 +98,12 @@ CRM però que no són les responsables o interlocutores directes de l'acollida.
 ### Relació de voluntariat
 
 !!! info ""
-    Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Relacions](/voluntariat-practiques-educacio-lleure/voluntariat/relacions/#es-voluntariaria-a-te-de-voluntariaria-a).
+    Vegeu a [CiviCRM > Mòdul voluntariat, pràctiques i educació en el lleure > Voluntariat > Relacions](../voluntariat-practiques-educacio-lleure/voluntariat/relacions.md#es-voluntariaria-a-te-de-voluntariaria-a).
 
 ## Grups
 
 !!! info ""
-    Vegeu més informació sobre els grups a [CiviCRM > Grups](/civicrm/grups/).
+    Vegeu més informació sobre els grups a [CiviCRM > Grups](../civicrm/grups.md).
 
 El mòdul definirà per defecte la següent jerarquia de grups:
 

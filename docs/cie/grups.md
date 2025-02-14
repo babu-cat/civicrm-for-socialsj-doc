@@ -1,6 +1,6 @@
 # Grups
 
-> Vegeu més informació sobre els grups a [CiviCRM > Grups](/civicrm/grups/).
+> Vegeu més informació sobre els grups a [CiviCRM > Grups](../civicrm/grups.md).
 
 ## Grups per a l'accessibilitat a la informació
 
@@ -16,4 +16,4 @@
     - **Interns CIE - actius:** contactes Interns CIE vigents.
     - **Interns CIE - històric:** antics Interns CIE.
 
-> Vegeu més informació sobre els grups de voluntaris a [CiviCRM > Mòdul voluntariat > Grups](/voluntariat-practiques-educacio-lleure/grups/).
+> Vegeu més informació sobre els grups de voluntaris a [CiviCRM > Mòdul voluntariat > Grups](../voluntariat-practiques-educacio-lleure/voluntariat/grups.md).

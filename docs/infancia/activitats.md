@@ -1,6 +1,6 @@
 # Activitats
 
-> Vegeu més informació sobre les activitats a [CiviCRM > Activitats](/civicrm/activitats/).
+> Vegeu més informació sobre les activitats a [CiviCRM > Activitats](../civicrm/activitats.md).
 
 En aquest apartat definirem un seguit d'activitats que ens permetran definir diferents processos que involucren als diferents tipus de contactes dels programes d'infància de l'entitat.
 
@@ -39,7 +39,7 @@ Ex. nota - Preferències de comunicació: nota on es recullen les preferències 
 
 ## Camps personalitzats
 
-> Vegeu més camps personalitzats de les activitats a [CiviCRM > Activitats > Camps personalitzats](/civicrm/activitats/camps-personalitzats).
+> Vegeu més camps personalitzats de les activitats a [CiviCRM > Activitats > Camps personalitzats](../civicrm/activitats.md#camps-personalitzats-dactivitats).
 
 ### Registre de documentació [Infant/Jove]
 

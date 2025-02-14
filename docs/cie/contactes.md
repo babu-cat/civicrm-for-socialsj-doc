@@ -1,13 +1,13 @@
 # Contactes
 
-> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](/civicrm/contactes/).
+> Vegeu més informació sobre els contactes a [CiviCRM > Contactes](../civicrm/contactes.md).
 
 ## Persones
 
 - **Intern CIE: ** persona interna d'un CIE.
 - **Voluntari: ** voluntari de l'entitat
 
-> Vegeu més informació sobre els voluntaris a [CiviCRM > Mòdul voluntariat > Contactes](https://www.babu.cat/docs-crm-socialsj/voluntariat-practiques-educacio-lleure/voluntariat/contactes/#voluntariaria).
+> Vegeu més informació sobre els voluntaris a [CiviCRM > Mòdul voluntariat > Contactes](../voluntariat-practiques-educacio-lleure/voluntariat/contactes.md).
 
 ## Organitzacions
 

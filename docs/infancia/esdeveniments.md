@@ -1,6 +1,6 @@
 # Esdeveniments
 
-> Vegeu més informació sobre els esdeveniments al [Mòdul esdeveniments](/esdeveniments/).
+> Vegeu més informació sobre els esdeveniments al [Mòdul esdeveniments](../esdeveniments/index.md).
 
 ## Camps personalitzats a nivell d'esdeveniment
 

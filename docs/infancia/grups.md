@@ -1,6 +1,6 @@
 # Grups
 
-> Vegeu més informació sobre els grups a [CiviCRM > Grups](/civicrm/grups/).
+> Vegeu més informació sobre els grups a [CiviCRM > Grups](../civicrm/grups.md).
 
 ## Grups per a cerques i informes
 

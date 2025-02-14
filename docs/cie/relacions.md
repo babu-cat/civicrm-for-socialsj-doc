@@ -1,6 +1,6 @@
 # Relacions
 
-> Vegeu més informació sobre les relacions a [CiviCRM > Relacions](https://www.babu.cat/docs-crm-socialsj/civicrm/relacions/).
+> Vegeu més informació sobre les relacions a [CiviCRM > Relacions](../civicrm/relacions.md).
 
 Seguidament definirem les relacions que ens permetran establir les diverses connexions
 entre els diferents tipus de contactes relacionats amb les activitats del CIE i la mateixa entitat.
@@ -15,7 +15,7 @@ entre els diferents tipus de contactes relacionats amb les activitats del CIE i 
 
 ## Relació de voluntariat
 
-> Vegeu més informació sobre la relació de voluntariat a [CiviCRM > Mòdul voluntariat > Relacions](https://www.babu.cat/docs-crm-socialsj/voluntariat-practiques-educacio-lleure/relacions).
+> Vegeu més informació sobre la relació de voluntariat a [CiviCRM > Mòdul voluntariat > Relacions](../voluntariat-practiques-educacio-lleure/voluntariat/relacions.md).
 
 ## Camps personalitzats
 

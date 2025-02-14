@@ -106,11 +106,11 @@ Per registrar un pagament d'una contribució pendent es pot fer
 
 - o bé clicant a "més" en les opcions de la contribució
 
-![Registre de pagament pendent més opcions de contribució](/captacio-de-fons/images/registre-pagament-mes.png)
+![Registre de pagament pendent més opcions de contribució](../captacio-de-fons/images/registre-pagament-mes.png)
 
 - o bé desplegant la contribució i clicant a l'opció "Registra un pagament"
 
-![Registre de pagament pendent contribució desplegada](/captacio-de-fons/images/registre-pagament.png)
+![Registre de pagament pendent contribució desplegada](../captacio-de-fons/images/registre-pagament.png)
 
 No és aconsellable registrar el pagament editant la contribució i canviant l'estat a completada.
 

@@ -129,11 +129,11 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 > Persones migrants
 
-> Infants / Joves i Adults infància del [mòdul infància](/infancia).
+> Infants / Joves i Adults infància del [mòdul infància](../infancia/index.md).
 
-> Adults del [mòdul adults](/adults).
+> Adults del [mòdul adults](../adults/index.md).
 
-> Persones grans del [mòdul gent gran](/gent-gran)
+> Persones grans del [mòdul gent gran](../gent-gran/index.md)
 
 #### Perfil demogràfic usuari/ària
 
@@ -149,15 +149,15 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Text
 
-- **Llengua materna** -  Vegeu [Documentació - Annex: Llistat d'idiomes](http://docs.crm.socialsj.cat/civicrm/annex-idiomes).
+- **Llengua materna** -  Vegeu [Documentació - Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md).
 
-    Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](/civicrm/annex-idiomes)*
+    Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md)*
 
 ### Usuaris adults
 
-> Adults infància del [mòdul infància](/infancia)..
+> Adults infància del [mòdul infància](../infancia/index.md))..
 
-> Adults del [mòdul adults](/adults).
+> Adults del [mòdul adults](../adults/index.md).
 
 #### Perfil adult
 
@@ -199,9 +199,9 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Selecció - `Usuari/a bàsic`; `Usuari/a independent`; `Usuari/a experimentat`
 
-- **Altres idiomes** - Si coneix o domina altres idiomes especifiqueu quins. Vegeu [Documentació - Annex: Llistat d'idiomes](http://docs.crm.socialsj.cat/civicrm/annex-idiomes).
+- **Altres idiomes** - Si coneix o domina altres idiomes especifiqueu quins. Vegeu [Documentació - Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md).
 
-    Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](/civicrm/annex-idiomes)*
+    Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md)*
 
 ### Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques
 
