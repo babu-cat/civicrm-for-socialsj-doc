@@ -36,6 +36,9 @@ Més enllà d'aquestes dues principals indicacions cal tenir en compte també aq
     - Validesa del camp codi postal
     - Correspondència entre el codi postal i la provincia
 
+!!! danger "Pagaments parcialment pagats, reemborsaments i altres casuístiques"
+    L'eina per generar els models 182 i 993 no gestiona correctament contribucions amb casuístiques com poden ser un pagament parcial de l'import total o un pagament d'una quantitat superior amb una devolució parcial. Mentre això no es solucioni cal anar amb cura amb aquest tipus de contribucions més especials. Una manera d'esquivar-ho, encara que comptablement no acabi de ser del tot correcte i no reflecteix del tot la realitat, és cancel·lar la contribució problemàtica i crear-ne una de nova i completada amb l'import final.
+
 ## Presentació del model 182
 
 Veure la [documentació oficial](https://sede.agenciatributaria.gob.es/Sede/ca_es/ayuda/consultas-informaticas/declaraciones-informativas-ayuda-tecnica/modelos-181-189/modelo-182-formulario.html) a la web de l'Agència Tributària 182
