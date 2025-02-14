@@ -63,7 +63,7 @@ nav:
 - Captació de fons:
     - "Guia d'ús": 'captacio-de-fons/guia-us.md'
     - "Conceptes clau": 'captacio-de-fons/conceptes-clau.md'
-    - "Declaració i certificació de donatius (182 i 993)" : 'captacio-de-fons/declaracio-certificacio-donatius'
+    - "Declaració i certificació de donatius (182 i 993)" : 'captacio-de-fons/declaracio-certificacio-donatius.md'
     - "StockCrowd (EN DESENVOLUPAMENT)": 'captacio-de-fons/stockcrowd.md'
 - Banc d'Aliments:
     - "Guia d'ús": 'banc-aliments/guia-us.md'
@@ -98,8 +98,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - footnotes
   - md_in_html
