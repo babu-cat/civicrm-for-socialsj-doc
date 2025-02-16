@@ -14,7 +14,7 @@ Des de la fitxa de contacte a la pestanya d’esdeveniments amb una de les segü
 
 A) clicant al desplegable d’opcions i seleccionant l’opció **🖨️ Carta PDF - imprimeix pels participants**
 
-B) visualitzant la inscripció en qüestió i clicant a **🖨️ PDF letter - print for participant**
+B) visualitzant la inscripció en qüestió i clicant a **🖨️ Carta PDF - imprimeix pel participant**
 
 ### Varis a la vegada
 
