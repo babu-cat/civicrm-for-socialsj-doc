@@ -30,6 +30,7 @@ Rol **tècnic administrador** El tècnic administrador té la capacitat de fer q
 | CiviCRM: Accedeix a totes les dades personalitzades|  No           |         No         |           Si         |
 | CiviCRM: Visualitza totes les activitats |           No            |         No         |           Si         |
 | CiviCRM: Elimina activitats              |            No           |         No         |           Si         |
+| CiviCRM: Ometre verificació IDS          |            No           |         No         |           Si         |
 | CiviCRM: Accés al CiviCRM                |            No           |         No         |           Si         |
 | CiviCRM: Accés al tauler del contacte    |            No           |         No         |           Si         |
 | CiviCRM: Traduir el CiviCRM              |            No           |         No         |           No         |
