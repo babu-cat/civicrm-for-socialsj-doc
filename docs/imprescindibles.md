@@ -94,6 +94,10 @@ Quatre bàsics per garantir uns mínims de seguretat amb tots els comptes que re
 | Microsoft Outlook | [Thunderbird](https://www.softcatala.org/programes/paquet-catala-valencia-per-al-thunderbird/) | Client de correu electrònic
 | Windows | Linux ([Ubuntu](https://ubuntu.com/)) | Sistema Operatiu|
 
+## Comodí '%' per a cerques a CiviCRM 🔍
+
+Qui sap aquest truc ja no l'oblida però no sempre s'explica i sovint es descobreix més tard del que seria desitjable. Serveixi aquest apunt per recordar que en les vostres cerques de CRM podeu fer ús del caràcter “%” com a comodí. Podeu trobar més informació a [la documentació de CiviCRM](https://docs.civicrm.org/user/ca/latest/the-user-interface/searching/#el-comodi).
+
 ## La rodeta del ratolí també és clicable 🖱
 
 No de tots és conegut que la rodeta del ratolí també és un botó (#ElBotoDelMig). Una de les utilitats més destacades d'aquest botó és la que permet obrir noves pestanyes en un navegador clicant sobre d'enllaços estalviant-nos així haver de fer clic amb el botó dret per seguidament seleccionar l'opció “Obre l'enllaç en una pestanya nova”.
