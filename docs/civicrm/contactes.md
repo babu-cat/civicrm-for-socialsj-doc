@@ -77,7 +77,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 - **Situació administrativa**
 
-    Selecció - `Irregular`; `Residència i treball temporal`; `Residència i treball permanent`; `Residència sense treball (temporal i/o permanent?)`; `Sol·licitant d'asil`; `Refugiat`; `Comunitari`; `Nacionalitat`;
+    Selecció - `Res. NO treball`; `Residència inicial`; `1a renovació`; `2a renovació`; `Res. Permanent`; `Nacionalitat espanyola`; `Comunitari-UE`; `Estudiant`; `Sense permís`; `Sol·licitant d'asil`; `Refugiat/da`; `Tramitació`; `Irregularitat sobrevinguda`;
 
 - **Targeta sanitària**
 
