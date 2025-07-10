@@ -11,12 +11,23 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "mkdocs build --clean"
+            "command": [
+                "source venv/bin/activate;",
+                "mkdocs build --clean"
+            ]
         },
         {
             "label": "serve",
             "type": "shell",
-            "command": "mkdocs serve"
+            "command": [
+                "source venv/bin/activate;",
+                "mkdocs serve"
+            ]
+        },
+        {
+            "label": "linux-install",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/tasks_scripts/linux-install.sh"
         }
     ]
 }
