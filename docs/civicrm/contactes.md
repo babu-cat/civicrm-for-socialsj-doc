@@ -52,7 +52,6 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
 ### Persona migrant
 
-
 #### Perfil migratori
 
 - **Any d'arribada Espanya** - Especifiqueu quin any va arribar a Espanya.
@@ -78,6 +77,12 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 - **Situació administrativa**
 
     Selecció - `Res. NO treball`; `Residència inicial`; `1a renovació`; `2a renovació`; `Res. Permanent`; `Nacionalitat espanyola`; `Comunitari-UE`; `Estudiant`; `Sense permís`; `Sol·licitant d'asil`; `Refugiat/da`; `Tramitació`; `Irregularitat sobrevinguda`;
+
+- **Observacions situació administrativa**
+
+    Àrea de text
+
+- **Situació administrativa**
 
 - **Targeta sanitària**
 
