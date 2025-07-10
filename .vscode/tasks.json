@@ -6,7 +6,10 @@
         {
             "label": "deploy",
             "type": "shell",
-            "command": "mkdocs gh-deploy"
+            "command": [
+                "source venv/bin/activate;",
+                "mkdocs gh-deploy"
+            ]
         },
         {
             "label": "build",
