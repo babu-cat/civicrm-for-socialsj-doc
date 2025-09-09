@@ -9,8 +9,8 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 - **Persona: **\* qualsevol persona que té vinculació directa o indirecta amb l'entitat.
 - **Persona migrant: **\* persona usuària de l'entitat que ha realitzat un procés migratori cap al nostre país.
 - **Professional: **\* professionals que presten o poden prestar assistència a participants dels diferents programes de l'entitat.
-- **Usuaris: **\* en els mòduls definim diferents tipus de persones usuàries de l'entitat que actuen com a tipus de contactes.
-- **Usuaris adults: **\* en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.
+- **Usuàries: **\* en els mòduls definim diferents tipus de persones usuàries de l'entitat que actuen com a tipus de contactes.
+- **Usuàries adultes: **\* en els mòduls definirem diferents tipus de persones adultes usuàries de l'entitat que actuen com a tipus de contactes.
 - **Treballador:** treballador de l'entitat.
 
 ### Perfil demogràfic
@@ -133,11 +133,8 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 ### Usuaris
 
 > Persones migrants
-
 > Infants / Joves i Adults infància del [mòdul infància](../infancia/index.md).
-
-> Adults del [mòdul adults](../adults/index.md).
-
+> Usuàries adultes del [mòdul adults](../adults/index.md).
 > Persones grans del [mòdul gent gran](../gent-gran/index.md)
 
 #### Perfil demogràfic usuari/ària
@@ -158,11 +155,10 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md)*
 
-### Usuaris adults
+### Usuàries adultes
 
 > Adults infància del [mòdul infància](../infancia/index.md))..
-
-> Adults del [mòdul adults](../adults/index.md).
+> Usuàries adultes del [mòdul adults](../adults/index.md).
 
 #### Perfil adult
 
@@ -208,7 +204,7 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Selecció múltiple - *vegeu [Annex: Llistat d'idiomes](../civicrm/annex-idiomes.md)*
 
-### Adults, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques
+### Usuàries adultes, Adults - infància, Treballadors, Voluntaris i Estudiants en pràctiques
 
 #### Perfil acadèmic i professional
 

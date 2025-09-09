@@ -30,8 +30,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 ## Activitats amb usuaris
 
 > Infants / Joves i Adults infància del [mòdul infància](../infancia/index.md).
-
-> Adults del [mòdul adults](../adults/index.md).
+> Usuàries adultes del [mòdul adults](../adults/index.md).
 
 - **Acollida: **\* Registre d'una acollida d'un usuari a l'entitat amb o sense derivació.
 
@@ -42,10 +41,9 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 ## Activitats amb usuaris adults
 
 > Adults infància del [mòdul infància](../infancia/index.md).
+> Usuàries adultes del [mòdul adults](../adults/index.md).
 
-> Adults del [mòdul adults](../adults/index.md).
-
-- **Registre de situació laboral: **\* Registre de situació laboral d'un usuari de l'entitat adult.
+- **Registre de situació laboral: **\* Registre de situació laboral d'una usuària de l'entitat adulta.
 
 > \* Les activitats marcades amb un asterisc tenen definits camps personalitzats.
 

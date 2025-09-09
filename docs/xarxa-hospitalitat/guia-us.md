@@ -91,7 +91,7 @@ correus electrònics d'agraïment.
 
 ### Persona acollida nova
 
-1. Donar d'alta el contacte del tipus `Persona migrant` i `Adult`. Si el contacte ja existeix però no és del tipus `Persona migrant` o `Adult` cal assignar-li aquests
+1. Donar d'alta el contacte del tipus `Persona migrant` i `Usuària adulta`. Si el contacte ja existeix però no és del tipus `Persona migrant` o `Usuària adulta` cal assignar-li aquests
 tipus de contacte.
 2. Crear una relació del tipus `és acollida en Xarxa d'Hospitalitat a` entre la persona acollida i la llar d'acollida corresponent.
 

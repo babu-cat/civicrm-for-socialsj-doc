@@ -4,7 +4,7 @@
 
 ## Persones
 
-- **Adult: **\* persona adulta participant directa o indirecta dels diferents programes de l'entitat.
+- **Usuària Adulta: **\* persona adulta participant directa o indirecta dels diferents programes de l'entitat.
 
 > \* Els contactes marcats amb un asterisc tenen definits camps personalitzats.
 

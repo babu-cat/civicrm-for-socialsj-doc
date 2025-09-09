@@ -5,7 +5,7 @@
 El mòdul Banc d'Aliments implica als següents 3 tipus de contacte:
 
 - **Organització:** com a receptora de derivacions del banc d'aliments.
-- **Adult:** com a beneficiari de la derivació del banc d'aliments.
+- **Usuària Adulta:** com a beneficiari de la derivació del banc d'aliments.
 - **Professional** com a treballador social de referència responsable de la derivació al banc d'aliments.
 
 ## Relacions
@@ -13,14 +13,14 @@ El mòdul Banc d'Aliments implica als següents 3 tipus de contacte:
 Les derivacions del banc d'aliments queden definides pel següent tipus de relació que permet establir la vinculació entre l'adult beneficiari i l'organització que gestiona la derivació.
 
 ### Relació de derivació d'aliments
-- Contacte A: Adult
+- Contacte A: Usuària Adulta
 - Contacte B: Organització
 - Relació A>B: té una derivació d'aliments a
 - Relació B>A: rep una derivació d'aliments de
 - Conjunt de camps personalizats: [Derivació banc d'aliments](#derivacio-banc-daliments)
 
 ### Relació de derivació de targeta moneder
-- Contacte A: Adult
+- Contacte A: Usuària Adulta
 - Contacte B: Organització
 - Relació A>B: té una derivació de targeta moneder a
 - Relació B>A: rep una derivació de targeta moneder de

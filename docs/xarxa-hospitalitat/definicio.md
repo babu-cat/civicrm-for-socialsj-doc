@@ -11,12 +11,12 @@
 
 Crearem un nou tipus de contacte `Llar` que ens permetrà identificar un dels 3 actors
 que conformen el mòdul de Xarxa d'Hospitalitat. Els altres dos tipus de contactes
-`Persona migrant + Adult` i `Voluntari` ja queden definits per les dependències del
+`Persona migrant + Usuària adulta` i `Voluntari` ja queden definits per les dependències del
 mòdul Xarxa d'Hospitalitat.
 
 ### Persones
 
-!!! info "Adult"
+!!! info "Usuària adulta"
     Vegeu a [Mòdul adults > Contactes](../adults/contactes.md#persones)
 
 !!! info "Persona migrant"

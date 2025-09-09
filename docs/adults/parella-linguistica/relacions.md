@@ -7,6 +7,6 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 ## Relació de parella lingüística
 
 - Contacte A: Voluntari
-- Contacte B: Adult
+- Contacte B: Usuària Adulta
 - Relació A>B: és parella lingüística de
 - Relació B>A: és parella lingüística de
