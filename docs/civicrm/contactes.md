@@ -250,3 +250,16 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 - **Titularitat del centre**
 
     Selecció - `laica`; `religiosa`
+
+## Camps personalitzats d'adreces
+
+### Veïnatge
+
+- **Barri**
+
+    Selecció
+
+## Segments de dades
+
+- Adreces
+    - Districtes
