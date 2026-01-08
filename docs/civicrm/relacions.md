@@ -110,7 +110,7 @@ A part d'aquestes relacions preestablertes en definirem unes de noves que ens pe
 - Relació A>B: està col·legiat/da a
 - Relació B>A: té de col·legiat/da a
 
-### Relació d'atenció.	*
+### Relació d'atenció. *
 
 - Contacte A: Tots els contactes (no hauria de ser una organització)
 - Contacte B: Organització
