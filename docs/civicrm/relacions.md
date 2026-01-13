@@ -73,6 +73,15 @@ A part d'aquestes relacions preestablertes en definirem unes de noves que ens pe
 - Relació A>B: és cap de la llar de
 - Relació B>A: té de cap de la llar a
 
+## Acompanyament des de l'entitat
+
+### Relació de referent familiar
+
+- Contacte A: Unitat familiar i de convivència
+- Contacte B: Treballador
+- Relació A>B: té de referent familiar a
+- Relació B>A: és referent familiar de
+
 ## Altres tipus de relacions
 
 ### Relació de treball	*
@@ -123,15 +132,6 @@ A part d'aquestes relacions preestablertes en definirem unes de noves que ens pe
 - Contacte B: Organització
 - Relació A>B: està vinculat/da a
 - Relació B>A: està vinculat/da a
-
-## Acompanyament des de l'entitat
-
-### Relació de referent familiar
-
-- Contacte A: Unitat familiar i de convivència
-- Contacte B: Treballador
-- Relació A>B: té de referent familiar a
-- Relació B>A: és referent familiar de
 
 > \* Les relacions marcades amb un asterisc tenen definits camps personalitzats.
 
