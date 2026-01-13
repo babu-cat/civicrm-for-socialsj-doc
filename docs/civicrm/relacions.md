@@ -124,6 +124,15 @@ A part d'aquestes relacions preestablertes en definirem unes de noves que ens pe
 - Relació A>B: està vinculat/da a
 - Relació B>A: està vinculat/da a
 
+## Acompanyament des de l'entitat
+
+### Relació de referent familiar
+
+- Contacte A: Unitat familiar i de convivència
+- Contacte B: Treballador
+- Relació A>B: té de referent familiar a
+- Relació B>A: és referent familiar de
+
 > \* Les relacions marcades amb un asterisc tenen definits camps personalitzats.
 
 ## Camps personalitzats

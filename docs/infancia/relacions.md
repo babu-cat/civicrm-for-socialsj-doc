@@ -20,6 +20,15 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 - Relació A>B: es troba sota la guarda administrativa de
 - Relació B>A: té la guarda administrativa de
 
+## Acompanyament des de l'entitat
+
+### Relació de referent infant/jove
+
+- Contacte A: Infant/Jove
+- Contacte B: Treballador
+- Relació A>B: té de referent infant/jove a
+- Relació B>A: és referent infant/jove de
+
 ## Escolarització
 
 ### Relació de tutoria *
