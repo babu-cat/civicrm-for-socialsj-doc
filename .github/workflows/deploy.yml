@@ -16,5 +16,10 @@ jobs:
 
       - name: Deploy
         run: |
-          pip install --no-cache-dir mkdocs-material-extensions mkdocs-glightbox
+          git config --global --add safe.directory /__w/civicrm-for-socialsj-doc/civicrm-for-socialsj-doc
+          
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          pip install --no-cache-dir --quiet mkdocs-material-extensions mkdocs-glightbox
           mkdocs gh-deploy --force
