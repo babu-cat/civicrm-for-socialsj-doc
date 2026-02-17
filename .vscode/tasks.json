@@ -6,31 +6,22 @@
         {
             "label": "deploy",
             "type": "shell",
-            "command": [
-                "source venv/bin/activate;",
-                "mkdocs gh-deploy"
-            ]
+            "command": "docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy"
         },
         {
             "label": "build",
             "type": "shell",
             "command": [
-                "source venv/bin/activate;",
-                "mkdocs build --clean"
+                "docker run --rm",
+                "--user $(id -u):$(id -g)",
+                "--env HOME=/tmp",
+                "-v ${workspaceFolder}:/docs",
+                "--entrypoint /bin/sh",
+                "squidfunk/mkdocs-material",
+                "-c",
+                "'pip install --no-cache-dir mkdocs-material-extensions mkdocs-glightbox &&",
+                "mkdocs build'"
             ]
-        },
-        {
-            "label": "serve",
-            "type": "shell",
-            "command": [
-                "source venv/bin/activate;",
-                "mkdocs serve"
-            ]
-        },
-        {
-            "label": "linux-install",
-            "type": "shell",
-            "command": "${workspaceFolder}/.vscode/tasks_scripts/linux-install.sh"
         }
     ]
 }
