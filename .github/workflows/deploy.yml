@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container:
-      image: squidfunk/mkdocs-material:latest # Fem servir la imatge oficial directament
+      image: squidfunk/mkdocs-material:latest
     steps:
       - name: Checkout del codi
         uses: actions/checkout@v4
