@@ -1,0 +1,20 @@
+name: Desplegar Documentació
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: squidfunk/mkdocs-material:latest # Fem servir la imatge oficial directament
+    steps:
+      - name: Checkout del codi
+        uses: actions/checkout@v4
+
+      - name: Deploy
+        run: |
+          pip install --no-cache-dir mkdocs-material-extensions mkdocs-glightbox
+          mkdocs gh-deploy --force
