@@ -114,6 +114,10 @@
 
     Àrea de text
 
+- **Sap nedar?**
+
+    Resposta Sí/No
+
 - **Altres observacions** - Recolliu en aquest apartat altres observacions referents a la salut i a l'alimentació que calgui tenir en compte.
 
     Àrea de text
