@@ -149,3 +149,9 @@
 - **Convivència no familiar** - Número de persones que conviuen a l'habitatge i no són de la unitat familiar.
 
     Text
+
+#### Família CaixaProinfància
+
+- **ID família CPI**
+
+    Text
