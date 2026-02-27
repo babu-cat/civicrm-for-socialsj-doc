@@ -4,8 +4,8 @@
 
 ## Persones
 
-- **Infant / Jove: **\* persona menor d'edat i usuària de l'entitat.
-- **Adult - infància: **\* persona adulta vinculada a la unitat familiar i de convivència dels usuaris de l'entitat menors d'edat.
+- **Infant / Jove:** \* persona menor d'edat i usuària de l'entitat.
+- **Adult - infància:** \* persona adulta vinculada a la unitat familiar i de convivència dels usuaris de l'entitat menors d'edat.
 - **Docent:** docent d'un centre educatiu on estudien usuaris de l'entitat menors d'edat.
 
 ## Organitzacions
@@ -24,7 +24,7 @@
 
 ## Llars
 
-- **Unitat familiar i de convivència: **\* llar on conviuen diferents membres d'una unitat familiar i de convivència vinculada al usuaris de l'entitat menors d'edat.
+- **Unitat familiar i de convivència:** \* llar on conviuen diferents membres d'una unitat familiar i de convivència vinculada al usuaris de l'entitat menors d'edat.
 
 > \* Els contactes marcats amb un asterisc tenen definits camps personalitzats.
 
@@ -48,6 +48,60 @@
 
     Àrea de text
 
+#### Necessitats Específiques de Suport Educatiu Especials
+
+- **NESE - diagnosticades**
+
+    Selecció Múltiple -
+
+    - Síndrome de Down
+    - Trastorn cognitiu
+    - TEA (Trastorn de l’Espectre de l’Autisme)
+    - Trastorn mental (no especificat)
+    - Estrès posttraumàtic
+    - Síndrome de Duchenne
+    - Epilèpsia
+    - Trastorn d'aprenentatge (com la dislèxia, discalcúlia, etc.)
+    - TDAH (Trastorn per Dèficit d'Atenció amb o sense Hiperactivitat)
+    - Capacitat intel·lectual límit
+    - Alteracions en la parla
+    - Incorporació tardana al sistema educatiu
+    - Falta de domini de la llengua vehicular dels aprenentatges (català/castellà)
+    - Escolaritat prèvia deficitària
+    - Situacions socioeconòmiques i socioculturals desfavorides
+    - Risc d'abandonament escolar prematur
+
+- **NESE - no diagnosticades**
+
+    Selecció Múltiple - *Les mateixes que les diagnosticades*
+
+- **Altres observacions NESE**
+
+    Àrea de text
+
+##### Segments de dades
+
+- **NEE - Necessitats Educatives Especials - diagnosticades**
+
+    - Discapacitat Intel·lectual: `Síndrome de Down` o `Trastorn cognitiu`
+    - TEA (Trastorn de l'Espectre de l'Autisme)
+    - Trastorn Mental: `Trastorn mental (no especificat)` o `Estrés posttraumàtic`
+    - Malalties Degeneratives i Minoritàries: `Síndrome de Ducheme`
+    - Discapacitat Física / Altres: `Epilèpsia`
+
+- **NESE - Necessitats Específiques de Suport Educatiu - diagnosticades**
+
+    - Discapacitat Intel·lectual: `Síndrome de Down` o `Trastorn cognitiu`
+    - TEA (Trastorn de l'Espectre de l'Autisme)
+    - Trastorn Mental: `Trastorn mental (no especificat)` o `Estrés posttraumàtic`
+    - Malalties Degeneratives i Minoritàries: `Síndrome de Ducheme`
+    - Discapacitat Física / Altres: `Epilèpsia`
+    - Trastorns d'aprenentatge: `Trastorn d'aprenentatge (com la dislèxia, discalcúlia, etc.)`, `TDAH (Trastorn per Dèficit d'Atenció amb o sense Hiperactivitat)` o `Capacitat intel·lectual límit`
+    - Trastorn de comunicació: `Alteracions en la parla`
+    - Alumnat d'origen estranger: `Incorporació tardana al sistema educatiu`, `Falta de domini de la llengua vehicular dels aprenentatges (català/castellà)` o `Escolaritat prèvia deficitària`
+    - Situacions socioeconòmiques i socioculturals desfavorides: `Situacions socioeconòmiques i socioculturals desfavorides`
+    - Risc d'abandonament escolar prematur: `Risc d'abandonament escolar prematur`
+
 #### Salut i alimentació
 
 - **Número de targeta sanitària**
@@ -66,7 +120,7 @@
 
     Resposta Sí/No
 
-- **Tipus d'al·lèrgia**	- Si pateix alguna al·lèrgia especifiqueu quina.
+- **Tipus d'al·lèrgia** - Si pateix alguna al·lèrgia especifiqueu quina.
 
     Àrea de text
 
@@ -90,7 +144,7 @@
 
     Fitxer
 
-- **Medicaments** -	Pren medicació?
+- **Medicaments** - Pren medicació?
 
     Resposta Sí/No
 

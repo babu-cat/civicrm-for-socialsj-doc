@@ -78,6 +78,7 @@ Rol **tècnic infància** El tècnic infància, en canvi, només està capacitat
 |Tècnic Infància | Edita perfil demogràfic usuari/a   | Edita         | Un conjunt de camps de dades personalitzades       | Perfil demogràfic usuari/a   |
 |Tècnic Infància | Edita genograma                    | Edita         | Un conjunt de camps de dades personalitzades       | Genograma  |
 |Tècnic Infància | Edita genograma adult - infància   | Edita         | Un conjunt de camps de dades personalitzades       | Genograma adult - infància  |
+|Tècnic Infància | Edita NESE                         | Edita         | Un conjunt de camps de dades personalitzades       |  Necessitats Específiques de Suport Educatiu Especials |
 |Tècnic Infància | Edita salut i alimentació          | Edita         | Un conjunt de camps de dades personalitzades       | Salut i alimentació  |
 |Tècnic Infància | Edita autoritzacions               | Edita         | Un conjunt de camps de dades personalitzades       | Autoritzacions registrades |
 |Tècnic Infància | Edita perfil adult                 | Edita         | Un conjunt de camps de dades personalitzades       | Perfil adult |
