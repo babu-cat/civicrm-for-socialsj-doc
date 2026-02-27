@@ -1,0 +1,4305 @@
+<!DOCTYPE html><html lang="ca" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Aquesta documentació recull les funcionalitats pròpies de CiviCRM com també les implementades a mida i necessàries per reflectir els processos relacionats amb la gestió de les diferents entitats del sector social dels Jesuïtes de Catalunya.">
+      
+      
+        <meta name="author" content="Francesc Bassas i Bullich">
+      
+      
+        <link rel="canonical" href="http://docs.crm.socialsj.cat/infancia/activitats/">
+      
+      
+        <link rel="prev" href="../contactes/">
+      
+      
+        <link rel="next" href="../relacions/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Activitats - CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-CHW6R3GJZR"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-CHW6R3GJZR",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-CHW6R3GJZR",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#activitats" class="md-skip">
+          Salta el contingut
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Capçalera">
+    <a href="../.." title="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" class="md-header__button md-logo" aria-label="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Activitats
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Neteja" aria-label="Neteja" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicialitzant cerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc" title="Ves al repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegació" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" class="md-nav__button md-logo" aria-label="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"></path></svg>
+
+    </a>
+    CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc" title="Ves al repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CiviCRM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CiviCRM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Què és CiviCRM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/contribucions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribucions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8">
+        
+          
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processos habituals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Processos habituals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/processos-habituals/combinacio-contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combinació de contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/annex-idiomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annex: Llistat d'idiomes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infància
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Infància
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#infant-jove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infant / Jove
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adult-infancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adult - Infància
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unitat-familiar-i-de-convivencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unitat familiar i de convivència
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camps-personalitzats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camps personalitzats
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camps personalitzats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [Infant/Jove]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [Infant/Jove]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada infant/jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-adult-infancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [Adult - infància]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [Adult - infància]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-adultinfancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada adult/infància
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-ufc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [UFC]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [UFC]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-ufc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada - UFC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-dautoritzacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre d'autoritzacions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre d'autoritzacions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autoritzacions-registrades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoritzacions registrades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-resultats-academics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de resultats acadèmics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de resultats acadèmics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resultats-academics-registrats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultats acadèmics registrats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-situacio-menjador-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre situació menjador escolar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre situació menjador escolar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#situacio-menjador-escolar-registrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Situació menjador escolar registrada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrega-bens-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega béns CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrega béns CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bens-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Béns CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-seguimentcoordinacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de seguiment/coordinació
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de seguiment/coordinació">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-infant-jove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment infant / jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rep-atencio-psicoterapeutica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rep atenció psicoterapèutica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rep atenció psicoterapèutica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-psicoterapeutic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment psicoterapèutic
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-situacio-economica-ingressos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de situació econòmica - ingressos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de situació econòmica - ingressos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ingressos-registrats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ingressos registrats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-situacio-economica-despeses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de situació econòmica - despeses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de situació econòmica - despeses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#despeses-registrades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Despeses registrades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-seguiment-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de seguiment familiar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de seguiment familiar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intervencio-educativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intervenció educativa
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intervenció educativa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intervencio-educativa_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intervenció educativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribucions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribucions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfils/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfils
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adults
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Adults
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parella lingüística
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Parella lingüística
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/parella-linguistica/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atenció social
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atenció social
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atencio-social/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntariat, pràctiques i educació en el lleure
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Voluntariat, pràctiques i educació en el lleure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntariat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Voluntariat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/formularis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formularis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/informes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/plantilles-de-missatges/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantilles de missatges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/practiques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pràctiques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/educacio-en-el-lleure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Educació en el lleure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Esdeveniments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../esdeveniments/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comunicació
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comunicació
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacio/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captació de fons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Captació de fons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/conceptes-clau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptes clau
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/declaracio-certificacio-donatius/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaració i certificació de donatius (182 i 993)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/stockcrowd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    StockCrowd (EN DESENVOLUPAMENT)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Banc d'Aliments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Banc d'Aliments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../banc-aliments/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../banc-aliments/definicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Definició
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11">
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gent gran
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gent gran
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gent-gran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12">
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CIE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CIE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/perfils/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfils
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13">
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Xarxa d'Hospitalitat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Xarxa d'Hospitalitat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xarxa-hospitalitat/definicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Definició
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xarxa-hospitalitat/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../imprescindibles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprescindibles 🪄
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#infant-jove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infant / Jove
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adult-infancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adult - Infància
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unitat-familiar-i-de-convivencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unitat familiar i de convivència
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camps-personalitzats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camps personalitzats
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camps personalitzats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [Infant/Jove]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [Infant/Jove]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada infant/jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-adult-infancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [Adult - infància]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [Adult - infància]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-adultinfancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada adult/infància
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-ufc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació [UFC]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació [UFC]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-registrada-ufc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació registrada - UFC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-dautoritzacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre d'autoritzacions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre d'autoritzacions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autoritzacions-registrades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoritzacions registrades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-resultats-academics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de resultats acadèmics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de resultats acadèmics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resultats-academics-registrats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultats acadèmics registrats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-situacio-menjador-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre situació menjador escolar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre situació menjador escolar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#situacio-menjador-escolar-registrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Situació menjador escolar registrada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrega-bens-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrega béns CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrega béns CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bens-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Béns CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-seguimentcoordinacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de seguiment/coordinació
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de seguiment/coordinació">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-infant-jove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment infant / jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rep-atencio-psicoterapeutica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rep atenció psicoterapèutica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rep atenció psicoterapèutica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-psicoterapeutic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment psicoterapèutic
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-documentacio-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de documentació CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de documentació CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacio-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentació CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-situacio-economica-ingressos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de situació econòmica - ingressos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de situació econòmica - ingressos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ingressos-registrats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ingressos registrats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-situacio-economica-despeses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de situació econòmica - despeses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de situació econòmica - despeses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#despeses-registrades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Despeses registrades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registre-de-seguiment-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registre de seguiment familiar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Registre de seguiment familiar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seguiment-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguiment familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intervencio-educativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intervenció educativa
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intervenció educativa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intervencio-educativa_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intervenció educativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="activitats">Activitats<a class="headerlink" href="#activitats" title="Permanent link">¶</a></h1>
+<blockquote>
+<p>Vegeu més informació sobre les activitats a <a href="../../civicrm/activitats/">CiviCRM &gt; Activitats</a>.</p>
+</blockquote>
+<p>En aquest apartat definirem un seguit d'activitats que ens permetran definir diferents processos que involucren als diferents tipus de contactes dels programes d'infància de l'entitat.</p>
+<h2 id="infant-jove">Infant / Jove<a class="headerlink" href="#infant-jove" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Registre de documentació: </strong>* Registre de documentació d'un infant o jove. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</li>
+<li><strong>Registre d'autoritzacions: </strong>* Registre d'autoritzacions d'un infant o jove. Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzacions aportades en registres anteriors.</li>
+<li><strong>Registre de resultats acadèmics: </strong>* Registre de resultats acadèmics d'un infant o jove.</li>
+<li><strong>Registre expedient acadèmic:</strong> Registre d'expedient acadèmic d'un infant o jove.</li>
+<li><strong>Registre situació menjador escolar: </strong>* Registre de situació en el menjador escolar d'un infant / jove.</li>
+<li><strong>Entrega béns CPI: </strong>* Registre d'una entrega de béns a l'infant o jove del programa de la CaixaProinfància.</li>
+<li><strong>Observació de salut:</strong> Registre d'una observació relativa a la salut de l'infant o jove.</li>
+<li><strong>Observació d'escolarització:</strong> Registre d'una observació relativa a l'escolarització d'un infant o jove.</li>
+<li><strong>Registre d'activitats extraescolars:</strong> Registre de la realització d'activitats extraescolars per part d'un infant o jove. Un registre d'activitats extraescolars nou deixa obsolet un registre antic.</li>
+<li><strong>Registre de seguiment/coordinació: </strong>* Registre de seguiment/coordinació d'un infant o jove amb un o més contactes relacionats directa o indirectament amb aquest infant o jove.</li>
+<li><strong>Rep atenció psicoterapèutica: </strong>* Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.</li>
+<li><strong>Registre de documentació CPI: </strong>*</li>
+</ul>
+<h2 id="adult-infancia">Adult - Infància<a class="headerlink" href="#adult-infancia" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Registre de documentació: </strong>* Registre de documentació d'un adult infància. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</li>
+<li><strong>Registre de situació econòmica - ingressos: </strong>* Registre de situació econòmica d'un adult - infància.</li>
+<li><strong>Rep atenció psicoterapèutica: </strong>* Registre d'una sessió d'atenció psicoterapèutica d'un infant o jove o d'un adult - infància.</li>
+</ul>
+<h2 id="unitat-familiar-i-de-convivencia">Unitat familiar i de convivència<a class="headerlink" href="#unitat-familiar-i-de-convivencia" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Registre de documentació: </strong>* Registre de documentació d'una UFC. La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</li>
+<li><strong>Registre de justificant de percepció de serveis CPI: </strong>* Registre de justificant de percepció de serveis Caixa ProInfància durant el curs. El justificant pot ser aportat en nom d'un infant o jove o bé dels infants o joves d'una Unitat Familiar i de Convivència.</li>
+<li><strong>Registre de situació econòmica - despeses: </strong>* Registre de situació econòmica d'una Unitat Familiar i de Convivència.</li>
+<li><strong>Registre de seguiment familiar: </strong>* Registre de seguiment d'una Unitat Familiar i de Convivència.</li>
+<li><strong>Intervenció educativa: </strong>* Registre d'una intervenció educativa centrada en una Unitat Familiar i de Convivència.</li>
+</ul>
+<p>Si es desitja registrar algun tipus d'activitat o comentari que no queda contemplat en aquest funcional d'activitats, sempre es pot afegir l'observació com una <strong>nota</strong> adjunta al contacte. Les notes, de la mateixa manera que les activitats permeten l'adjunció de fitxers. També permet definir-ne la privacitat, o bé per a tothom, o bé només per l'autor i els usuaris amb permís per veure totes les notes.</p>
+<p>Ex. nota - Preferències de comunicació: nota on es recullen les preferències de comunicació d'un contacte, com trucar al pare, trucar a la germana, trucar a la feina de la mare els matins, etc.</p>
+<blockquote>
+<p>* Les activitats marcades amb un asterisc tenen definits camps personalitzats.</p>
+</blockquote>
+<h2 id="camps-personalitzats">Camps personalitzats<a class="headerlink" href="#camps-personalitzats" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>Vegeu més camps personalitzats de les activitats a <a href="../../civicrm/activitats/#camps-personalitzats-dactivitats">CiviCRM &gt; Activitats &gt; Camps personalitzats</a>.</p>
+</blockquote>
+<h3 id="registre-de-documentacio-infantjove">Registre de documentació [Infant/Jove]<a class="headerlink" href="#registre-de-documentacio-infantjove" title="Permanent link">¶</a></h3>
+<h4 id="documentacio-registrada-infantjove">Documentació registrada infant/jove<a class="headerlink" href="#documentacio-registrada-infantjove" title="Permanent link">¶</a></h4>
+<p>La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</p>
+<ul>
+<li>
+<p><strong>NIF, NIE o passaport</strong> - Document d'identitat de l'infant o jove.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>NIF, NIE o passaport (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Targeta sanitària</strong></p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Targeta sanitària (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Carnet de vacunacions</strong></p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Carnet de vacunacions (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+</ul>
+<h3 id="registre-de-documentacio-adult-infancia">Registre de documentació [Adult - infància]<a class="headerlink" href="#registre-de-documentacio-adult-infancia" title="Permanent link">¶</a></h3>
+<h4 id="documentacio-registrada-adultinfancia">Documentació registrada adult/infància<a class="headerlink" href="#documentacio-registrada-adultinfancia" title="Permanent link">¶</a></h4>
+<p>La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</p>
+<ul>
+<li>
+<p><strong>NIF, NIE o passaport</strong> - Document d'identitat de l'adult - infància.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>NIF, NIE o passaport (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Document de custòdia</strong> - Document que acredita la custòdia de l'infant o jove.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Document de custòdia (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+</ul>
+<h3 id="registre-de-documentacio-ufc">Registre de documentació [UFC]<a class="headerlink" href="#registre-de-documentacio-ufc" title="Permanent link">¶</a></h3>
+<h4 id="documentacio-registrada-ufc">Documentació registrada - UFC<a class="headerlink" href="#documentacio-registrada-ufc" title="Permanent link">¶</a></h4>
+<p>La documentació aportada en aquest registre deixa obsoleta la documentació aportada en registres anteriors.</p>
+<ul>
+<li>
+<p><strong>Llibre de família i certificats de naixement</strong> - El llibre de família complet i els certificats de naixement de tots els fills.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Llibre de família i certificats de naixement (fitxer)</strong> - En cas d'estar format per més d'un document podeu pujar-los en un fitxer comprimit.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Certificat de convivència</strong></p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Certificat de convivència (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+</ul>
+<h3 id="registre-dautoritzacions">Registre d'autoritzacions<a class="headerlink" href="#registre-dautoritzacions" title="Permanent link">¶</a></h3>
+<h4 id="autoritzacions-registrades">Autoritzacions registrades<a class="headerlink" href="#autoritzacions-registrades" title="Permanent link">¶</a></h4>
+<p>Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzacions aportades en registres anteriors.</p>
+<ul>
+<li>
+<p><strong>Autorització per tornar sol</strong> - L'infant o jove té autorització per tornar sol.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Autorització per tornar sol (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Autorització recollida d'infants</strong> - L'infant o jove té autorització per tornar acompanyat. En cas afirmatiu caldrà definir a l'apartat de relacions la persona o persones que tenen autorització per recollir l'infant o jove a l'entitat.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Autorització recollida d'infants (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Autorització recollida d'informes escolars</strong> - Es té autorització per rebre de l'escola els informes escolars de l'infant o jove.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Autorització recollida d'informes escolars (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Autorització per administració de medicació</strong> - Es té autorització per administrar medicaments a l'infant o jove en cas de necessitat.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Autorització per administració de medicació (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Autorització per atenció psicològica</strong> - Es té autorització per proporcionar atenció psicològica especialitzada a l'infant o jove.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Autorització per atenció psicològica (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Altres autoritzacions</strong> - Es té autorització per traslladar el nen en vehicle particular en cas de necessitat i/o prendre decisions mèdiques que calgui adoptar, en cas d'extrema urgència, sota decisió facultativa pertinent i/o a l'ús de la veu i la imatge.</p>
+<p>Selecció múltiple - Autorització trasllat en vehicle; Autorització urgència mèdica; Autorització imatge i veu</p>
+</li>
+<li>
+<p><strong>Altres autoritzacions (fitxer)</strong></p>
+<p>Fitxer</p>
+</li>
+</ul>
+<h3 id="registre-de-resultats-academics">Registre de resultats acadèmics<a class="headerlink" href="#registre-de-resultats-academics" title="Permanent link">¶</a></h3>
+<h4 id="resultats-academics-registrats">Resultats acadèmics registrats<a class="headerlink" href="#resultats-academics-registrats" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Trimestre</strong></p>
+<p>Selecció - 1r trimestre; 2n trimestre; 3r trimestre</p>
+</li>
+</ul>
+<h3 id="registre-situacio-menjador-escolar">Registre situació menjador escolar<a class="headerlink" href="#registre-situacio-menjador-escolar" title="Permanent link">¶</a></h3>
+<h4 id="situacio-menjador-escolar-registrada">Situació menjador escolar registrada<a class="headerlink" href="#situacio-menjador-escolar-registrada" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Dina al centre educatiu</strong></p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Beca menjador</strong> - És beneficiari d'una beca menjador?</p>
+<p>Selecció - No; Mitja; Completa</p>
+</li>
+</ul>
+<h3 id="entrega-bens-cpi">Entrega béns CPI<a class="headerlink" href="#entrega-bens-cpi" title="Permanent link">¶</a></h3>
+<h4 id="bens-cpi">Béns CPI<a class="headerlink" href="#bens-cpi" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Equipació escolar</strong> - Se li fa entrega d'un bé d'equipació escolar?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Codi equipació escolar</strong> - Codi del bé</p>
+<p>Text</p>
+</li>
+<li>
+<p><strong>Alimentació infantil</strong> - Se li fa entrega d'un bé d'alimentació infantil?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Codi alimentació infantil</strong> - Codi del bé</p>
+<p>Text</p>
+</li>
+<li>
+<p><strong>Ulleres i audiòfons</strong> - Se li fa entrega d'un bé d'ulleres i audífons?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Codi ulleres i audiòfons</strong> - Codi del bé</p>
+<p>Text</p>
+</li>
+<li>
+<p><strong>Higiene infantil</strong> - Se li fa entrega d'un bé d'higiene infantil?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Codi higiene infantil</strong> - Codi del bé</p>
+<p>Text</p>
+</li>
+<li>
+<p><strong>Acusament de percepció de béns CPI</strong> - Justificant digitalitzat dels béns CPI percebuts en l'entrega per l'infant o jove.</p>
+<p>Fitxer</p>
+</li>
+</ul>
+<h3 id="registre-de-seguimentcoordinacio">Registre de seguiment/coordinació<a class="headerlink" href="#registre-de-seguimentcoordinacio" title="Permanent link">¶</a></h3>
+<h4 id="seguiment-infant-jove">Seguiment infant / jove<a class="headerlink" href="#seguiment-infant-jove" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Modalitat</strong></p>
+<p>Selecció - Presencial; Trucada; Correu electrònic; Altres</p>
+</li>
+<li>
+<p><strong>Convocant</strong> - Persona qui convoca el seguiment</p>
+<p>Contacte de referència (contactes infància i equip professional)</p>
+</li>
+<li>
+<p><strong>Temes tractats</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Acords</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="rep-atencio-psicoterapeutica">Rep atenció psicoterapèutica<a class="headerlink" href="#rep-atencio-psicoterapeutica" title="Permanent link">¶</a></h3>
+<h4 id="seguiment-psicoterapeutic">Seguiment psicoterapèutic<a class="headerlink" href="#seguiment-psicoterapeutic" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Psicòleg</strong></p>
+<p>Contacte de referència (Psicòleg)</p>
+</li>
+<li>
+<p><strong>Observacions</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="registre-de-documentacio-cpi">Registre de documentació CPI<a class="headerlink" href="#registre-de-documentacio-cpi" title="Permanent link">¶</a></h3>
+<h4 id="documentacio-cpi">Documentació CPI<a class="headerlink" href="#documentacio-cpi" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Tipus de document</strong></p>
+<p>Selecció</p>
+</li>
+<li>
+<p><strong>Document</strong></p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Firma</strong> - Indiqueu qui firma el document.</p>
+<p>Contacte de referència (contactes infància)</p>
+</li>
+<li>
+<p><strong>Curs</strong> - Indiqueu a quin curs es correspon el document presentat.</p>
+<p>Selecció - 2012/2013; 2013/2014; 2014/2015; 2015/2016; 2016/2017</p>
+</li>
+</ul>
+<h3 id="registre-de-situacio-economica-ingressos">Registre de situació econòmica - ingressos<a class="headerlink" href="#registre-de-situacio-economica-ingressos" title="Permanent link">¶</a></h3>
+<h4 id="ingressos-registrats">Ingressos registrats<a class="headerlink" href="#ingressos-registrats" title="Permanent link">¶</a></h4>
+<p>Conjunt d'ingressos declarats per l'adult - infància.</p>
+<ul>
+<li>
+<p><strong>Percep algun tipus d'ingrés</strong></p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Aporta documentació nòmines</strong> - Última nòmina mensual o més si disposa d'elles.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació nòmines</strong> - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Número de pagues</strong> - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina i s'escau, indiqueu el nombre de pagues.</p>
+<p>Selecció - no aplica; 12; 14</p>
+</li>
+<li>
+<p><strong>Ingressos nòmines</strong> - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina, indiqueu la suma d'aquests ingressos.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions nòmines</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació SOC o SEPE</strong> - Aporta documentació conforme percep algun tipus de prestació del Servei d'Ocupació de Catalunya o del Servicio Público de Empleo Estatal.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació SOC o SEPE</strong> - Si ha aportat la documentació conforme percep algun tipus de prestació del Servei d'Ocupació de Catalunya o del Servicio Público de Empleo Estatal podeu adjuntar-la.</p>
+<p>Fitxer   </p>
+</li>
+<li>
+<p><strong>Ingressos SOC o SEPE</strong> - Si ha aportat la documentació conforme percep algun tipus de prestació del Servei d'Ocupació de Catalunya o del Servicio Público de Empleo Estatal indiqueu la suma d'aquestes prestacions.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions SOC o SEPE</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació seguretat social</strong> - Aporta documentació conforme percep algun tipus de prestació de la seguretat social? Per exemple, jubilació, pensions, etc.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació seguretat social</strong> - Si ha aportat documentació conforme percep algun tipus de prestació de la seguretat social podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Ingressos seguretat social</strong> - Si ha aportat documentació conforme percep algun tipus de prestació de la seguretat social indiqueu la suma d'aquestes prestacions.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions seguretat social</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació Renda garantida de ciutadania</strong> - Aporta documentació conforme percep algun tipus de prestació per renda mínima d'inserció?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació Renda garantida de ciutadania</strong> - Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Ingressos Renda garantida de ciutadania</strong> - Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció indiqueu la suma d'aquestes prestacions.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions Renda garantida de ciutadania</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació serveis socials</strong> - Aporta documentació conforme percep algun tipus de prestació dels serveis socials?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació serveis socials</strong> - Si ha aportat documentació conforme percep algun tipus de prestació dels serveis socials podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Ingressos serveis socials</strong> -   Si ha aportat documentació conforme percep algun tipus de prestació dels serveis socials indiqueu la suma d'aquestes prestacions.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions serveis socials</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació declaració jurada</strong> - Aporta documentació de declaració jurada sobre els ingressos que percep? Certificat conforme no s'estan percebent prestacions públiques de ningún tipus i/o declaració jurada d'ingressos.</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació declaració jurada</strong> - Si ha aportat documentació de declaració jurada sobre els ingressos que percep podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Ingressos declaració jurada</strong> - Si ha aportat documentació de declaració jurada sobre els ingressos que percep indiqueu la suma d'aquests ingressos.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions declaració jurada</strong></p>
+<p>Àrea de text     </p>
+</li>
+<li>
+<p><strong>Aporta altra documentació</strong> - Aporta altra documentació conforme percep altres tipus d'ingressos? Per exemple, ingressos d'autònom (última declaració trimestral de retencions i ingressos a compte), manutenció de menors (resolució judicial amb la cuantía mensual a ingressar), etc...</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Altra documentació</strong> - Si ha aportat altra documentació conforme percep altres tipus d'ingressos podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Altres ingressos</strong> - Si ha aportat altra documentació conforme percep altres tipus d'ingressos indiqueu la suma d'aquests.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Altres observacions</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Aporta documentació Renta</strong> - Aporta la declaració de la Renta anual?</p>
+<p>Resposta Sí/No</p>
+</li>
+<li>
+<p><strong>Documentació Renta</strong> - Si ha aportat la declaració de la Renta anual podeu adjuntar-la.</p>
+<p>Fitxer</p>
+</li>
+<li>
+<p><strong>Observacions Renta</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="registre-de-situacio-economica-despeses">Registre de situació econòmica - despeses<a class="headerlink" href="#registre-de-situacio-economica-despeses" title="Permanent link">¶</a></h3>
+<h4 id="despeses-registrades">Despeses registrades<a class="headerlink" href="#despeses-registrades" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Tipus d'habitatge</strong></p>
+<p>Selecció - Propietat; Lloguer; Lloguer parcial; Altres</p>
+</li>
+<li>
+<p><strong>Tipus despeses habitatge</strong> - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina podeu adjuntar-la.</p>
+<p>Selecció - Hipoteca; Lloguer; Cap</p>
+</li>
+<li>
+<p><strong>Despeses habitatges</strong> - Si té despeses relacionades amb l'habitatge (no les relacionades amb els subministraments) indiqueu-ne la suma.</p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Altres tipus de despeses o deutes fixos</strong></p>
+<p>Diners</p>
+</li>
+<li>
+<p><strong>Observacions despeses</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="registre-de-seguiment-familiar">Registre de seguiment familiar<a class="headerlink" href="#registre-de-seguiment-familiar" title="Permanent link">¶</a></h3>
+<h4 id="seguiment-familiar">Seguiment familiar<a class="headerlink" href="#seguiment-familiar" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Modalitat</strong></p>
+<p>Selecció - Presencial; Trucada; Correu electrònic; Altres</p>
+</li>
+<li>
+<p><strong>Convocant</strong> - Persona qui convoca el seguiment</p>
+<p>Contacte de referència (contactes infància i equip professional)</p>
+</li>
+<li>
+<p><strong>Temes tractats</strong></p>
+<p>Àrea de text</p>
+</li>
+<li>
+<p><strong>Acords</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="intervencio-educativa">Intervenció educativa<a class="headerlink" href="#intervencio-educativa" title="Permanent link">¶</a></h3>
+<h4 id="intervencio-educativa_1">Intervenció educativa<a class="headerlink" href="#intervencio-educativa_1" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Modalitat</strong></p>
+<p>Selecció - Visita a domicili; Suport matinal; Trucada;</p>
+</li>
+<li>
+<p><strong>Informe de la intervenció</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

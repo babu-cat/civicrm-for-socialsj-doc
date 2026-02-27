@@ -1,0 +1,4262 @@
+<!DOCTYPE html><html lang="ca" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Aquesta documentació recull les funcionalitats pròpies de CiviCRM com també les implementades a mida i necessàries per reflectir els processos relacionats amb la gestió de les diferents entitats del sector social dels Jesuïtes de Catalunya.">
+      
+      
+        <meta name="author" content="Francesc Bassas i Bullich">
+      
+      
+        <link rel="canonical" href="http://docs.crm.socialsj.cat/infancia/relacions/">
+      
+      
+        <link rel="prev" href="../activitats/">
+      
+      
+        <link rel="next" href="../esdeveniments/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Relacions - CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-CHW6R3GJZR"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-CHW6R3GJZR",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-CHW6R3GJZR",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#relacions" class="md-skip">
+          Salta el contingut
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Capçalera">
+    <a href="../.." title="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" class="md-header__button md-logo" aria-label="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Relacions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Neteja" aria-label="Neteja" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicialitzant cerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc" title="Ves al repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegació" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" class="md-nav__button md-logo" aria-label="CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"></path></svg>
+
+    </a>
+    CiviCRM per a entitats del sector social dels Jesuïtes de Catalunya
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/babu-cat/civicrm-for-socialsj-doc" title="Ves al repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CiviCRM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CiviCRM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Què és CiviCRM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/contribucions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribucions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8">
+        
+          
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processos habituals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Processos habituals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/processos-habituals/combinacio-contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combinació de contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civicrm/annex-idiomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annex: Llistat d'idiomes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infància
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Infància
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#familiars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiars
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Familiars">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutela-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutela legal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-guarda-administrativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de guarda administrativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acompanyament-des-de-lentitat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acompanyament des de l'entitat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Acompanyament des de l'entitat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-referent-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de referent infant/jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escolaritzacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escolarització
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Escolarització">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutoria *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-infantils" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis infantils *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-primaris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis primaris *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-secundaris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis secundaris *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-de-batxillerat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis de batxillerat *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-uec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis UEC *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-dadults" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis d'adults
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-datencio-logopedica-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'atenció logopèdica a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-datencio-logopedica-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'atenció logopèdica a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-daula-dacollida-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'aula d'acollida a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-daula-dacollida-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'aula d'acollida a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-lusee-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'USEE a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-lusee-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'USEE a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-laula-oberta-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'aula oberta a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caixaproinfancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CaixaProInfància
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CaixaProInfància">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de beca CPI *
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#altres-tipus-de-relacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Altres tipus de relacions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Altres tipus de relacions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-dacompanyant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'acompanyant
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camps-personalitzats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camps personalitzats
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camps personalitzats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutoria_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutoria
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació de tutoria">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutoria
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-infantils_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis infantils
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis infantils">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-infantil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis infantil
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-primaris_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis primaris
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis primaris">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis primària
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-secundaris_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis secundaris
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis secundaris">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-secundaria-obligatoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis secundària obligatòria
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-uec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis UEC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis UEC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-uec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis UEC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacions-datencio-logopedica-a-primaria-i-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relacions d'atenció logopèdica a primaria i secundària
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relacions d'atenció logopèdica a primaria i secundària">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencio-professional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atenció professional
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacions-de-participacio-a-laula-dacollida-a-lusee-i-a-laula-oberta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relacions de participació a l'aula d'acollida, a l'USEE i a l'aula oberta
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relacions de participació a l'aula d'acollida, a l'USEE i a l'aula oberta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencio-docent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atenció docent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació beca CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació beca CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beca CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribucions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribucions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfils/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfils
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adults
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Adults
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parella lingüística
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Parella lingüística
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adults/parella-linguistica/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atenció social
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atenció social
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atencio-social/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntariat, pràctiques i educació en el lleure
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Voluntariat, pràctiques i educació en el lleure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntariat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Voluntariat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/formularis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formularis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/informes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/plantilles-de-missatges/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantilles de missatges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/voluntariat/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/practiques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pràctiques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voluntariat-practiques-educacio-lleure/educacio-en-el-lleure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Educació en el lleure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esdeveniments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Esdeveniments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../esdeveniments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../esdeveniments/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comunicació
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comunicació
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacio/preguntes-mes-frequents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preguntes més freqüents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captació de fons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Captació de fons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/conceptes-clau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptes clau
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/declaracio-certificacio-donatius/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaració i certificació de donatius (182 i 993)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../captacio-de-fons/stockcrowd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    StockCrowd (EN DESENVOLUPAMENT)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Banc d'Aliments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Banc d'Aliments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../banc-aliments/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../banc-aliments/definicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Definició
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11">
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gent gran
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gent gran
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gent-gran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12">
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CIE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CIE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducció
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/contactes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contactes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/activitats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activitats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/relacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relacions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/grups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/permisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cie/perfils/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfils
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13">
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Xarxa d'Hospitalitat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Xarxa d'Hospitalitat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xarxa-hospitalitat/definicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Definició
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xarxa-hospitalitat/guia-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia d'ús
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../imprescindibles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprescindibles 🪄
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#familiars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiars
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Familiars">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutela-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutela legal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-guarda-administrativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de guarda administrativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acompanyament-des-de-lentitat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acompanyament des de l'entitat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Acompanyament des de l'entitat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-referent-infantjove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de referent infant/jove
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escolaritzacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escolarització
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Escolarització">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutoria *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-infantils" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis infantils *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-primaris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis primaris *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-secundaris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis secundaris *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-de-batxillerat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis de batxillerat *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-uec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis UEC *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-dadults" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis d'adults
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-datencio-logopedica-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'atenció logopèdica a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-datencio-logopedica-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'atenció logopèdica a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-daula-dacollida-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'aula d'acollida a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-daula-dacollida-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'aula d'acollida a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-lusee-a-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'USEE a primària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-lusee-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'USEE a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-participacio-a-laula-oberta-a-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de participació a l'aula oberta a secundària *
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caixaproinfancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CaixaProInfància
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CaixaProInfància">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de beca CPI *
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#altres-tipus-de-relacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Altres tipus de relacions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Altres tipus de relacions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-dacompanyant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'acompanyant
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camps-personalitzats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camps personalitzats
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camps personalitzats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relacio-de-tutoria_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació de tutoria
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació de tutoria">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutoria
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-infantils_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis infantils
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis infantils">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-infantil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis infantil
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-primaris_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis primaris
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis primaris">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis primària
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-secundaris_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis secundaris
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis secundaris">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-secundaria-obligatoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis secundària obligatòria
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-destudis-uec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació d'estudis UEC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació d'estudis UEC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estudis-uec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estudis UEC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacions-datencio-logopedica-a-primaria-i-secundaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relacions d'atenció logopèdica a primaria i secundària
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relacions d'atenció logopèdica a primaria i secundària">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencio-professional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atenció professional
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacions-de-participacio-a-laula-dacollida-a-lusee-i-a-laula-oberta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relacions de participació a l'aula d'acollida, a l'USEE i a l'aula oberta
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relacions de participació a l'aula d'acollida, a l'USEE i a l'aula oberta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencio-docent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atenció docent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacio-beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relació beca CPI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relació beca CPI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beca-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beca CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="relacions">Relacions<a class="headerlink" href="#relacions" title="Permanent link">¶</a></h1>
+<blockquote>
+<p>Vegeu més informació sobre les relacions a <a href="../../civicrm/relacions/">CiviCRM &gt; Relacions</a>.</p>
+</blockquote>
+<p>Definirem un seguit de relacions que ens permetran establir les diverses connexions entre els diferents tipus de contactes dels programes d'infància de l'entitat.</p>
+<h2 id="familiars">Familiars<a class="headerlink" href="#familiars" title="Permanent link">¶</a></h2>
+<h3 id="relacio-de-tutela-legal">Relació de tutela legal<a class="headerlink" href="#relacio-de-tutela-legal" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Persona</li>
+<li>Relació A&gt;B: té de tutor/a legal a</li>
+<li>Relació B&gt;A: és tutor/a legal de</li>
+</ul>
+<h3 id="relacio-de-guarda-administrativa">Relació de guarda administrativa<a class="headerlink" href="#relacio-de-guarda-administrativa" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Organització</li>
+<li>Relació A&gt;B: es troba sota la guarda administrativa de</li>
+<li>Relació B&gt;A: té la guarda administrativa de</li>
+</ul>
+<h2 id="acompanyament-des-de-lentitat">Acompanyament des de l'entitat<a class="headerlink" href="#acompanyament-des-de-lentitat" title="Permanent link">¶</a></h2>
+<h3 id="relacio-de-referent-infantjove">Relació de referent infant/jove<a class="headerlink" href="#relacio-de-referent-infantjove" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant/Jove</li>
+<li>Contacte B: Treballador</li>
+<li>Relació A&gt;B: té de referent infant/jove a</li>
+<li>Relació B&gt;A: és referent infant/jove de</li>
+</ul>
+<h2 id="escolaritzacio">Escolarització<a class="headerlink" href="#escolaritzacio" title="Permanent link">¶</a></h2>
+<h3 id="relacio-de-tutoria">Relació de tutoria *<a class="headerlink" href="#relacio-de-tutoria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Docent</li>
+<li>Relació A&gt;B: té de tutor/a a</li>
+<li>Relació B&gt;A: és tutor/a de</li>
+</ul>
+<h3 id="relacio-destudis-infantils">Relació d'estudis infantils *<a class="headerlink" href="#relacio-destudis-infantils" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació infantil</li>
+<li>Relació A&gt;B: estudia infantil a</li>
+<li>Relació B&gt;A: té com a estudiant d'infantil a</li>
+</ul>
+<h3 id="relacio-destudis-primaris">Relació d'estudis primaris *<a class="headerlink" href="#relacio-destudis-primaris" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació primària</li>
+<li>Relació A&gt;B: estudia primària a</li>
+<li>Relació B&gt;A: té com a estudiant de primària a</li>
+</ul>
+<h3 id="relacio-destudis-secundaris">Relació d'estudis secundaris *<a class="headerlink" href="#relacio-destudis-secundaris" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació secundària</li>
+<li>Relació A&gt;B: estudia secundària a</li>
+<li>Relació B&gt;A: té com a estudiant de secundària a</li>
+</ul>
+<h3 id="relacio-destudis-de-batxillerat">Relació d'estudis de batxillerat *<a class="headerlink" href="#relacio-destudis-de-batxillerat" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre de batxillerat</li>
+<li>Relació A&gt;B: estudia batxillerat a</li>
+<li>Relació B&gt;A: té com a estudiant de batxillerat a</li>
+</ul>
+<h3 id="relacio-destudis-uec">Relació d'estudis UEC *<a class="headerlink" href="#relacio-destudis-uec" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: UEC</li>
+<li>Relació A&gt;B: estudia a la UEC</li>
+<li>Relació B&gt;A: té com a estudiant de la UEC a</li>
+</ul>
+<h3 id="relacio-destudis-dadults">Relació d'estudis d'adults<a class="headerlink" href="#relacio-destudis-dadults" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre formació d'adults</li>
+<li>Relació A&gt;B: estudia al centre de formació d'adults</li>
+<li>Relació B&gt;A: té com a estudiant del centre de formació d'adults a</li>
+</ul>
+<h3 id="relacio-datencio-logopedica-a-primaria">Relació d'atenció logopèdica a primària *<a class="headerlink" href="#relacio-datencio-logopedica-a-primaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació primària</li>
+<li>Relació A&gt;B: rep atenció logopèdica al centre d'educació primaria de</li>
+<li>Relació B&gt;A: proporciona atenció logopèdica al centre d'educació primària a</li>
+</ul>
+<h3 id="relacio-datencio-logopedica-a-secundaria">Relació d'atenció logopèdica a secundària *<a class="headerlink" href="#relacio-datencio-logopedica-a-secundaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació secundària</li>
+<li>Relació A&gt;B: rep atenció logopèdica al centre d'educació secundària de</li>
+<li>Relació B&gt;A: proporciona atenció logopèdica al centre d'educació secundària a</li>
+</ul>
+<h3 id="relacio-daula-dacollida-a-primaria">Relació d'aula d'acollida a primària *<a class="headerlink" href="#relacio-daula-dacollida-a-primaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació primària</li>
+<li>Relació A&gt;B: participa a l'aula d'acollida de primària de</li>
+<li>Relació B&gt;A: té a l'aula d'acollida de primària a</li>
+</ul>
+<h3 id="relacio-daula-dacollida-a-secundaria">Relació d'aula d'acollida a secundària *<a class="headerlink" href="#relacio-daula-dacollida-a-secundaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació secundària</li>
+<li>Relació A&gt;B: participa a l'aula d'acollida de secundària de</li>
+<li>Relació B&gt;A: té a l'aula d'acollida de secundària a</li>
+</ul>
+<h3 id="relacio-de-participacio-a-lusee-a-primaria">Relació de participació a l'USEE a primària *<a class="headerlink" href="#relacio-de-participacio-a-lusee-a-primaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació primària</li>
+<li>Relació A&gt;B: participa a l'USEE de primària de</li>
+<li>Relació B&gt;A: té a l'USEE de primària a</li>
+</ul>
+<h3 id="relacio-de-participacio-a-lusee-a-secundaria">Relació de participació a l'USEE a secundària   *<a class="headerlink" href="#relacio-de-participacio-a-lusee-a-secundaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació secundària</li>
+<li>Relació A&gt;B: participa a l'USEE de secundària de</li>
+<li>Relació B&gt;A: té a l'USEE de secundària a</li>
+</ul>
+<h3 id="relacio-de-participacio-a-laula-oberta-a-secundaria">Relació de participació a l'aula oberta a secundària *<a class="headerlink" href="#relacio-de-participacio-a-laula-oberta-a-secundaria" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Centre educació secundària</li>
+<li>Relació A&gt;B: participa a l'aula oberta de</li>
+<li>Relació B&gt;A: té a l'aula oberta a</li>
+</ul>
+<h2 id="caixaproinfancia">CaixaProInfància<a class="headerlink" href="#caixaproinfancia" title="Permanent link">¶</a></h2>
+<h3 id="relacio-de-beca-cpi">Relació de beca CPI *<a class="headerlink" href="#relacio-de-beca-cpi" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Fundació la Caixa</li>
+<li>Contacte B: Infant / Jove</li>
+<li>Relació A&gt;B: concedeix una beca CPI a</li>
+<li>Relació B&gt;A: és beneficiari d'una beca CPI per</li>
+</ul>
+<h2 id="altres-tipus-de-relacions">Altres tipus de relacions<a class="headerlink" href="#altres-tipus-de-relacions" title="Permanent link">¶</a></h2>
+<h3 id="relacio-dacompanyant">Relació d'acompanyant<a class="headerlink" href="#relacio-dacompanyant" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contacte A: Infant / Jove</li>
+<li>Contacte B: Persona</li>
+<li>Relació A&gt;B: pot marxar acompanyat per</li>
+<li>Relació B&gt;A: pot recollir a</li>
+</ul>
+<blockquote>
+<p>* Les relacions marcades amb un asterisc tenen definits camps personalitzats.</p>
+</blockquote>
+<h2 id="camps-personalitzats">Camps personalitzats<a class="headerlink" href="#camps-personalitzats" title="Permanent link">¶</a></h2>
+<h3 id="relacio-de-tutoria_1">Relació de tutoria<a class="headerlink" href="#relacio-de-tutoria_1" title="Permanent link">¶</a></h3>
+<h4 id="tutoria">Tutoria<a class="headerlink" href="#tutoria" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Centre educatiu</strong></p>
+<p>Contacte de referència (centres educatius)</p>
+</li>
+</ul>
+<h3 id="relacio-destudis-infantils_1">Relació d'estudis infantils<a class="headerlink" href="#relacio-destudis-infantils_1" title="Permanent link">¶</a></h3>
+<h4 id="estudis-infantil">Estudis infantil<a class="headerlink" href="#estudis-infantil" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Curs</strong></p>
+<p>Selecció múltiple - P3; P4; P5</p>
+</li>
+</ul>
+<h3 id="relacio-destudis-primaris_1">Relació d'estudis primaris<a class="headerlink" href="#relacio-destudis-primaris_1" title="Permanent link">¶</a></h3>
+<h4 id="estudis-primaria">Estudis primària<a class="headerlink" href="#estudis-primaria" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Curs</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t; 5è; 6è</p>
+</li>
+<li>
+<p><strong>Repeteix</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t; 5è; 6è</p>
+</li>
+</ul>
+<h3 id="relacio-destudis-secundaris_1">Relació d'estudis secundaris<a class="headerlink" href="#relacio-destudis-secundaris_1" title="Permanent link">¶</a></h3>
+<h4 id="estudis-secundaria-obligatoria">Estudis secundària obligatòria<a class="headerlink" href="#estudis-secundaria-obligatoria" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Curs</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t</p>
+</li>
+<li>
+<p><strong>Repeteix</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t</p>
+</li>
+</ul>
+<h3 id="relacio-destudis-uec_1">Relació d'estudis UEC<a class="headerlink" href="#relacio-destudis-uec_1" title="Permanent link">¶</a></h3>
+<h4 id="estudis-uec">Estudis UEC<a class="headerlink" href="#estudis-uec" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Curs</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t</p>
+</li>
+<li>
+<p><strong>Repeteix</strong></p>
+<p>Selecció múltiple - 1r; 2n; 3r; 4t</p>
+</li>
+<li>
+<p><strong>Derivat per</strong></p>
+<p>Contacte de referència (professional)</p>
+</li>
+<li>
+<p><strong>Motius</strong></p>
+<p>Àrea de text     </p>
+</li>
+</ul>
+<h3 id="relacions-datencio-logopedica-a-primaria-i-secundaria">Relacions d'atenció logopèdica a primaria i secundària<a class="headerlink" href="#relacions-datencio-logopedica-a-primaria-i-secundaria" title="Permanent link">¶</a></h3>
+<h4 id="atencio-professional">Atenció professional<a class="headerlink" href="#atencio-professional" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Especialista de referència</strong></p>
+<p>Contacte de referència (professional)</p>
+</li>
+<li>
+<p><strong>Motius</strong></p>
+<p>Àrea de text     </p>
+</li>
+</ul>
+<h3 id="relacions-de-participacio-a-laula-dacollida-a-lusee-i-a-laula-oberta">Relacions de participació a l'aula d'acollida, a l'USEE i a l'aula oberta<a class="headerlink" href="#relacions-de-participacio-a-laula-dacollida-a-lusee-i-a-laula-oberta" title="Permanent link">¶</a></h3>
+<h4 id="atencio-docent">Atenció docent<a class="headerlink" href="#atencio-docent" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Docent de referència</strong></p>
+<p>Contacte de referència (docent)</p>
+</li>
+<li>
+<p><strong>Motius</strong></p>
+<p>Àrea de text</p>
+</li>
+</ul>
+<h3 id="relacio-beca-cpi">Relació beca CPI<a class="headerlink" href="#relacio-beca-cpi" title="Permanent link">¶</a></h3>
+<h4 id="beca-cpi">Beca CPI<a class="headerlink" href="#beca-cpi" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p><strong>Servei CPI</strong></p>
+<p>Selecció - Atenció psicoterapèutica; Atenció psicoterapèutica personalitzada; Atenció terapèutica a famílies - baixa; Atenció terapèutica a famílies - mitjana; Atenció terapèutica a famílies - alta; Tallers terapèutics grupals; Atenció logopèdica; Suport psicomotriu; Aula oberta - 8 mesos primària; Aula oberta - 8 mesos secundària; Aula oberta - 7 mesos primària; Aula oberta - 7 mesos secundària; Aula oberta - 6 mesos primària; Aula oberta - 6 mesos secundària; Aula oberta - 5 mesos primària; Aula oberta - 5 mesos secundària; Aula oberta - 4 mesos primària; Aula oberta - 4 mesos secundària; Aula oberta - 3 mesos primària; Aula oberta - 3 mesos secundària; Aula oberta - 2 mesos primària; Aula oberta - 2 mesos secundària; Aula oberta - 1 mes primària; Aula oberta - 1 mes secundària; Grup d'estudi assistit - 8 mesos primària; Grup d'estudi assistit - 8 mesos secundària; Grup d'estudi assistit - 7 mesos primària; Grup d'estudi assistit - 7 mesos secundària; Grup d'estudi assistit - 6 mesos primària; Grup d'estudi assistit - 6 mesos secundària; Grup d'estudi assistit - 5 mesos primària; Grup d'estudi assistit - 5 mesos secundària; Grup d'estudi assistit - 4 mesos primària; Grup d'estudi assistit - 4 mesos secundària; Grup d'estudi assistit - 3 mesos primària; Grup d'estudi assistit - 3 mesos secundària; Grup d'estudi assistit - 2 mesos primària; Grup d'estudi assistit - 2 mesos secundària; Grup d'estudi assistit - 1 mes primària; Grup d'estudi assistit - 1 mes secundària; Reforç individual - 8 mesos primària; Reforç individual - 8 mesos secundària; Reforç individual - 7 mesos primària; Reforç individual - 7 mesos secundària; Reforç individual - 6 mesos primària; Reforç individual - 6 mesos secundària; Reforç individual - 5 mesos primària; Reforç individual - 5 mesos secundària; Reforç individual - 4 mesos primària; Reforç individual - 4 mesos secundària; Reforç individual - 3 mesos primària; Reforç individual - 3 mesos secundària; Reforç individual - 2 mesos primària; Reforç individual - 2 mesos secundària; Reforç individual - 1 mes primària; Reforç individual - 1 mes secundària; Centre obert - 9 mesos; Centre obert - 8 mesos; Centre obert - 7 mesos; Centre obert - 6 mesos; Centre obert - 5 mesos; Centre obert - 4 mesos; Centre obert - 3 mesos; Centre obert - 2 mesos; Centre obert - 1 mes; Colònies urbanes; Campaments - 3 dies; Campaments - 5 dies; Campaments - 7 dies; Campaments - 15 dies; Espais familiars; Centre materno infantil - continuïtat; Tallers educatius familiars; Tallers educatius familiars - continuïtat</p>
+</li>
+<li>
+<p><strong>Codi beca</strong></p>
+<p>Text</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
