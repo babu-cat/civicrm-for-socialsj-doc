@@ -26,7 +26,7 @@
 
 - **Unitat familiar i de convivència:** \* llar on conviuen diferents membres d'una unitat familiar i de convivència vinculada al usuaris de l'entitat menors d'edat.
 
-> \* Els contactes marcats amb un asterisc tenen definits camps personalitzats.
+> \* Els subtipus de contactes marcats amb un asterisc tenen definits camps personalitzats.
 
 ## Camps personalitzats
 
