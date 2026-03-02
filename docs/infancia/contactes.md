@@ -108,19 +108,11 @@
 
     Text
 
-- **Malalties especials** - Pateix alguna malaltia especial?
-
-    Resposta Sí/No
-
-- **Tipus de malalties** - Si pateix alguna malaltia especial especifiqueu de quina es tracta.
+- **Malalties** - Si pateix alguna malaltia especial especifiqueu de quina es tracta.
 
     Àrea de text
 
-- **Al·lèrgies** - Pateix alguna al·lèrgia?
-
-    Resposta Sí/No
-
-- **Tipus d'al·lèrgia** - Si pateix alguna al·lèrgia especifiqueu quina.
+- **Al·lèrgies** - Si pateix alguna al·lèrgia especifiqueu quina.
 
     Àrea de text
 
@@ -132,11 +124,7 @@
 
     Fitxer
 
-- **Discapacitats** - Pateix alguna discapacitat?
-
-    Resposta Sí/No
-
-- **Tipus de discapacitats** - Si pateix algun tipus de discapacitat especifiqueu quina.
+- **Discapacitats** - Si pateix algun tipus de discapacitat especifiqueu quina.
 
     Àrea de text
 
@@ -144,27 +132,15 @@
 
     Fitxer
 
-- **Medicaments** - Pren medicació?
-
-    Resposta Sí/No
-
-- **Tipus de medicaments i dosis** - Si pren medicació especifiqueu quina i en quina dosi.
+- **Medicaments i dosis** - Si pren medicació especifiqueu quina i en quina dosi.
 
     Àrea de text
 
-- **Problema mobilitat** - Pateix algun problema de mobilitat?
-
-    Resposta Sí/No
-
-- **Tipus problema mobilitat** - Si pateix algun problema de mobilitat especifiqueu quin.
+- **Problema de mobilitat** - Si pateix algun problema de mobilitat especifiqueu quin.
 
     Àrea de text
 
-- **Alimentació** - Té alguna intolerància alimentaria, alguna prohibició de caràcter religiós o cultural o algun altre aspecte relacionat amb l'alimentació que calgui tenir en compte?
-
-    Resposta Sí/No
-
-- **Tipus de problemàtica alimentària** - Indiqueu si no pot menjar algun tipus d'aliment i especifiqueu-ne també el motiu (p.ex. no pot menjar porc per motius religiosos, no pot menjar fruits secs per al·lèrgia, és intolerant a la lactosa, etc.).
+- **Alimentació** - Té alguna intolerància alimentària, alguna prohibició de caràcter religiós o cultural o algun altre aspecte relacionat amb l'alimentació que calgui tenir en compte? (p.ex. no pot menjar porc per motius religiosos, no pot menjar fruits secs per al·lèrgia, és intolerant a la lactosa, etc.)
 
     Àrea de text
 
