@@ -130,6 +130,14 @@ Per defecte es distingeixen els contactes en tres tipus bàsics: **persona**, **
 
     Text
 
+### Treballadors, Voluntaris, Estudiants en pràctiques i Professionals
+
+#### Compliment normatiu (treballadors, voluntaris i pràctiques)
+
+- **Data d'adhesió al Sistema d'Entorn Segur**
+
+    Data
+
 ### Usuaris
 
 > Persones migrants
