@@ -90,10 +90,6 @@ Utilitzarem els següents camps personalitzats per a tots aquells esdeveniments 
 
     Fitxer
 
-- **Baixa** - En cas de baixa, fitxa de baixa a l'esdeveniment digitalitzada.
-
-    Fitxer
-
 Utilitzarem els següents camps personalitzats per a tots aquells esdeveniments que requereixin de l'acceptació d'un contracte pedagògic associat a l'esdeveniment en el qual es fa la inscripció.
 
 ### Contracte pedagògic

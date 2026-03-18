@@ -152,10 +152,6 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
     Selecció - Ocupat; Aturat; Inactiu
 
-- **CV**
-
-    Fitxer
-
 - **Observacions situació laboral**
 
     Àrea de text

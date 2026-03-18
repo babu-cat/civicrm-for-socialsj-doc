@@ -52,10 +52,6 @@ Relació de voluntariat entre un voluntari/ària i l'organització
 
     Resposta Sí/No
 
-* **Autorització menor d'edat (Fitxer)** - Podeu adjuntar aquí l'autorització digitalitzada.
-
-    Fitxer
-
 * **Motius i detalls de la desvinculació** - Un cop finalitzada la relació de voluntariat amb l'organització, recollir si s'escau en aquest camp els motius i detalls d'aquesta.
 
     Resposta oberta

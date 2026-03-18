@@ -66,10 +66,6 @@ La documentació aportada en aquest registre deixa obsoleta la documentació apo
 
     Resposta Sí/No
 
-- **Carnet de vacunacions (fitxer)**
-
-    Fitxer
-
 ### Registre de documentació [Adult - infància]
 
 #### Documentació registrada adult/infància
@@ -88,10 +84,6 @@ La documentació aportada en aquest registre deixa obsoleta la documentació apo
 
     Resposta Sí/No
 
-- **Document de custòdia (fitxer)**
-
-    Fitxer
-
 ### Registre de documentació [UFC]
 
 #### Documentació registrada - UFC
@@ -102,17 +94,9 @@ La documentació aportada en aquest registre deixa obsoleta la documentació apo
 
     Resposta Sí/No
 
-- **Llibre de família i certificats de naixement (fitxer)** - En cas d'estar format per més d'un document podeu pujar-los en un fitxer comprimit.
-
-    Fitxer
-
 - **Certificat de convivència**
 
     Resposta Sí/No
-
-- **Certificat de convivència (fitxer)**
-
-    Fitxer
 
 ### Registre d'autoritzacions
 
@@ -124,25 +108,13 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 
     Resposta Sí/No
 
-- **Autorització per tornar sol (fitxer)**
-
-    Fitxer
-
 - **Autorització recollida d'infants** - L'infant o jove té autorització per tornar acompanyat. En cas afirmatiu caldrà definir a l'apartat de relacions la persona o persones que tenen autorització per recollir l'infant o jove a l'entitat.
 
     Resposta Sí/No
 
-- **Autorització recollida d'infants (fitxer)**
-
-    Fitxer
-
 - **Autorització recollida d'informes escolars** - Es té autorització per rebre de l'escola els informes escolars de l'infant o jove.
 
     Resposta Sí/No
-
-- **Autorització recollida d'informes escolars (fitxer)**
-
-    Fitxer
 
 - **Autorització per administració de medicació** - Es té autorització per administrar medicaments a l'infant o jove en cas de necessitat.
 
@@ -224,10 +196,6 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 
     Text
 
-- **Acusament de percepció de béns CPI** - Justificant digitalitzat dels béns CPI percebuts en l'entrega per l'infant o jove.
-
-    Fitxer
-
 ### Registre de seguiment/coordinació
 
 #### Seguiment infant / jove
@@ -294,10 +262,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Resposta Sí/No
 
-- **Documentació nòmines** - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina podeu adjuntar-la.
-
-    Fitxer
-
 - **Número de pagues** - Si ha aportat la documentació conforme percep algun tipus d'ingrés per nòmina i s'escau, indiqueu el nombre de pagues.
 
     Selecció - no aplica; 12; 14
@@ -314,10 +278,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Resposta Sí/No
 
-- **Documentació SOC o SEPE** - Si ha aportat la documentació conforme percep algun tipus de prestació del Servei d'Ocupació de Catalunya o del Servicio Público de Empleo Estatal podeu adjuntar-la.
-
-    Fitxer	 
-
 - **Ingressos SOC o SEPE** - Si ha aportat la documentació conforme percep algun tipus de prestació del Servei d'Ocupació de Catalunya o del Servicio Público de Empleo Estatal indiqueu la suma d'aquestes prestacions.
 
     Diners
@@ -329,10 +289,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 - **Aporta documentació seguretat social** - Aporta documentació conforme percep algun tipus de prestació de la seguretat social? Per exemple, jubilació, pensions, etc.
 
     Resposta Sí/No
-
-- **Documentació seguretat social** - Si ha aportat documentació conforme percep algun tipus de prestació de la seguretat social podeu adjuntar-la.
-
-    Fitxer
 
 - **Ingressos seguretat social** - Si ha aportat documentació conforme percep algun tipus de prestació de la seguretat social indiqueu la suma d'aquestes prestacions.
 
@@ -346,10 +302,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Resposta Sí/No
 
-- **Documentació Renda garantida de ciutadania** - Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció podeu adjuntar-la.
-
-    Fitxer
-
 - **Ingressos Renda garantida de ciutadania** -	Si ha aportat la documentació conforme percep algun tipus de prestació per renda mínima d'inserció indiqueu la suma d'aquestes prestacions.
 
     Diners
@@ -361,10 +313,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 - **Aporta documentació serveis socials** - Aporta documentació conforme percep algun tipus de prestació dels serveis socials?
 
     Resposta Sí/No
-
-- **Documentació serveis socials** - Si ha aportat documentació conforme percep algun tipus de prestació dels serveis socials podeu adjuntar-la.
-
-    Fitxer
 
 - **Ingressos serveis socials** -	Si ha aportat documentació conforme percep algun tipus de prestació dels serveis socials indiqueu la suma d'aquestes prestacions.
 
@@ -378,10 +326,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Resposta Sí/No
 
-- **Documentació declaració jurada** - Si ha aportat documentació de declaració jurada sobre els ingressos que percep podeu adjuntar-la.
-
-    Fitxer
-
 - **Ingressos declaració jurada** - Si ha aportat documentació de declaració jurada sobre els ingressos que percep indiqueu la suma d'aquests ingressos.
 
     Diners
@@ -394,10 +338,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 
     Resposta Sí/No
 
-- **Altra documentació** - Si ha aportat altra documentació conforme percep altres tipus d'ingressos podeu adjuntar-la.
-
-    Fitxer
-
 - **Altres ingressos** - Si ha aportat altra documentació conforme percep altres tipus d'ingressos indiqueu la suma d'aquests.
 
     Diners
@@ -409,10 +349,6 @@ Conjunt d'ingressos declarats per l'adult - infància.
 - **Aporta documentació Renta** - Aporta la declaració de la Renta anual?
 
     Resposta Sí/No
-
-- **Documentació Renta** - Si ha aportat la declaració de la Renta anual podeu adjuntar-la.
-
-    Fitxer
 
 - **Observacions Renta**
 

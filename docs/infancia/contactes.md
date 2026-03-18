@@ -120,10 +120,6 @@
 
     Resposta Sí/No
 
-- **Carnet de vacunes** - Adjunteu una còpia del carnet de vacunes digitalitzat.
-
-    Fitxer
-
 - **Discapacitats** - Si pateix algun tipus de discapacitat especifiqueu quina.
 
     Àrea de text
