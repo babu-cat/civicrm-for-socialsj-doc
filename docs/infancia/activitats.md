@@ -50,17 +50,9 @@ La documentació aportada en aquest registre deixa obsoleta la documentació apo
 
     Resposta Sí/No
 
-- **NIF, NIE o passaport (fitxer)**
-
-    Fitxer
-
 - **Targeta sanitària**
 
     Resposta Sí/No
-
-- **Targeta sanitària (fitxer)**
-
-    Fitxer
 
 - **Carnet de vacunacions**
 
@@ -75,10 +67,6 @@ La documentació aportada en aquest registre deixa obsoleta la documentació apo
 - **NIF, NIE o passaport** - Document d'identitat de l'adult - infància.
 
     Resposta Sí/No
-
-- **NIF, NIE o passaport (fitxer)**
-
-    Fitxer
 
 - **Document de custòdia** - Document que acredita la custòdia de l'infant o jove.
 
@@ -236,10 +224,6 @@ Les autoritzacions aportades en aquest registre deixen obsoletes les autoritzaci
 - **Tipus de document**
 
     Selecció
-
-- **Document**
-
-    Fitxer
 
 - **Firma** - Indiqueu qui firma el document.
 

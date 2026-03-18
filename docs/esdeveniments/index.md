@@ -83,17 +83,3 @@ Utilitzarem els següents camps personalitzats per a tots aquells esdeveniments 
     Àrea de text
 
 Utilitzarem els següents camps personalitzats per a tots aquells esdeveniments que requereixin de la digitalització de la justificació de les inscripcions i baixes als esdeveniments.
-
-### Inscripció
-
-- **Inscripció** - Fitxa d'inscripció a l'esdeveniment digitalitzada.
-
-    Fitxer
-
-Utilitzarem els següents camps personalitzats per a tots aquells esdeveniments que requereixin de l'acceptació d'un contracte pedagògic associat a l'esdeveniment en el qual es fa la inscripció.
-
-### Contracte pedagògic
-
-- **Contracte pedagògic** - Contracte pedagògic digitalitzat.
-
-    Fitxer

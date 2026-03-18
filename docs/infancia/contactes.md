@@ -36,10 +36,6 @@
 
 #### Genograma
 
-- **Genograma** - Adjunteu el genograma de l'infant
-
-    Fitxer
-
 - **Germans** - Indiqueu quants germans son?
 
     Text
@@ -123,10 +119,6 @@
 - **Discapacitats** - Si pateix algun tipus de discapacitat especifiqueu quina.
 
     Àrea de text
-
-- **Certificat de discapacitat** - Adjunteu una còpia del certificat de discapacitat digitalitzat.
-
-    Fitxer
 
 - **Medicaments i dosis** - Si pren medicació especifiqueu quina i en quina dosi.
 

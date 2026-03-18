@@ -20,17 +20,9 @@ Relació de voluntariat entre un voluntari/ària i l'organització
 
     Resposta Sí/No
 
-* **Full de compromís o contracte de voluntariat (Fitxer)** - Podeu adjuntar aquí el full de compromís o contracte de voluntariat digitalitzat.
-
-    Fitxer
-
 * **Consentiment cessió de dades** - Indiqueu si s'ha registrat el consentiment de la cessió de dades per part del voluntari.
 
     Resposta Sí/No
-
-* **Consentiment cessió de dades (Fitxer)** - Podeu adjuntar aquí el consentiment de la cessió de dades digitalitzat.
-
-    Fitxer
 
 * **Certificat de delictes de naturalesa sexual** - Indiqueu si s'ha registrat el certificat de delictes de naturalesa sexual del voluntari.
 
@@ -41,10 +33,6 @@ Relació de voluntariat entre un voluntari/ària i l'organització
 * **Certificat de delictes de naturalesa sexual (Caducitat)** - Podeu indicar la data de caducitat del certificat de delictes de naturalesa sexual.
 
     Data
-
-* **Certificat de delictes de naturalesa sexual (Fitxer)** - Podeu adjuntar aquí el certificat de delictes de naturalesa sexual digitalitzat.
-
-    Fitxer
 
 * **Autorització menor d'edat** - Indiqueu si s'ha registrat l'autorització parental en cas que el voluntari sigui menor d'edat.
 
