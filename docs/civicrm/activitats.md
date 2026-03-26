@@ -89,7 +89,7 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
 #### Derivació acollida
 
-- **Derivació** - L'usuari/ària ve derivat per una altra organització o per algun professional?
+- **Derivació** - L'usuari/ària ve derivat per una altra organització, professional o persona?
 
     Resposta Sí/No
 
@@ -97,9 +97,9 @@ Afegim un nou estat d'activitat que ens permeti marcar una activitat com a pende
 
     Contacte de referència (organització)
 
-- **Contacte** - En cas de derivació indiqueu, si s'escau, el professional que el deriva.
+- **Contacte** - En cas de derivació indiqueu, si s'escau, la persona o professional que el deriva.
 
-    Contacte de referència (professional)
+    Contacte de referència
 
 - **Motius** - Indiqueu, si s'escau, els motius i detalls de la derivació.
 
