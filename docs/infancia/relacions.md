@@ -163,7 +163,11 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 
 #### Estudis infantil
 
-- **Curs**
+- **Curs actual**
+
+    Selecció - P3; P4; P5
+
+- **Cursats i en curs (dins el període de la relació)**
 
     Selecció múltiple - P3; P4; P5
 
@@ -171,7 +175,12 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 
 #### Estudis primària
 
-- **Curs**
+- **Curs actual**
+
+    Selecció - 1r;- **Curs actual**
+ 2n; 3r; 4t; 5è; 6è
+
+- **Cursats i en curs (dins el període de la relació)**
 
     Selecció múltiple - 1r; 2n; 3r; 4t; 5è; 6è
 
@@ -183,7 +192,11 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 
 #### Estudis secundària obligatòria
 
-- **Curs**
+- **Curs actual**
+
+    Selecció - 1r; 2n; 3r; 4t
+
+- **Cursats i en curs (dins el període de la relació)**
 
     Selecció múltiple - 1r; 2n; 3r; 4t
 
@@ -195,9 +208,13 @@ Definirem un seguit de relacions que ens permetran establir les diverses connexi
 
 #### Estudis UEC
 
-- **Curs**
+- **Curs actual**
 
-    Selecció múltiple - 1r; 2n; 3r; 4t
+    Selecció - 1r; 2n; 3r; 4t
+
+- **Cursats i en curs (dins el període de la relació)**
+
+    Selecció - 1r; 2n; 3r; 4t
 
 - **Repeteix**
 
