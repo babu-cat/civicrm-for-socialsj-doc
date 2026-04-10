@@ -118,9 +118,6 @@ El mòdul definirà per defecte la següent jerarquia de grups:
     - **Voluntaris d'acompanyament en Xarxa d'Hospitalitat**
         - **Voluntaris d'acompanyament en Xarxa d'Hospitalitat - actius (grup intel·ligent)**
         - **Voluntaris d'acompanyament en Xarxa d'Hospitalitat - històrics (grup intel·ligent)**
-    - **Persones acollides en Xarxa d'Hospitalitat**
-        - **Persones acollides en Xarxa d'Hospitalitat - actius (grup intel·ligent)**
-        - **Persones acollides en Xarxa d'Hospitalitat - històric (grup intel·ligent)**
     - **Famílies interessades en XH pendents de contactar**
     - **Responsables famílies interessades en XH pendents de contactar**
     - **Famílies interessades en XH pendents d'alternativa**
@@ -128,26 +125,11 @@ El mòdul definirà per defecte la següent jerarquia de grups:
 
 ## Informes
 
-### Acollides en Xarxa d'Hospitalitat - actives
+### Persones acollides
 
-* Menú
+    Informes personalitzats > Xarxa d'Hospitalitat > Xarxa d'Hospitalitat - Persones acollides
 
-    Informes personalitzats > Xarxa d'Hospitalitat > Acollides en Xarxa d'Hospitalitat - actives
-
-* Tipus d'informe
-
-    Informe de relacions
-
-* Columnes
-
-    * Relació A-B
-    * Data d'inici de la relació
-    * Data de finalització de la relació
-
-* Filtres
-
-    * Relació = `és acollida en Xarxa d'Hospitalitat a`
-    * Grup = `persones acollides en Xarxa d'Hospitalitat - actives`
+    https://www.migrastudium.org/civicrm/xh-acollides
 
 
 ### Famílies interessades
