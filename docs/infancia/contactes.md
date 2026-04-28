@@ -82,7 +82,7 @@
     - Discapacitat Intel·lectual: `Síndrome de Down` o `Trastorn cognitiu`
     - TEA (Trastorn de l'Espectre de l'Autisme)
     - Trastorn Mental: `Trastorn mental (no especificat)` o `Estrés posttraumàtic`
-    - Malalties Degeneratives i Minoritàries: `Síndrome de Ducheme`
+    - Malalties Degeneratives i Minoritàries: `Síndrome de Duchenne`
     - Discapacitat Física / Altres: `Epilèpsia`
 
 - **NESE - Necessitats Específiques de Suport Educatiu - diagnosticades**
@@ -90,7 +90,7 @@
     - Discapacitat Intel·lectual: `Síndrome de Down` o `Trastorn cognitiu`
     - TEA (Trastorn de l'Espectre de l'Autisme)
     - Trastorn Mental: `Trastorn mental (no especificat)` o `Estrés posttraumàtic`
-    - Malalties Degeneratives i Minoritàries: `Síndrome de Ducheme`
+    - Malalties Degeneratives i Minoritàries: `Síndrome de Duchenne`
     - Discapacitat Física / Altres: `Epilèpsia`
     - Trastorns d'aprenentatge: `Trastorn d'aprenentatge (com la dislèxia, discalcúlia, etc.)`, `TDAH (Trastorn per Dèficit d'Atenció amb o sense Hiperactivitat)` o `Capacitat intel·lectual límit`
     - Trastorn de comunicació: `Alteracions en la parla`
